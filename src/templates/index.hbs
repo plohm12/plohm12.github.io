@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>What's Paul Brewing?</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <h1>What's Paul Brewing?</h1>
+  
+  <h3>Currently Fermenting</h3>
+  <table>
+    <thead>
+      <th>Name</th>
+      <th>Style</th>
+      <th>Brew Date</th>
+    </thead>
+    <tbody>
+      {{#each fermenting}}
+        {{> fermentingBatch}}
+      {{/each}}
+    </tbody>
+  </table>
+
+  <h3>Currently Enjoying</h3>
+  <table>
+    <thead>
+      <th>Name</th>
+      <th>Style</th>
+      <th class="align-right">ABV</th>
+      <th class="align-right">IBU</th>
+      <th>Brew Date</th>
+      <th>Bottle Date</th>
+    </thead>
+    <tbody>
+      {{#each drinking}}
+        {{> bottledBatch}}
+      {{/each}}
+    </tbody>
+  </table>
+
+  <h3>Almost Ready</h3>
+  <table>
+    <thead>
+      <th>Name</th>
+      <th>Style</th>
+      <th class="align-right">ABV</th>
+      <th class="align-right">IBU</th>
+      <th>Brew Date</th>
+      <th>Bottle Date</th>
+    </thead>
+    <tbody>
+      {{#each conditioning}}
+        {{> bottledBatch}}
+      {{/each}}
+    </tbody>
+  </table>
+  
+  <h3>Past Brews</h3>
+  <table>
+    <thead>
+      <th>Name</th>
+      <th>Style</th>
+      <th class="align-right">ABV</th>
+      <th class="align-right">IBU</th>
+      <th>Brew Date</th>
+      <th>Bottle Date</th>
+    </thead>
+    <tbody>
+      {{#each archive}}
+        {{> bottledBatch}}
+      {{/each}}
+    </tbody>
+  </table>
+
+</body>
+</html>

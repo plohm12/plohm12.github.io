@@ -1,0 +1,15 @@
+{
+  "id": "358399",
+  "code": "017",
+  "name": "Oktoberfest",
+  "phase": "All Gone",
+  "skip": false,
+  "style": "Märzen",
+  "abv": 6.44168096164272,
+  "ibu": 27.74,
+  "brewed": "2020-09-27",
+  "bottled": "2020-10-07",
+  "overrides": {
+    "style": "Märzen Pseudo-Lager"
+  }
+}

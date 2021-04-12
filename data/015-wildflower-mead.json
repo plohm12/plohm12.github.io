@@ -1,0 +1,15 @@
+{
+  "id": "355932",
+  "code": "015",
+  "name": "Wildflower Mead #1",
+  "phase": "Conditioning",
+  "skip": false,
+  "style": "Dry Mead",
+  "abv": 12.116601253587952,
+  "ibu": 0,
+  "brewed": "2020-08-29",
+  "bottled": "2020-10-12",
+  "overrides": {
+    "name": "Wildflower Mead"
+  }
+}

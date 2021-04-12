@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>{{name}} - What's Paul Brewing</title>
+  <link rel="stylesheet" href="../styles.css"/>
+</head>
+<body>
+  <h1>{{name}}</h1>
+  <ul>
+    <li>{{style}}</li>
+    {{#if abv}}<li>{{fixedNum abv 1}}% ABV</li>{{/if}}
+    {{#if ibu}}<li>{{fixedNum ibu}} IBU</li>{{/if}}
+    <li>Brewed on {{date brewed}}</li>
+    {{#if bottled}}<li>Bottled on {{date bottled}}</li>{{/if}}
+  </ul>
+
+  {{multiline description}}
+
+  <h3>Stats</h3>
+  <p>Here list some other homebrew stats like OG/FG, fermentation time, etc? refer to brewersfriend API for options if stuck.</p>
+
+  <h3>Recipe</h3>
+  <p>Yeah this would be nice eventually. FOr now, can just link to brewersfriend for existing stuff, or even iframe it in? For custom batches, will have to actually implement.</p>
+</body>
+</html>
