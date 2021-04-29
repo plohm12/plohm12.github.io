@@ -1,0 +1,15 @@
+{
+  "id": "385263",
+  "code": "029",
+  "name": "Bergamot SMASH",
+  "phase": "Conditioning",
+  "skip": false,
+  "style": "Specialty IPA: New England IPA",
+  "brewed": "2021-04-11",
+  "overrides": {
+    "style": "Double Dry Hopped IPA"
+  },
+  "abv": 6.783798658002249,
+  "ibu": 35.06,
+  "bottled": "2021-04-26"
+}

@@ -16,12 +16,12 @@ allBatches = allBatches.filter(b => !b.skip);
 allBatches.sort((a, b) => a.code > b.code ? -1 : 1);
 
 // generate individual batch pages
-await mkdir('./bin/batch');
-const batchFile = Handlebars.compile(await readTemplate('batch'));
-await Promise.all(allBatches.map((batch) => {
-  const batchOutput = batchFile(batch);
-  return writeFile(`./bin/batch/${batch.code}.html`, batchOutput, 'utf-8');
-}));
+// await mkdir('./bin/batch');
+// const batchFile = Handlebars.compile(await readTemplate('batch'));
+// await Promise.all(allBatches.map((batch) => {
+//   const batchOutput = batchFile(batch);
+//   return writeFile(`./bin/batch/${batch.code}.html`, batchOutput, 'utf-8');
+// }));
 
 // categorize batches for homepage
 let input = {
