@@ -18,9 +18,13 @@ export const mapDirFiles = async (dirPath, mapFileNamesToAsync) => {
 
 export const readLocalBatches = async () => {
   const fileNameMapper = fileNames => fileNames
-    .filter(f => f.endsWith('.json'))
+    .filter(f => f.endsWith('.json') && f !== '_all.json')
     .map(f => readData(f));
   return await mapDirFiles('./data', fileNameMapper);
+};
+
+export const writeLocalFile = async (contents, name) => {
+  return writeFile(`./data/${name}.json`, JSON.stringify(contents, null, 2), 'utf-8');
 };
 
 export const writeLocalBatch = async (batch) => {
@@ -35,6 +39,5 @@ export const writeLocalBatch = async (batch) => {
   }
 
   delete batch.file;
-  const fileName = `./data/${name}.json`;
-  return writeFile(fileName, JSON.stringify(batch, null, 2), 'utf-8');
+  return writeLocalFile(batch, name);
 };

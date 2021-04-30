@@ -1,16 +1,16 @@
 import { getBrewSessions, getBrewSessionDetails, getBrewSessionLogs } from '../src/brewers-friend.js';
-import { readLocalBatches, writeLocalBatch } from '../src/local-data.js';
+import { readLocalBatches, writeLocalBatch, writeLocalFile } from '../src/local-data.js';
 
 const batchResponse = await getBrewSessions();
 console.log(`${batchResponse.count} brew sessions`);
 
-const existingBatches = await readLocalBatches()
-  .then(batches => batches.reduce((o, batch) => {
+const localBatches = await readLocalBatches();
+const existingBatches = localBatches.reduce((o, batch) => {
     if (batch.id) {
       o[batch.id] = batch;
     }
     return o;
-  }, {}));
+  }, {});
 
 const sessions = batchResponse.brewsessions.filter(session => !existingBatches[session.id] || !existingBatches[session.id].skip);
 
@@ -53,5 +53,9 @@ const batches = sessions.map((session, i) => {
 });
 
 await Promise.all(batches.map(writeLocalBatch));
+
+// Combine json into single array file
+
+await writeLocalFile([...batches, ...localBatches.filter(b => !b.id && !b.skip)], '_all');
 
 console.log('success!');
