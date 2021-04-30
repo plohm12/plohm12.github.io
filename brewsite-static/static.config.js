@@ -7,16 +7,56 @@
 
 import React from 'react';
 
-import { getBatchData } from './src/brewers-friend';
+import allBatches from '../data/_all.json';
+
+// categorize batches for homepage
+let batchCategories = {
+  drinking: [],
+  conditioning: [],
+  fermenting: [],
+  archive: []
+};
+batchCategories = allBatches.filter(batch => !batch.skip)
+  .sort((a, b) => a.code > b.code ? -1 : 1)
+  .reduce((agg, batch) => {
+    if (batch.overrides) {
+      batch = {
+        ...batch,
+        ...batch.overrides
+      };
+    }
+
+    let bucket;
+    switch (batch.phase) {
+      case 'Primary Fermentation':
+      case 'Secondary Fermentation':
+        bucket = 'fermenting';
+        break;
+      case 'Conditioning':
+        bucket = 'conditioning';
+        break;
+      case 'Ready To Drink':
+        bucket = 'drinking';
+        break;
+      case 'All Gone':
+        bucket = 'archive';
+        break;
+      default:
+        return agg;
+    }
+    agg[bucket].push(batch);
+    return agg;
+  }, batchCategories);
 
 export default {
   //maxThreads: 1, // Remove this when you start doing any static generation,
+  siteRoot: 'https://whatspaulbrewing.com',
   getRoutes: async () => {
-    const batches = getBatchData();
     return [
       {
         path: '/',
-        getData: () => ({ batches })
+        template: 'src/Home',
+        getData: async () => ({...batchCategories})
       }
     ]
   },

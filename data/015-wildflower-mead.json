@@ -10,6 +10,7 @@
   "brewed": "2020-08-29",
   "bottled": "2020-10-12",
   "overrides": {
-    "name": "Wildflower Mead"
+    "name": "Wildflower Mead",
+    "ibu": null
   }
 }
