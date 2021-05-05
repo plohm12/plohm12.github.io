@@ -17,14 +17,14 @@ const universalOptions = {
 const t_0 = universal(import('__react_static_root__/node_modules/react-static/lib/browser/components/Default404'), universalOptions)
       t_0.template = '__react_static_root__/node_modules/react-static/lib/browser/components/Default404'
       
-const t_1 = universal(import('__react_static_root__/src/Home'), universalOptions)
-      t_1.template = '__react_static_root__/src/Home'
+const t_1 = universal(import('__react_static_root__/src/pages/Home'), universalOptions)
+      t_1.template = '__react_static_root__/src/pages/Home'
       
 
 // Template Map
 export default {
   '__react_static_root__/node_modules/react-static/lib/browser/components/Default404': t_0,
-'__react_static_root__/src/Home': t_1
+'__react_static_root__/src/pages/Home': t_1
 }
 // Not Found Template
 export const notFoundTemplate = "__react_static_root__/node_modules/react-static/lib/browser/components/Default404"

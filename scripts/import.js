@@ -33,6 +33,9 @@ const batches = sessions.map((session, i) => {
   };
 
   const detail = responses[i * 2].brewsessions[0];
+  batch.recipeId = detail.recipeid;
+  batch.isPublic = !!(+detail.recipe.public); // '1' or '0'
+
   batch.style = detail.recipe.stylename;
   if (detail.current_stats && detail.current_stats.abv_alt) {
     batch.abv = detail.current_stats.abv_alt;

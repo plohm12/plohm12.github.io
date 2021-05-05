@@ -12,5 +12,7 @@
   "overrides": {
     "name": "Wildflower Mead",
     "ibu": null
-  }
+  },
+  "recipeId": "1043519",
+  "isPublic": true
 }

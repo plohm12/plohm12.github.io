@@ -2,7 +2,7 @@
   "id": "380082",
   "code": "028",
   "name": "Tony in the Jungle",
-  "phase": "Conditioning",
+  "phase": "Ready To Drink",
   "skip": false,
   "style": "American IPA",
   "abv": 6.929179364165343,
@@ -12,5 +12,7 @@
   "description": [
     "Inspired by \"Lasers in the Jungle\" by Hop River Brewing Company.",
     "Added Idaho 7 hops because Tony couldn't refuse the Gem State."
-  ]
+  ],
+  "recipeId": "1119181",
+  "isPublic": true
 }
