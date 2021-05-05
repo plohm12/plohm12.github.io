@@ -12,13 +12,15 @@
     },
     "abv": 6.783798658002249,
     "ibu": 35.06,
-    "bottled": "2021-04-26"
+    "bottled": "2021-04-26",
+    "recipeId": "1112619",
+    "isPublic": true
   },
   {
     "id": "380082",
     "code": "028",
     "name": "Tony in the Jungle",
-    "phase": "Conditioning",
+    "phase": "Ready To Drink",
     "skip": false,
     "style": "American IPA",
     "abv": 6.929179364165343,
@@ -28,7 +30,9 @@
     "description": [
       "Inspired by \"Lasers in the Jungle\" by Hop River Brewing Company.",
       "Added Idaho 7 hops because Tony couldn't refuse the Gem State."
-    ]
+    ],
+    "recipeId": "1119181",
+    "isPublic": true
   },
   {
     "id": "378245",
@@ -40,7 +44,9 @@
     "abv": 11.716703274559222,
     "ibu": 64.72,
     "brewed": "2021-02-20",
-    "bottled": "2021-04-19"
+    "bottled": "2021-04-19",
+    "recipeId": "1118982",
+    "isPublic": true
   },
   {
     "id": "375605",
@@ -52,31 +58,37 @@
     "abv": 7.238490935537651,
     "ibu": 40.13,
     "brewed": "2021-01-30",
-    "bottled": "2021-03-12"
+    "bottled": "2021-03-12",
+    "recipeId": "1110033",
+    "isPublic": true
   },
   {
     "id": "373612",
     "code": "025",
-    "name": "Belgian Tripel",
+    "name": "Dirty Habit",
     "phase": "Ready To Drink",
     "skip": false,
     "style": "Belgian Tripel",
     "abv": 9.244582367758179,
     "ibu": 40.15,
     "brewed": "2021-01-16",
-    "bottled": "2021-02-28"
+    "bottled": "2021-02-28",
+    "recipeId": "1103101",
+    "isPublic": true
   },
   {
     "id": "367377",
     "code": "023",
-    "name": "Vanilla Coffee Stout",
+    "name": "Ski Socks",
     "phase": "Ready To Drink",
     "skip": false,
     "style": "American Stout",
     "abv": 7.403207957990015,
     "ibu": 45.8,
     "brewed": "2020-11-29",
-    "bottled": "2021-01-10"
+    "bottled": "2021-01-10",
+    "recipeId": "1082452",
+    "isPublic": true
   },
   {
     "id": "365207",
@@ -91,7 +103,9 @@
     "bottled": "2020-12-13",
     "overrides": {
       "style": "Pumpkin Ale"
-    }
+    },
+    "recipeId": "1065085",
+    "isPublic": false
   },
   {
     "id": "358399",
@@ -106,7 +120,9 @@
     "bottled": "2020-10-07",
     "overrides": {
       "style": "Märzen Pseudo-Lager"
-    }
+    },
+    "recipeId": "1055839",
+    "isPublic": true
   },
   {
     "id": "355932",
@@ -122,7 +138,9 @@
     "overrides": {
       "name": "Wildflower Mead",
       "ibu": null
-    }
+    },
+    "recipeId": "1043519",
+    "isPublic": true
   },
   {
     "id": "355300",
@@ -134,7 +152,9 @@
     "abv": 5.415921883260274,
     "ibu": 18.89,
     "brewed": "2020-09-06",
-    "bottled": "2020-09-25"
+    "bottled": "2020-09-25",
+    "recipeId": "950155",
+    "isPublic": true
   },
   {
     "id": "351171",
@@ -149,7 +169,9 @@
     "overrides": {
       "abv": 11
     },
-    "bottled": "2021-02-18"
+    "bottled": "2021-02-18",
+    "recipeId": "1031656",
+    "isPublic": false
   },
   {
     "id": "348323",
@@ -164,7 +186,9 @@
     "bottled": "2020-07-30",
     "overrides": {
       "style": "Munich Helles-Style Pseudo-Lager"
-    }
+    },
+    "recipeId": "1025907",
+    "isPublic": true
   },
   {
     "id": "345984",
@@ -180,7 +204,9 @@
     "overrides": {
       "name": "NEIPA",
       "style": "New England IPA"
-    }
+    },
+    "recipeId": "1018223",
+    "isPublic": true
   },
   {
     "id": "345680",
@@ -192,7 +218,9 @@
     "abv": 8.612968439768848,
     "ibu": 70.1,
     "brewed": "2020-06-30",
-    "bottled": "2020-07-21"
+    "bottled": "2020-07-21",
+    "recipeId": "1016996",
+    "isPublic": true
   },
   {
     "id": "343730",
@@ -204,7 +232,9 @@
     "abv": 5.722817823330168,
     "ibu": 18.89,
     "brewed": "2020-06-18",
-    "bottled": "2020-07-03"
+    "bottled": "2020-07-03",
+    "recipeId": "950155",
+    "isPublic": true
   },
   {
     "id": "340558",
@@ -216,7 +246,9 @@
     "abv": 8.878514389838708,
     "ibu": 34.65,
     "brewed": "2020-05-30",
-    "bottled": "2020-06-15"
+    "bottled": "2020-06-15",
+    "recipeId": "1002720",
+    "isPublic": true
   },
   {
     "id": "335603",
@@ -228,7 +260,9 @@
     "abv": 4.988939483801631,
     "ibu": 19.51,
     "brewed": "2020-05-02",
-    "bottled": "2020-05-16"
+    "bottled": "2020-05-16",
+    "recipeId": "984168",
+    "isPublic": true
   },
   {
     "code": "018",

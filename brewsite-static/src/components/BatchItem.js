@@ -19,14 +19,21 @@ const formatDate = (value) => {
   return `${month} ${day}, ${year}`;
 };
 
-const BatchItem = ({code, name, style, abv, ibu, brewed, bottled, notBottled}) => {
+const RecipeWrapper = ({recipeId, isPublic, children}) => recipeId && isPublic
+  ? <a href={`https://www.brewersfriend.com/homebrew/recipe/view/${recipeId}`} target="_blank">
+      {children}
+    </a>
+  : children;
+
+const BatchItem = ({code, name, style, abv, ibu, brewed, bottled, recipeId, isPublic, notBottled}) => {
   const ibuValue = +ibu;
+  
   return (
     notBottled
     ? <div className="pure-u-1 list-row">
         <div className="pure-u-2-3">
-          <div className="pure-u-1 pure-u-md-2-3 list-row-value"><span>{name}</span></div>
-          <div className="pure-u-1 pure-u-md-1-3 list-row-value"><span>{style}</span></div>
+          <div className="pure-u-1 pure-u-md-1-2 list-row-value"><span>{name}</span></div>
+          <div className="pure-u-1 pure-u-md-1-2 list-row-value"><span>{style}</span></div>
         </div>
         <div className="pure-u-1-3">
           <div className="list-row-value"><span>{formatDate(brewed)}</span></div>
@@ -34,7 +41,11 @@ const BatchItem = ({code, name, style, abv, ibu, brewed, bottled, notBottled}) =
       </div>
     : <div className="pure-u-1 list-row">
         <div className="pure-u-1-2">
-          <div className="pure-u-1 pure-u-md-2-3 list-row-value"><span>{name}</span></div>
+          <div className="pure-u-1 pure-u-md-2-3 list-row-value">
+            <RecipeWrapper recipeId={recipeId} isPublic={isPublic}>
+              <span>{name}</span>
+            </RecipeWrapper>
+          </div>
           <div className="pure-u-1 pure-u-md-1-3 list-row-value"><span>{style}</span></div>
         </div>
         <div className="pure-u-1-6">

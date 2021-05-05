@@ -11,5 +11,7 @@
   "bottled": "2020-12-13",
   "overrides": {
     "style": "Pumpkin Ale"
-  }
+  },
+  "recipeId": "1065085",
+  "isPublic": false
 }

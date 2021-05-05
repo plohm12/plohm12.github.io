@@ -917,6 +917,60 @@ var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_)
 // EXTERNAL MODULE: external "react-static"
 var external_react_static_ = __webpack_require__(3);
 
+// CONCATENATED MODULE: C:/Users/PaulLohmuller/projects/brewsite-static/brewsite-static/src/pages/PageContainer.js
+ // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faInstagram, faUntappd } from '@fortawesome/free-brands-svg-icons';
+
+var PageContainer_PageContainer = function PageContainer(_ref) {
+  var children = _ref.children;
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "pure-g"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "pure-u-md-1-8"
+  }), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "pure-u-1 pure-u-md-3-4"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "pure-u-1 pure-u-md-2-3"
+  }, /*#__PURE__*/external_react_default.a.createElement("h1", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "/"
+  }, "What's Paul Brewing?")))), children, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    className: "instagram",
+    href: "https://instagram.com/plohm12"
+  }, /*#__PURE__*/external_react_default.a.createElement("svg", {
+    "aria-hidden": "true",
+    focusable: "false",
+    "data-prefix": "fab",
+    "data-icon": "instagram",
+    "class": "svg-inline--fa fa-instagram fa-w-14",
+    role: "img",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 448 512"
+  }, /*#__PURE__*/external_react_default.a.createElement("path", {
+    fill: "currentColor",
+    d: "M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+  }))), /*#__PURE__*/external_react_default.a.createElement("a", {
+    className: "untappd",
+    href: "https://untappd.com/user/plohm12"
+  }, /*#__PURE__*/external_react_default.a.createElement("svg", {
+    "aria-hidden": "true",
+    focusable: "false",
+    "data-prefix": "fab",
+    "data-icon": "untappd",
+    "class": "svg-inline--fa fa-untappd fa-w-20",
+    role: "img",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 640 512"
+  }, /*#__PURE__*/external_react_default.a.createElement("path", {
+    fill: "currentColor",
+    d: "M401.3 49.9c-79.8 160.1-84.6 152.5-87.9 173.2l-5.2 32.8c-1.9 12-6.6 23.5-13.7 33.4L145.6 497.1c-7.6 10.6-20.4 16.2-33.4 14.6-40.3-5-77.8-32.2-95.3-68.5-5.7-11.8-4.5-25.8 3.1-36.4l148.9-207.9c7.1-9.9 16.4-18 27.2-23.7l29.3-15.5c18.5-9.8 9.7-11.9 135.6-138.9 1-4.8 1-7.3 3.6-8 3-.7 6.6-1 6.3-4.6l-.4-4.6c-.2-1.9 1.3-3.6 3.2-3.6 4.5-.1 13.2 1.2 25.6 10 12.3 8.9 16.4 16.8 17.7 21.1.6 1.8-.6 3.7-2.4 4.2l-4.5 1.1c-3.4.9-2.5 4.4-2.3 7.4.1 2.8-2.3 3.6-6.5 6.1zM230.1 36.4c3.4.9 2.5 4.4 2.3 7.4-.2 2.7 2.1 3.5 6.4 6 7.9 15.9 15.3 30.5 22.2 44 .7 1.3 2.3 1.5 3.3.5 11.2-12 24.6-26.2 40.5-42.6 1.3-1.4 1.4-3.5.1-4.9-8-8.2-16.5-16.9-25.6-26.1-1-4.7-1-7.3-3.6-8-3-.8-6.6-1-6.3-4.6.3-3.3 1.4-8.1-2.8-8.2-4.5-.1-13.2 1.1-25.6 10-12.3 8.9-16.4 16.8-17.7 21.1-1.4 4.2 3.6 4.6 6.8 5.4zM620 406.7L471.2 198.8c-13.2-18.5-26.6-23.4-56.4-39.1-11.2-5.9-14.2-10.9-30.5-28.9-1-1.1-2.9-.9-3.6.5-46.3 88.8-47.1 82.8-49 94.8-1.7 10.7-1.3 20 .3 29.8 1.9 12 6.6 23.5 13.7 33.4l148.9 207.9c7.6 10.6 20.2 16.2 33.1 14.7 40.3-4.9 78-32 95.7-68.6 5.4-11.9 4.3-25.9-3.4-36.6z"
+  }))))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "pure-u-md-1-8"
+  }));
+};
+
+/* harmony default export */ var pages_PageContainer = (PageContainer_PageContainer);
 // EXTERNAL MODULE: external "@babel/runtime/helpers/extends"
 var extends_ = __webpack_require__(9);
 var extends_default = /*#__PURE__*/__webpack_require__.n(extends_);
@@ -960,24 +1014,36 @@ var BatchItem_formatDate = function formatDate(value) {
   return "".concat(month, " ").concat(day, ", ").concat(year);
 };
 
-var BatchItem_BatchItem = function BatchItem(_ref) {
-  var code = _ref.code,
-      name = _ref.name,
-      style = _ref.style,
-      abv = _ref.abv,
-      ibu = _ref.ibu,
-      brewed = _ref.brewed,
-      bottled = _ref.bottled,
-      notBottled = _ref.notBottled;
+var BatchItem_RecipeWrapper = function RecipeWrapper(_ref) {
+  var recipeId = _ref.recipeId,
+      isPublic = _ref.isPublic,
+      children = _ref.children;
+  return recipeId && isPublic ? /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://www.brewersfriend.com/homebrew/recipe/view/".concat(recipeId),
+    target: "_blank"
+  }, children) : children;
+};
+
+var BatchItem_BatchItem = function BatchItem(_ref2) {
+  var code = _ref2.code,
+      name = _ref2.name,
+      style = _ref2.style,
+      abv = _ref2.abv,
+      ibu = _ref2.ibu,
+      brewed = _ref2.brewed,
+      bottled = _ref2.bottled,
+      recipeId = _ref2.recipeId,
+      isPublic = _ref2.isPublic,
+      notBottled = _ref2.notBottled;
   var ibuValue = +ibu;
   return notBottled ? /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 list-row"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-2-3"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "pure-u-1 pure-u-md-2-3 list-row-value"
+    className: "pure-u-1 pure-u-md-1-2 list-row-value"
   }, /*#__PURE__*/external_react_default.a.createElement("span", null, name)), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "pure-u-1 pure-u-md-1-3 list-row-value"
+    className: "pure-u-1 pure-u-md-1-2 list-row-value"
   }, /*#__PURE__*/external_react_default.a.createElement("span", null, style))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1-3"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
@@ -988,7 +1054,10 @@ var BatchItem_BatchItem = function BatchItem(_ref) {
     className: "pure-u-1-2"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-2-3 list-row-value"
-  }, /*#__PURE__*/external_react_default.a.createElement("span", null, name)), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, /*#__PURE__*/external_react_default.a.createElement(BatchItem_RecipeWrapper, {
+    recipeId: recipeId,
+    isPublic: isPublic
+  }, /*#__PURE__*/external_react_default.a.createElement("span", null, name))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-1-3 list-row-value"
   }, /*#__PURE__*/external_react_default.a.createElement("span", null, style))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1-6"
@@ -1023,9 +1092,9 @@ var BatchList_BatchList = function BatchList(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-2-3"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "pure-u-1 pure-u-md-2-3"
+    className: "pure-u-1 pure-u-md-1-2"
   }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Name")), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "pure-u-1 pure-u-md-1-3"
+    className: "pure-u-1 pure-u-md-1-2"
   }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Style"))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1-3"
   }, /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement("span", null, "Brew Date")))) : /*#__PURE__*/external_react_default.a.createElement("div", {
@@ -1058,10 +1127,7 @@ var BatchList_BatchList = function BatchList(_ref) {
 };
 
 /* harmony default export */ var components_BatchList = (BatchList_BatchList);
-// EXTERNAL MODULE: C:/Users/PaulLohmuller/projects/brewsite-static/brewsite-static/src/styles.css
-var styles = __webpack_require__(37);
-
-// CONCATENATED MODULE: C:/Users/PaulLohmuller/projects/brewsite-static/brewsite-static/src/Home.js
+// CONCATENATED MODULE: C:/Users/PaulLohmuller/projects/brewsite-static/brewsite-static/src/pages/Home.js
 
 
 
@@ -1074,31 +1140,24 @@ var Home_Home = function Home() {
       fermenting = _useRouteData.fermenting,
       archive = _useRouteData.archive;
 
-  return /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "pure-g"
-  }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "pure-u-md-1-8"
-  }), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "pure-u-1 pure-u-md-3-4"
-  }, /*#__PURE__*/external_react_default.a.createElement("h1", null, "What's Paul Brewing?"), /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
+  return /*#__PURE__*/external_react_default.a.createElement(pages_PageContainer, null, /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
+    header: "Currently Enjoying",
+    items: drinking
+  }), /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
     header: "Currently Fermenting",
     items: fermenting,
     notBottled: true
-  }), /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
-    header: "Currently Enjoying",
-    items: drinking
   }), /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
     header: "Almost Ready",
     items: conditioning
   }), /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
     header: "Past Brews",
-    items: archive
-  })), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "pure-u-md-1-8"
+    items: archive,
+    isCollapsed: true
   }));
 };
 
-/* harmony default export */ var src_Home = __webpack_exports__["default"] = (Home_Home);
+/* harmony default export */ var pages_Home = __webpack_exports__["default"] = (Home_Home);
 
 /***/ }),
 /* 19 */
@@ -1224,27 +1283,27 @@ var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
 }), universalOptions);
 t_0.template = '__react_static_root__/node_modules/react-static/lib/browser/components/Default404';
 var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "__react_static_root__/src/Home",
+  id: "__react_static_root__/src/pages/Home",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/Home */).then(__webpack_require__.bind(null, 18))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/Home */).then(__webpack_require__.bind(null, 18))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/Home');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/Home');
   },
   resolve: function resolve() {
     return /*require.resolve*/(18);
   },
   chunkName: function chunkName() {
-    return "__react_static_root__/src/Home";
+    return "__react_static_root__/src/pages/Home";
   }
 }), universalOptions);
-t_1.template = '__react_static_root__/src/Home'; // Template Map
+t_1.template = '__react_static_root__/src/pages/Home'; // Template Map
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   '__react_static_root__/node_modules/react-static/lib/browser/components/Default404': t_0,
-  '__react_static_root__/src/Home': t_1
+  '__react_static_root__/src/pages/Home': t_1
 }); // Not Found Template
 
 var notFoundTemplate = "__react_static_root__/node_modules/react-static/lib/browser/components/Default404";
@@ -1862,107 +1921,6 @@ module.exports = function (originalModule) {
 
   return module;
 };
-
-/***/ }),
-/* 37 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(38)(false);
-// Module
-exports.push([module.i, "h1, h2, h3, h4, h5, h6 {\r\n  padding: 0 .5rem;\r\n}\r\n\r\n.list-heading {\r\n  padding: 0 .5rem;\r\n  border-bottom: 2px solid #000;\r\n  font-weight: 600\r\n}\r\n\r\n.list-row {\r\n  padding: 0 .5rem;\r\n  border-bottom: 1px solid #ccc;\r\n}\r\n\r\n.list-row-value {\r\n  padding: .25rem 0;\r\n}", ""]);
-
-
-
-/***/ }),
-/* 38 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-
-module.exports = function (useSourceMap) {
-  var list = []; // return the list of modules as css string
-
-  list.toString = function toString() {
-    return this.map(function (item) {
-      var content = cssWithMappingToString(item, useSourceMap);
-
-      if (item[2]) {
-        return '@media ' + item[2] + '{' + content + '}';
-      } else {
-        return content;
-      }
-    }).join('');
-  }; // import a list of modules into the list
-
-
-  list.i = function (modules, mediaQuery) {
-    if (typeof modules === 'string') {
-      modules = [[null, modules, '']];
-    }
-
-    var alreadyImportedModules = {};
-
-    for (var i = 0; i < this.length; i++) {
-      var id = this[i][0];
-
-      if (id != null) {
-        alreadyImportedModules[id] = true;
-      }
-    }
-
-    for (i = 0; i < modules.length; i++) {
-      var item = modules[i]; // skip already imported module
-      // this implementation is not 100% perfect for weird media query combinations
-      // when a module is imported multiple times with different media queries.
-      // I hope this will never occur (Hey this way we have smaller bundles)
-
-      if (item[0] == null || !alreadyImportedModules[item[0]]) {
-        if (mediaQuery && !item[2]) {
-          item[2] = mediaQuery;
-        } else if (mediaQuery) {
-          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';
-        }
-
-        list.push(item);
-      }
-    }
-  };
-
-  return list;
-};
-
-function cssWithMappingToString(item, useSourceMap) {
-  var content = item[1] || '';
-  var cssMapping = item[3];
-
-  if (!cssMapping) {
-    return content;
-  }
-
-  if (useSourceMap && typeof btoa === 'function') {
-    var sourceMapping = toComment(cssMapping);
-    var sourceURLs = cssMapping.sources.map(function (source) {
-      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';
-    });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-  }
-
-  return [content].join('\n');
-} // Adapted from convert-source-map (MIT)
-
-
-function toComment(sourceMap) {
-  // eslint-disable-next-line no-undef
-  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
-  return '/*# ' + data + ' */';
-}
 
 /***/ })
 /******/ ]);

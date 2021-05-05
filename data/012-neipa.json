@@ -12,5 +12,7 @@
   "overrides": {
     "name": "NEIPA",
     "style": "New England IPA"
-  }
+  },
+  "recipeId": "1018223",
+  "isPublic": true
 }
