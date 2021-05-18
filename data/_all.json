@@ -1,9 +1,22 @@
 [
   {
+    "id": "388464",
+    "code": "031",
+    "name": "Skate Socks",
+    "phase": "Secondary Fermentation",
+    "skip": false,
+    "recipeId": "1150116",
+    "isPublic": true,
+    "style": "Blonde Ale",
+    "abv": 5.695739365738241,
+    "ibu": 21.65,
+    "brewed": "2021-05-06"
+  },
+  {
     "id": "385263",
     "code": "029",
     "name": "Bergamot SMASH",
-    "phase": "Conditioning",
+    "phase": "Ready To Drink",
     "skip": false,
     "style": "Specialty IPA: New England IPA",
     "brewed": "2021-04-11",
@@ -80,7 +93,7 @@
     "id": "367377",
     "code": "023",
     "name": "Ski Socks",
-    "phase": "Ready To Drink",
+    "phase": "All Gone",
     "skip": false,
     "style": "American Stout",
     "abv": 7.403207957990015,

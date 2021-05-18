@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+const fetch = require('node-fetch');
 
 const BASE = 'https://api.brewersfriend.com/v1';
 const API_KEY = '3170d83779ff6cc07ea3aaf14e2c3bbe02e8735e';
@@ -25,10 +25,16 @@ const bfFetch = async (endpoint, errorHandler) => {
   return await response.json();
 };
 
-export const getBrewSessions = async () => bfFetch('brewsessions');
+const getBrewSessions = async () => bfFetch('brewsessions');
 
-export const getBrewSessionDetails = async (sessionId) => bfFetch(`brewsessions/${sessionId}`);
+const getBrewSessionDetails = async (sessionId) => bfFetch(`brewsessions/${sessionId}`);
 
 const logsErrorHandler = () => Promise.resolve({logs: []});
 
-export const getBrewSessionLogs = async (sessionId) => bfFetch(`brewsessions/${sessionId}/logs`, logsErrorHandler);
+const getBrewSessionLogs = async (sessionId) => bfFetch(`brewsessions/${sessionId}/logs`, logsErrorHandler);
+
+module.exports = {
+  getBrewSessions,
+  getBrewSessionDetails,
+  getBrewSessionLogs
+};
