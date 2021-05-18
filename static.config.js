@@ -7,7 +7,7 @@
 
 import React from 'react';
 
-import allBatches from '../data/_all.json';
+import allBatches from './data/_all.json';
 
 // categorize batches for homepage
 let batchCategories = {
@@ -71,10 +71,8 @@ export default {
         <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/base-min.css" />
         <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-min.css" />
         <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/59b1746e25.css" />
 
         <link rel="stylesheet" href="styles.css" />
-        {/* <script src="https://use.fontawesome.com/59b1746e25.js"></script> */}
       </Head>
       <Body>{children}</Body>
     </Html>
