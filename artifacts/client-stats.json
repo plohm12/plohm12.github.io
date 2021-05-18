@@ -3,8 +3,8 @@
   "warnings": [],
   "version": "4.46.0",
   "hash": "fd430e7fc348dfd67b5b",
-  "time": 1285,
-  "builtAt": 1621302293139,
+  "time": 1322,
+  "builtAt": 1621307883616,
   "publicPath": "https://whatspaulbrewing.com/",
   "outputPath": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\dist",
   "assetsByChunkName": {
@@ -2908,9 +2908,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -3073,9 +3073,9 @@
           "chunks": [
             3
           ],
-          "issuer": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "issuerId": 50,
-          "issuerName": "../lib/bootstrapPlugins.js",
+          "issuer": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "issuerId": 79,
+          "issuerName": "../lib/bootstrapTemplates.js",
           "issuerPath": [
             {
               "id": 49,
@@ -3083,9 +3083,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             }
           ],
           "failed": false,
@@ -3198,9 +3198,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -3327,9 +3327,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -3753,9 +3753,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -4803,9 +4803,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -4874,9 +4874,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -4950,9 +4950,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -5016,9 +5016,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -5087,9 +5087,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -5153,9 +5153,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -5219,9 +5219,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -5295,9 +5295,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -5376,9 +5376,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -5452,9 +5452,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -5599,9 +5599,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -5680,9 +5680,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -5766,9 +5766,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -5842,9 +5842,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -5918,9 +5918,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -6559,9 +6559,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -6621,9 +6621,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -6683,9 +6683,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -6745,9 +6745,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -6802,9 +6802,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -6864,9 +6864,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -6926,9 +6926,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -6988,9 +6988,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7050,9 +7050,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7117,9 +7117,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7189,9 +7189,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7261,9 +7261,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7338,9 +7338,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7410,9 +7410,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7487,9 +7487,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7569,9 +7569,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7646,9 +7646,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7723,9 +7723,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7805,9 +7805,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7887,9 +7887,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -7964,9 +7964,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -8041,9 +8041,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -8108,9 +8108,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -8175,9 +8175,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -8242,9 +8242,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -8304,9 +8304,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -8369,9 +8369,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 50,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 5,
@@ -12721,9 +12721,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -12886,9 +12886,9 @@
       "chunks": [
         3
       ],
-      "issuer": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-      "issuerId": 50,
-      "issuerName": "../lib/bootstrapPlugins.js",
+      "issuer": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+      "issuerId": 79,
+      "issuerName": "../lib/bootstrapTemplates.js",
       "issuerPath": [
         {
           "id": 49,
@@ -12896,9 +12896,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         }
       ],
       "failed": false,
@@ -13011,9 +13011,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -13140,9 +13140,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -13566,9 +13566,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -14702,9 +14702,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -14773,9 +14773,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -14849,9 +14849,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -14915,9 +14915,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -14986,9 +14986,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -15052,9 +15052,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -15118,9 +15118,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -15194,9 +15194,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -15275,9 +15275,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -15351,9 +15351,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -15498,9 +15498,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -15579,9 +15579,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -15665,9 +15665,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -15741,9 +15741,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -15817,9 +15817,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -16983,9 +16983,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17045,9 +17045,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17107,9 +17107,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17169,9 +17169,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17226,9 +17226,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17288,9 +17288,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17350,9 +17350,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17412,9 +17412,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17474,9 +17474,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17541,9 +17541,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17613,9 +17613,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17685,9 +17685,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17762,9 +17762,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17834,9 +17834,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17911,9 +17911,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -17993,9 +17993,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -18070,9 +18070,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -18147,9 +18147,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -18229,9 +18229,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -18311,9 +18311,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -18388,9 +18388,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -18465,9 +18465,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -18532,9 +18532,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -18599,9 +18599,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -18666,9 +18666,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -18728,9 +18728,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,
@@ -18793,9 +18793,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 50,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 5,

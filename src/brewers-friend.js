@@ -1,12 +1,12 @@
 const fetch = require('node-fetch');
+const settings = require('../settings.json');
 
 const BASE = 'https://api.brewersfriend.com/v1';
-const API_KEY = '3170d83779ff6cc07ea3aaf14e2c3bbe02e8735e';
 
 const bfFetch = async (endpoint, errorHandler) => {
   const response = await fetch(`${BASE}/${endpoint}`, {
     headers: {
-      'X-API-KEY': API_KEY
+      'X-API-KEY': settings.BrewersFriendApiKey
     }
   });
 
