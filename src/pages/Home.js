@@ -8,10 +8,20 @@ const Home = () => {
   const { drinking, conditioning, fermenting, archive } = useRouteData();
   return (
     <PageContainer>
-      <BatchList header="Currently Enjoying" items={drinking} />
-      <BatchList header="Currently Fermenting" items={fermenting} notBottled />
-      <BatchList header="Almost Ready" items={conditioning} />
-      <BatchList header="Past Brews" items={archive} isCollapsed />
+      <div>
+        <p>
+          Did I give you a blank bottle or two?
+          Find out what you've got by matching the bottle cap
+          to the Cap Code in one of these lists.
+          Brews are categorized by their current stage in the brewing process:
+          Fermenting ➡ Aging ➡ Enjoying ➡ Finished.
+          Each category is sorted by most recently brewed.
+        </p>
+      </div>
+      <BatchList header="Enjoying" items={drinking} />
+      <BatchList header="Fermenting" items={fermenting} notBottled />
+      <BatchList header="Aging" items={conditioning} />
+      <BatchList header="Finished" items={archive} isCollapsed />
     </PageContainer>
   )
 };

@@ -11,7 +11,8 @@
     "abv": 5.695739365738241,
     "ibu": 21.65,
     "brewed": "2021-05-06",
-    "bottled": "2021-05-18"
+    "bottled": "2021-05-18",
+    "capCode": "VCBA"
   },
   {
     "id": "385263",
@@ -28,7 +29,8 @@
     "ibu": 35.06,
     "bottled": "2021-04-26",
     "recipeId": "1112619",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "BS"
   },
   {
     "id": "380082",
@@ -46,7 +48,8 @@
       "Added Idaho 7 hops because Tony couldn't refuse the Gem State."
     ],
     "recipeId": "1119181",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "TJ"
   },
   {
     "id": "378245",
@@ -74,7 +77,8 @@
     "brewed": "2021-01-30",
     "bottled": "2021-03-12",
     "recipeId": "1110033",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "L"
   },
   {
     "id": "373612",
@@ -88,7 +92,8 @@
     "brewed": "2021-01-16",
     "bottled": "2021-02-28",
     "recipeId": "1103101",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "BT"
   },
   {
     "id": "367377",
@@ -102,7 +107,8 @@
     "brewed": "2020-11-29",
     "bottled": "2021-01-10",
     "recipeId": "1082452",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "(BA)VCS"
   },
   {
     "id": "365207",
@@ -119,7 +125,8 @@
       "style": "Pumpkin Ale"
     },
     "recipeId": "1065085",
-    "isPublic": false
+    "isPublic": false,
+    "capCode": "P"
   },
   {
     "id": "358399",
@@ -136,7 +143,8 @@
       "style": "Märzen Pseudo-Lager"
     },
     "recipeId": "1055839",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "O"
   },
   {
     "id": "355932",
@@ -168,7 +176,8 @@
     "brewed": "2020-09-06",
     "bottled": "2020-09-25",
     "recipeId": "950155",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "BL"
   },
   {
     "id": "351171",
@@ -202,7 +211,8 @@
       "style": "Munich Helles-Style Pseudo-Lager"
     },
     "recipeId": "1025907",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "H"
   },
   {
     "id": "345984",
@@ -220,7 +230,8 @@
       "style": "New England IPA"
     },
     "recipeId": "1018223",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "N"
   },
   {
     "id": "345680",
@@ -234,7 +245,8 @@
     "brewed": "2020-06-30",
     "bottled": "2020-07-21",
     "recipeId": "1016996",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "BiB"
   },
   {
     "id": "343730",
@@ -248,7 +260,8 @@
     "brewed": "2020-06-18",
     "bottled": "2020-07-03",
     "recipeId": "950155",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "BL"
   },
   {
     "id": "340558",
@@ -262,7 +275,8 @@
     "brewed": "2020-05-30",
     "bottled": "2020-06-15",
     "recipeId": "1002720",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "BBOB(+)"
   },
   {
     "id": "335603",
@@ -276,7 +290,8 @@
     "brewed": "2020-05-02",
     "bottled": "2020-05-16",
     "recipeId": "984168",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "ML"
   },
   {
     "code": "018",
@@ -298,6 +313,7 @@
     "abv": 7.2,
     "brewed": "2020-10-17",
     "bottled": "2020-11-13",
+    "capCode": "GC",
     "file": "019-ginger-cider.json"
   },
   {

@@ -2,20 +2,20 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "fd430e7fc348dfd67b5b",
-  "time": 1322,
-  "builtAt": 1621307883616,
+  "hash": "7d5ed56b6ecb8eed56d4",
+  "time": 1645,
+  "builtAt": 1621483466604,
   "publicPath": "https://whatspaulbrewing.com/",
   "outputPath": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\dist",
   "assetsByChunkName": {
     "__react_static_root__/node_modules/react-static/lib/browser/components/Default404": "templates/__react_static_root__/node_modules/react-static/lib/browser/components/Default404.84084b05.js",
-    "__react_static_root__/src/pages/Home": "templates/__react_static_root__/src/pages/Home.78309d18.js",
-    "main": "main.14ec6ec9.js",
+    "__react_static_root__/src/pages/Home": "templates/__react_static_root__/src/pages/Home.3da5bd0e.js",
+    "main": "main.39e0cc55.js",
     "vendors~main": "templates/vendors~main.f8b3b72f.js"
   },
   "assets": [
     {
-      "name": "main.14ec6ec9.js",
+      "name": "main.39e0cc55.js",
       "size": 5193,
       "chunks": [
         2
@@ -43,8 +43,8 @@
       "emitted": true
     },
     {
-      "name": "templates/__react_static_root__/src/pages/Home.78309d18.js",
-      "size": 7431,
+      "name": "templates/__react_static_root__/src/pages/Home.3da5bd0e.js",
+      "size": 7833,
       "chunks": [
         1
       ],
@@ -80,7 +80,7 @@
       ],
       "assets": [
         "templates/vendors~main.f8b3b72f.js",
-        "main.14ec6ec9.js"
+        "main.39e0cc55.js"
       ],
       "children": {},
       "childAssets": {}
@@ -94,7 +94,7 @@
       ],
       "assets": [
         "templates/vendors~main.f8b3b72f.js",
-        "main.14ec6ec9.js"
+        "main.39e0cc55.js"
       ],
       "children": {},
       "childAssets": {}
@@ -114,7 +114,7 @@
         1
       ],
       "assets": [
-        "templates/__react_static_root__/src/pages/Home.78309d18.js"
+        "templates/__react_static_root__/src/pages/Home.3da5bd0e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -227,14 +227,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 9980,
+      "size": 10473,
       "names": [
         "__react_static_root__/src/pages/Home"
       ],
       "files": [
-        "templates/__react_static_root__/src/pages/Home.78309d18.js"
+        "templates/__react_static_root__/src/pages/Home.3da5bd0e.js"
       ],
-      "hash": "e72dbcce19ad53ecc5a6",
+      "hash": "99d99dc6f378144dd364",
       "siblings": [],
       "parents": [
         2,
@@ -249,7 +249,7 @@
           "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "index": 118,
           "index2": 121,
-          "size": 9980,
+          "size": 10473,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -303,7 +303,7 @@
               "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
               "index": 118,
               "index2": 121,
-              "size": 813,
+              "size": 1178,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -361,7 +361,7 @@
                 "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: C:/Users/PaulLohmuller/projects/brewsite-static/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
               ],
               "depth": 3,
-              "source": "import React from'react';import{useRouteData}from'react-static';import PageContainer from'./PageContainer';import BatchList from'../components/BatchList';var Home=function Home(){var _useRouteData=useRouteData(),drinking=_useRouteData.drinking,conditioning=_useRouteData.conditioning,fermenting=_useRouteData.fermenting,archive=_useRouteData.archive;return/*#__PURE__*/React.createElement(PageContainer,null,/*#__PURE__*/React.createElement(BatchList,{header:\"Currently Enjoying\",items:drinking}),/*#__PURE__*/React.createElement(BatchList,{header:\"Currently Fermenting\",items:fermenting,notBottled:true}),/*#__PURE__*/React.createElement(BatchList,{header:\"Almost Ready\",items:conditioning}),/*#__PURE__*/React.createElement(BatchList,{header:\"Past Brews\",items:archive,isCollapsed:true}));};export default Home;"
+              "source": "import React from'react';import{useRouteData}from'react-static';import PageContainer from'./PageContainer';import BatchList from'../components/BatchList';var Home=function Home(){var _useRouteData=useRouteData(),drinking=_useRouteData.drinking,conditioning=_useRouteData.conditioning,fermenting=_useRouteData.fermenting,archive=_useRouteData.archive;return/*#__PURE__*/React.createElement(PageContainer,null,/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"p\",null,\"Did I give you a blank bottle or two? Find out what you've got by matching the bottle cap to the Cap Code in one of these lists. Brews are categorized by their current stage in the brewing process: Fermenting \\u27A1 Aging \\u27A1 Enjoying \\u27A1 Finished. Each category is sorted by most recently brewed.\")),/*#__PURE__*/React.createElement(BatchList,{header:\"Enjoying\",items:drinking}),/*#__PURE__*/React.createElement(BatchList,{header:\"Fermenting\",items:fermenting,notBottled:true}),/*#__PURE__*/React.createElement(BatchList,{header:\"Aging\",items:conditioning}),/*#__PURE__*/React.createElement(BatchList,{header:\"Finished\",items:archive,isCollapsed:true}));};export default Home;"
             },
             {
               "id": null,
@@ -440,7 +440,7 @@
               "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/components/BatchList.js",
               "index": 120,
               "index2": 120,
-              "size": 2255,
+              "size": 2277,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -492,7 +492,7 @@
                   "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/BatchList",
-                  "loc": "1:441-450"
+                  "loc": "1:835-844"
                 },
                 {
                   "moduleId": null,
@@ -501,7 +501,7 @@
                   "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/BatchList",
-                  "loc": "1:530-539"
+                  "loc": "1:914-923"
                 },
                 {
                   "moduleId": null,
@@ -510,7 +510,7 @@
                   "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/BatchList",
-                  "loc": "1:639-648"
+                  "loc": "1:1013-1022"
                 },
                 {
                   "moduleId": null,
@@ -519,7 +519,7 @@
                   "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/BatchList",
-                  "loc": "1:726-735"
+                  "loc": "1:1093-1102"
                 }
               ],
               "usedExports": [
@@ -530,7 +530,7 @@
               ],
               "optimizationBailout": [],
               "depth": 4,
-              "source": "import _extends from\"@babel/runtime/helpers/extends\";import React from'react';import BatchItem from'./BatchItem';var BatchList=function BatchList(_ref){var header=_ref.header,items=_ref.items,_ref$notBottled=_ref.notBottled,notBottled=_ref$notBottled===void 0?false:_ref$notBottled;return/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(\"h3\",null,header),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-g\"},notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"ABV\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"IBU\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Bottle Date\")))),items&&items.map(function(e){return/*#__PURE__*/React.createElement(BatchItem,_extends({key:e.code},e,{notBottled:notBottled}));})));};export default BatchList;"
+              "source": "import _extends from\"@babel/runtime/helpers/extends\";import React from'react';import BatchItem from'./BatchItem';var BatchList=function BatchList(_ref){var header=_ref.header,items=_ref.items,_ref$notBottled=_ref.notBottled,notBottled=_ref$notBottled===void 0?false:_ref$notBottled;return/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(\"h3\",null,header),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-g\"},notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name (Cap Code)\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name (Cap Code)\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"ABV\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"IBU\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Bottle Date\")))),items&&items.map(function(e){return/*#__PURE__*/React.createElement(BatchItem,_extends({key:e.code},e,{notBottled:notBottled}));})));};export default BatchList;"
             },
             {
               "id": null,
@@ -538,7 +538,7 @@
               "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/components/BatchItem.js",
               "index": 121,
               "index2": 119,
-              "size": 3253,
+              "size": 3359,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -595,7 +595,7 @@
                   "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/components/BatchList.js",
                   "type": "harmony import specifier",
                   "userRequest": "./BatchItem",
-                  "loc": "1:2163-2172"
+                  "loc": "1:2185-2194"
                 }
               ],
               "usedExports": [
@@ -606,7 +606,7 @@
               ],
               "optimizationBailout": [],
               "depth": 5,
-              "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from'react';var dateFormatter=new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});var formatDate=function formatDate(value){if(!value){return'';}var _value$split=value.split('-'),_value$split2=_slicedToArray(_value$split,3),year=_value$split2[0],month=_value$split2[1],day=_value$split2[2];var date=new Date(Date.UTC(+year,+month-1,+day));var parts=dateFormatter.formatToParts(date);year=parts.find(function(p){return p.type==='year';}).value;month=parts.find(function(p){return p.type==='month';}).value;day=parts.find(function(p){return p.type==='day';}).value;return\"\".concat(month,\" \").concat(day,\", \").concat(year);};var RecipeWrapper=function RecipeWrapper(_ref){var recipeId=_ref.recipeId,isPublic=_ref.isPublic,children=_ref.children;return recipeId&&isPublic?/*#__PURE__*/React.createElement(\"a\",{href:\"https://www.brewersfriend.com/homebrew/recipe/view/\".concat(recipeId),target:\"_blank\"},children):children;};var BatchItem=function BatchItem(_ref2){var code=_ref2.code,name=_ref2.name,style=_ref2.style,abv=_ref2.abv,ibu=_ref2.ibu,brewed=_ref2.brewed,bottled=_ref2.bottled,recipeId=_ref2.recipeId,isPublic=_ref2.isPublic,notBottled=_ref2.notBottled;var ibuValue=+ibu;return notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,name)),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3 list-row-value\"},/*#__PURE__*/React.createElement(RecipeWrapper,{recipeId:recipeId,isPublic:isPublic},/*#__PURE__*/React.createElement(\"span\",null,name))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,(+abv).toFixed(1),\"%\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,!!ibuValue?ibuValue.toFixed(0):'-'))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(bottled)))));};export default BatchItem;"
+              "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from'react';var dateFormatter=new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});var formatDate=function formatDate(value){if(!value){return'';}var _value$split=value.split('-'),_value$split2=_slicedToArray(_value$split,3),year=_value$split2[0],month=_value$split2[1],day=_value$split2[2];var date=new Date(Date.UTC(+year,+month-1,+day));var parts=dateFormatter.formatToParts(date);year=parts.find(function(p){return p.type==='year';}).value;month=parts.find(function(p){return p.type==='month';}).value;day=parts.find(function(p){return p.type==='day';}).value;return\"\".concat(month,\" \").concat(day,\", \").concat(year);};var RecipeWrapper=function RecipeWrapper(_ref){var recipeId=_ref.recipeId,isPublic=_ref.isPublic,children=_ref.children;return recipeId&&isPublic?/*#__PURE__*/React.createElement(\"a\",{href:\"https://www.brewersfriend.com/homebrew/recipe/view/\".concat(recipeId),target:\"_blank\"},children):children;};var BatchItem=function BatchItem(_ref2){var code=_ref2.code,name=_ref2.name,style=_ref2.style,abv=_ref2.abv,ibu=_ref2.ibu,brewed=_ref2.brewed,bottled=_ref2.bottled,recipeId=_ref2.recipeId,isPublic=_ref2.isPublic,capCode=_ref2.capCode,notBottled=_ref2.notBottled;var ibuValue=+ibu;var displayName=capCode?\"\".concat(name,\" (\").concat(capCode,\")\"):name;return notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,displayName)),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3 list-row-value\"},/*#__PURE__*/React.createElement(RecipeWrapper,{recipeId:recipeId,isPublic:isPublic},/*#__PURE__*/React.createElement(\"span\",null,displayName))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,(+abv).toFixed(1),\"%\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,!!ibuValue?ibuValue.toFixed(0):'-'))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(bottled)))));};export default BatchItem;"
             }
           ],
           "filteredModules": 0
@@ -635,9 +635,9 @@
         "main"
       ],
       "files": [
-        "main.14ec6ec9.js"
+        "main.39e0cc55.js"
       ],
-      "hash": "5013f0b28c87b481ab33",
+      "hash": "b78770ab44b42cc48764",
       "siblings": [
         3
       ],
@@ -1280,7 +1280,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:476-481"
+              "loc": "1:465-470"
             },
             {
               "moduleId": 48,
@@ -1289,7 +1289,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:510-515"
+              "loc": "1:476-481"
             },
             {
               "moduleId": 48,
@@ -1316,15 +1316,6 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:619-624"
-            },
-            {
-              "moduleId": 48,
-              "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
-              "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
-              "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
               "loc": "1:691-696"
             },
             {
@@ -1334,7 +1325,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:706-711"
+              "loc": "1:756-761"
             },
             {
               "moduleId": 48,
@@ -1343,7 +1334,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:745-750"
+              "loc": "1:815-820"
             },
             {
               "moduleId": 48,
@@ -1352,7 +1343,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:821-826"
+              "loc": "1:832-837"
             },
             {
               "moduleId": 48,
@@ -1361,7 +1352,16 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:877-882"
+              "loc": "1:888-893"
+            },
+            {
+              "moduleId": 48,
+              "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+              "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:894-899"
             },
             {
               "moduleId": 48,
@@ -1379,7 +1379,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:941-946"
+              "loc": "1:952-957"
             },
             {
               "moduleId": 48,
@@ -1388,7 +1388,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:985-990"
+              "loc": "1:993-998"
             },
             {
               "moduleId": 48,
@@ -1397,7 +1397,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1046-1051"
+              "loc": "1:996-1001"
             },
             {
               "moduleId": 48,
@@ -1406,7 +1406,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1121-1126"
+              "loc": "1:1057-1062"
             },
             {
               "moduleId": 48,
@@ -1415,7 +1415,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1185-1190"
+              "loc": "1:1073-1078"
             },
             {
               "moduleId": 48,
@@ -1424,7 +1424,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1261-1266"
+              "loc": "1:1132-1137"
             },
             {
               "moduleId": 48,
@@ -1433,7 +1433,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1315-1320"
+              "loc": "1:1196-1201"
             },
             {
               "moduleId": 48,
@@ -1442,7 +1442,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1328-1333"
+              "loc": "1:1272-1277"
             },
             {
               "moduleId": 48,
@@ -1451,7 +1451,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1391-1396"
+              "loc": "1:1337-1342"
             },
             {
               "moduleId": 48,
@@ -1460,7 +1460,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1399-1404"
+              "loc": "1:1413-1418"
             },
             {
               "moduleId": 48,
@@ -1469,7 +1469,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1447-1452"
+              "loc": "1:1420-1425"
             },
             {
               "moduleId": 48,
@@ -1478,7 +1478,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1463-1468"
+              "loc": "1:1469-1474"
             },
             {
               "moduleId": 48,
@@ -1487,7 +1487,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1511-1516"
+              "loc": "1:1491-1496"
             },
             {
               "moduleId": 48,
@@ -1496,7 +1496,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1554-1559"
+              "loc": "1:1533-1538"
             },
             {
               "moduleId": 48,
@@ -1505,7 +1505,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1587-1592"
+              "loc": "1:1555-1560"
             },
             {
               "moduleId": 48,
@@ -1514,7 +1514,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1606-1611"
+              "loc": "1:1609-1614"
             },
             {
               "moduleId": 48,
@@ -1523,7 +1523,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1640-1645"
+              "loc": "1:1646-1651"
             },
             {
               "moduleId": 48,
@@ -1532,7 +1532,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1697-1702"
+              "loc": "1:1662-1667"
             },
             {
               "moduleId": 48,
@@ -1541,7 +1541,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1716-1721"
+              "loc": "1:1705-1710"
             },
             {
               "moduleId": 48,
@@ -1550,7 +1550,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1751-1756"
+              "loc": "1:1738-1743"
             },
             {
               "moduleId": 48,
@@ -1559,7 +1559,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1770-1775"
+              "loc": "1:1792-1797"
             },
             {
               "moduleId": 48,
@@ -1568,7 +1568,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1815-1820"
+              "loc": "1:1796-1801"
             },
             {
               "moduleId": 48,
@@ -1577,7 +1577,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1834-1839"
+              "loc": "1:1850-1855"
             },
             {
               "moduleId": 48,
@@ -1586,7 +1586,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1883-1888"
+              "loc": "1:1856-1861"
             },
             {
               "moduleId": 48,
@@ -1595,7 +1595,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1910-1915"
+              "loc": "1:1914-1919"
             },
             {
               "moduleId": 48,
@@ -1604,7 +1604,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1951-1956"
+              "loc": "1:1932-1937"
             },
             {
               "moduleId": 48,
@@ -1613,7 +1613,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1969-1974"
+              "loc": "1:1982-1987"
             },
             {
               "moduleId": 48,
@@ -1622,7 +1622,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2022-2027"
+              "loc": "1:1991-1996"
             },
             {
               "moduleId": 48,
@@ -1631,7 +1631,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2045-2050"
+              "loc": "1:2050-2055"
             },
             {
               "moduleId": 48,
@@ -1640,7 +1640,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2086-2091"
+              "loc": "1:2067-2072"
             },
             {
               "moduleId": 48,
@@ -1649,7 +1649,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2143-2148"
+              "loc": "1:2121-2126"
             },
             {
               "moduleId": 48,
@@ -1658,7 +1658,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2177-2182"
+              "loc": "1:2165-2170"
             },
             {
               "moduleId": 48,
@@ -1667,7 +1667,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2262-2267"
+              "loc": "1:2185-2190"
             },
             {
               "moduleId": 48,
@@ -1676,7 +1676,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2315-2320"
+              "loc": "1:2276-2281"
             },
             {
               "moduleId": 48,
@@ -1685,7 +1685,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2406-2411"
+              "loc": "1:2361-2366"
             },
             {
               "moduleId": 48,
@@ -1694,7 +1694,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2460-2465"
+              "loc": "1:2421-2426"
             },
             {
               "moduleId": 48,
@@ -1703,7 +1703,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2524-2529"
+              "loc": "1:2512-2517"
             },
             {
               "moduleId": 48,
@@ -1712,7 +1712,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2615-2620"
+              "loc": "1:2566-2571"
             },
             {
               "moduleId": 48,
@@ -1721,7 +1721,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2684-2689"
+              "loc": "1:2630-2635"
             },
             {
               "moduleId": 48,
@@ -1730,7 +1730,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2775-2780"
+              "loc": "1:2721-2726"
             },
             {
               "moduleId": 48,
@@ -1739,7 +1739,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2858-2863"
+              "loc": "1:2790-2795"
             },
             {
               "moduleId": 48,
@@ -1748,7 +1748,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2922-2927"
+              "loc": "1:2881-2886"
             },
             {
               "moduleId": 48,
@@ -1757,7 +1757,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3013-3018"
+              "loc": "1:2964-2969"
             },
             {
               "moduleId": 48,
@@ -1766,7 +1766,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3079-3084"
+              "loc": "1:3028-3033"
             },
             {
               "moduleId": 48,
@@ -1775,7 +1775,25 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3170-3175"
+              "loc": "1:3119-3124"
+            },
+            {
+              "moduleId": 48,
+              "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+              "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:3185-3190"
+            },
+            {
+              "moduleId": 48,
+              "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+              "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:3276-3281"
             },
             {
               "moduleId": 48,
@@ -2908,9 +2926,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -3073,9 +3091,9 @@
           "chunks": [
             3
           ],
-          "issuer": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "issuerId": 79,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "issuerId": 50,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 49,
@@ -3083,9 +3101,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -3198,9 +3216,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -3327,9 +3345,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -3753,9 +3771,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -3889,7 +3907,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/extends",
-              "loc": "1:2173-2181"
+              "loc": "1:2195-2203"
             },
             {
               "moduleId": 92,
@@ -4803,9 +4821,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -4874,9 +4892,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -4950,9 +4968,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -5016,9 +5034,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -5087,9 +5105,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -5153,9 +5171,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -5219,9 +5237,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -5295,9 +5313,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -5376,9 +5394,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -5452,9 +5470,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -5599,9 +5617,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -5680,9 +5698,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -5766,9 +5784,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -5842,9 +5860,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -5918,9 +5936,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -6559,9 +6577,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -6621,9 +6639,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -6683,9 +6701,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -6745,9 +6763,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -6802,9 +6820,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -6864,9 +6882,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -6926,9 +6944,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -6988,9 +7006,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7050,9 +7068,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7117,9 +7135,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7189,9 +7207,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7261,9 +7279,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7338,9 +7356,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7410,9 +7428,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7487,9 +7505,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7569,9 +7587,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7646,9 +7664,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7723,9 +7741,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7805,9 +7823,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7887,9 +7905,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -7964,9 +7982,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -8041,9 +8059,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -8108,9 +8126,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -8175,9 +8193,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -8242,9 +8260,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -8304,9 +8322,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -8369,9 +8387,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 79,
-              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 50,
+              "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 5,
@@ -11093,7 +11111,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:476-481"
+          "loc": "1:465-470"
         },
         {
           "moduleId": 48,
@@ -11102,7 +11120,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:510-515"
+          "loc": "1:476-481"
         },
         {
           "moduleId": 48,
@@ -11129,15 +11147,6 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:619-624"
-        },
-        {
-          "moduleId": 48,
-          "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
-          "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
-          "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
           "loc": "1:691-696"
         },
         {
@@ -11147,7 +11156,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:706-711"
+          "loc": "1:756-761"
         },
         {
           "moduleId": 48,
@@ -11156,7 +11165,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:745-750"
+          "loc": "1:815-820"
         },
         {
           "moduleId": 48,
@@ -11165,7 +11174,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:821-826"
+          "loc": "1:832-837"
         },
         {
           "moduleId": 48,
@@ -11174,7 +11183,16 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:877-882"
+          "loc": "1:888-893"
+        },
+        {
+          "moduleId": 48,
+          "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+          "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:894-899"
         },
         {
           "moduleId": 48,
@@ -11192,7 +11210,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:941-946"
+          "loc": "1:952-957"
         },
         {
           "moduleId": 48,
@@ -11201,7 +11219,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:985-990"
+          "loc": "1:993-998"
         },
         {
           "moduleId": 48,
@@ -11210,7 +11228,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1046-1051"
+          "loc": "1:996-1001"
         },
         {
           "moduleId": 48,
@@ -11219,7 +11237,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1121-1126"
+          "loc": "1:1057-1062"
         },
         {
           "moduleId": 48,
@@ -11228,7 +11246,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1185-1190"
+          "loc": "1:1073-1078"
         },
         {
           "moduleId": 48,
@@ -11237,7 +11255,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1261-1266"
+          "loc": "1:1132-1137"
         },
         {
           "moduleId": 48,
@@ -11246,7 +11264,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1315-1320"
+          "loc": "1:1196-1201"
         },
         {
           "moduleId": 48,
@@ -11255,7 +11273,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1328-1333"
+          "loc": "1:1272-1277"
         },
         {
           "moduleId": 48,
@@ -11264,7 +11282,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1391-1396"
+          "loc": "1:1337-1342"
         },
         {
           "moduleId": 48,
@@ -11273,7 +11291,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1399-1404"
+          "loc": "1:1413-1418"
         },
         {
           "moduleId": 48,
@@ -11282,7 +11300,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1447-1452"
+          "loc": "1:1420-1425"
         },
         {
           "moduleId": 48,
@@ -11291,7 +11309,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1463-1468"
+          "loc": "1:1469-1474"
         },
         {
           "moduleId": 48,
@@ -11300,7 +11318,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1511-1516"
+          "loc": "1:1491-1496"
         },
         {
           "moduleId": 48,
@@ -11309,7 +11327,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1554-1559"
+          "loc": "1:1533-1538"
         },
         {
           "moduleId": 48,
@@ -11318,7 +11336,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1587-1592"
+          "loc": "1:1555-1560"
         },
         {
           "moduleId": 48,
@@ -11327,7 +11345,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1606-1611"
+          "loc": "1:1609-1614"
         },
         {
           "moduleId": 48,
@@ -11336,7 +11354,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1640-1645"
+          "loc": "1:1646-1651"
         },
         {
           "moduleId": 48,
@@ -11345,7 +11363,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1697-1702"
+          "loc": "1:1662-1667"
         },
         {
           "moduleId": 48,
@@ -11354,7 +11372,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1716-1721"
+          "loc": "1:1705-1710"
         },
         {
           "moduleId": 48,
@@ -11363,7 +11381,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1751-1756"
+          "loc": "1:1738-1743"
         },
         {
           "moduleId": 48,
@@ -11372,7 +11390,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1770-1775"
+          "loc": "1:1792-1797"
         },
         {
           "moduleId": 48,
@@ -11381,7 +11399,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1815-1820"
+          "loc": "1:1796-1801"
         },
         {
           "moduleId": 48,
@@ -11390,7 +11408,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1834-1839"
+          "loc": "1:1850-1855"
         },
         {
           "moduleId": 48,
@@ -11399,7 +11417,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1883-1888"
+          "loc": "1:1856-1861"
         },
         {
           "moduleId": 48,
@@ -11408,7 +11426,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1910-1915"
+          "loc": "1:1914-1919"
         },
         {
           "moduleId": 48,
@@ -11417,7 +11435,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1951-1956"
+          "loc": "1:1932-1937"
         },
         {
           "moduleId": 48,
@@ -11426,7 +11444,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1969-1974"
+          "loc": "1:1982-1987"
         },
         {
           "moduleId": 48,
@@ -11435,7 +11453,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2022-2027"
+          "loc": "1:1991-1996"
         },
         {
           "moduleId": 48,
@@ -11444,7 +11462,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2045-2050"
+          "loc": "1:2050-2055"
         },
         {
           "moduleId": 48,
@@ -11453,7 +11471,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2086-2091"
+          "loc": "1:2067-2072"
         },
         {
           "moduleId": 48,
@@ -11462,7 +11480,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2143-2148"
+          "loc": "1:2121-2126"
         },
         {
           "moduleId": 48,
@@ -11471,7 +11489,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2177-2182"
+          "loc": "1:2165-2170"
         },
         {
           "moduleId": 48,
@@ -11480,7 +11498,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2262-2267"
+          "loc": "1:2185-2190"
         },
         {
           "moduleId": 48,
@@ -11489,7 +11507,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2315-2320"
+          "loc": "1:2276-2281"
         },
         {
           "moduleId": 48,
@@ -11498,7 +11516,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2406-2411"
+          "loc": "1:2361-2366"
         },
         {
           "moduleId": 48,
@@ -11507,7 +11525,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2460-2465"
+          "loc": "1:2421-2426"
         },
         {
           "moduleId": 48,
@@ -11516,7 +11534,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2524-2529"
+          "loc": "1:2512-2517"
         },
         {
           "moduleId": 48,
@@ -11525,7 +11543,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2615-2620"
+          "loc": "1:2566-2571"
         },
         {
           "moduleId": 48,
@@ -11534,7 +11552,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2684-2689"
+          "loc": "1:2630-2635"
         },
         {
           "moduleId": 48,
@@ -11543,7 +11561,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2775-2780"
+          "loc": "1:2721-2726"
         },
         {
           "moduleId": 48,
@@ -11552,7 +11570,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2858-2863"
+          "loc": "1:2790-2795"
         },
         {
           "moduleId": 48,
@@ -11561,7 +11579,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2922-2927"
+          "loc": "1:2881-2886"
         },
         {
           "moduleId": 48,
@@ -11570,7 +11588,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3013-3018"
+          "loc": "1:2964-2969"
         },
         {
           "moduleId": 48,
@@ -11579,7 +11597,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3079-3084"
+          "loc": "1:3028-3033"
         },
         {
           "moduleId": 48,
@@ -11588,7 +11606,25 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3170-3175"
+          "loc": "1:3119-3124"
+        },
+        {
+          "moduleId": 48,
+          "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+          "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:3185-3190"
+        },
+        {
+          "moduleId": 48,
+          "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+          "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:3276-3281"
         },
         {
           "moduleId": 48,
@@ -12721,9 +12757,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -12886,9 +12922,9 @@
       "chunks": [
         3
       ],
-      "issuer": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-      "issuerId": 79,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+      "issuerId": 50,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 49,
@@ -12896,9 +12932,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -13011,9 +13047,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -13140,9 +13176,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -13566,9 +13602,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -13702,7 +13738,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/extends",
-          "loc": "1:2173-2181"
+          "loc": "1:2195-2203"
         },
         {
           "moduleId": 92,
@@ -14702,9 +14738,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -14773,9 +14809,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -14849,9 +14885,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -14915,9 +14951,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -14986,9 +15022,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -15052,9 +15088,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -15118,9 +15154,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -15194,9 +15230,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -15275,9 +15311,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -15351,9 +15387,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -15498,9 +15534,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -15579,9 +15615,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -15665,9 +15701,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -15741,9 +15777,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -15817,9 +15853,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -16459,7 +16495,7 @@
       "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
       "index": 118,
       "index2": 121,
-      "size": 9980,
+      "size": 10473,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -16513,7 +16549,7 @@
           "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
           "index": 118,
           "index2": 121,
-          "size": 813,
+          "size": 1178,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -16571,7 +16607,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: C:/Users/PaulLohmuller/projects/brewsite-static/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import React from'react';import{useRouteData}from'react-static';import PageContainer from'./PageContainer';import BatchList from'../components/BatchList';var Home=function Home(){var _useRouteData=useRouteData(),drinking=_useRouteData.drinking,conditioning=_useRouteData.conditioning,fermenting=_useRouteData.fermenting,archive=_useRouteData.archive;return/*#__PURE__*/React.createElement(PageContainer,null,/*#__PURE__*/React.createElement(BatchList,{header:\"Currently Enjoying\",items:drinking}),/*#__PURE__*/React.createElement(BatchList,{header:\"Currently Fermenting\",items:fermenting,notBottled:true}),/*#__PURE__*/React.createElement(BatchList,{header:\"Almost Ready\",items:conditioning}),/*#__PURE__*/React.createElement(BatchList,{header:\"Past Brews\",items:archive,isCollapsed:true}));};export default Home;"
+          "source": "import React from'react';import{useRouteData}from'react-static';import PageContainer from'./PageContainer';import BatchList from'../components/BatchList';var Home=function Home(){var _useRouteData=useRouteData(),drinking=_useRouteData.drinking,conditioning=_useRouteData.conditioning,fermenting=_useRouteData.fermenting,archive=_useRouteData.archive;return/*#__PURE__*/React.createElement(PageContainer,null,/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"p\",null,\"Did I give you a blank bottle or two? Find out what you've got by matching the bottle cap to the Cap Code in one of these lists. Brews are categorized by their current stage in the brewing process: Fermenting \\u27A1 Aging \\u27A1 Enjoying \\u27A1 Finished. Each category is sorted by most recently brewed.\")),/*#__PURE__*/React.createElement(BatchList,{header:\"Enjoying\",items:drinking}),/*#__PURE__*/React.createElement(BatchList,{header:\"Fermenting\",items:fermenting,notBottled:true}),/*#__PURE__*/React.createElement(BatchList,{header:\"Aging\",items:conditioning}),/*#__PURE__*/React.createElement(BatchList,{header:\"Finished\",items:archive,isCollapsed:true}));};export default Home;"
         },
         {
           "id": null,
@@ -16650,7 +16686,7 @@
           "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/components/BatchList.js",
           "index": 120,
           "index2": 120,
-          "size": 2255,
+          "size": 2277,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -16702,7 +16738,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
               "type": "harmony import specifier",
               "userRequest": "../components/BatchList",
-              "loc": "1:441-450"
+              "loc": "1:835-844"
             },
             {
               "moduleId": null,
@@ -16711,7 +16747,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
               "type": "harmony import specifier",
               "userRequest": "../components/BatchList",
-              "loc": "1:530-539"
+              "loc": "1:914-923"
             },
             {
               "moduleId": null,
@@ -16720,7 +16756,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
               "type": "harmony import specifier",
               "userRequest": "../components/BatchList",
-              "loc": "1:639-648"
+              "loc": "1:1013-1022"
             },
             {
               "moduleId": null,
@@ -16729,7 +16765,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
               "type": "harmony import specifier",
               "userRequest": "../components/BatchList",
-              "loc": "1:726-735"
+              "loc": "1:1093-1102"
             }
           ],
           "usedExports": [
@@ -16740,7 +16776,7 @@
           ],
           "optimizationBailout": [],
           "depth": 4,
-          "source": "import _extends from\"@babel/runtime/helpers/extends\";import React from'react';import BatchItem from'./BatchItem';var BatchList=function BatchList(_ref){var header=_ref.header,items=_ref.items,_ref$notBottled=_ref.notBottled,notBottled=_ref$notBottled===void 0?false:_ref$notBottled;return/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(\"h3\",null,header),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-g\"},notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"ABV\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"IBU\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Bottle Date\")))),items&&items.map(function(e){return/*#__PURE__*/React.createElement(BatchItem,_extends({key:e.code},e,{notBottled:notBottled}));})));};export default BatchList;"
+          "source": "import _extends from\"@babel/runtime/helpers/extends\";import React from'react';import BatchItem from'./BatchItem';var BatchList=function BatchList(_ref){var header=_ref.header,items=_ref.items,_ref$notBottled=_ref.notBottled,notBottled=_ref$notBottled===void 0?false:_ref$notBottled;return/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(\"h3\",null,header),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-g\"},notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name (Cap Code)\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name (Cap Code)\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"ABV\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"IBU\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Bottle Date\")))),items&&items.map(function(e){return/*#__PURE__*/React.createElement(BatchItem,_extends({key:e.code},e,{notBottled:notBottled}));})));};export default BatchList;"
         },
         {
           "id": null,
@@ -16748,7 +16784,7 @@
           "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/components/BatchItem.js",
           "index": 121,
           "index2": 119,
-          "size": 3253,
+          "size": 3359,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -16805,7 +16841,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/components/BatchList.js",
               "type": "harmony import specifier",
               "userRequest": "./BatchItem",
-              "loc": "1:2163-2172"
+              "loc": "1:2185-2194"
             }
           ],
           "usedExports": [
@@ -16816,7 +16852,7 @@
           ],
           "optimizationBailout": [],
           "depth": 5,
-          "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from'react';var dateFormatter=new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});var formatDate=function formatDate(value){if(!value){return'';}var _value$split=value.split('-'),_value$split2=_slicedToArray(_value$split,3),year=_value$split2[0],month=_value$split2[1],day=_value$split2[2];var date=new Date(Date.UTC(+year,+month-1,+day));var parts=dateFormatter.formatToParts(date);year=parts.find(function(p){return p.type==='year';}).value;month=parts.find(function(p){return p.type==='month';}).value;day=parts.find(function(p){return p.type==='day';}).value;return\"\".concat(month,\" \").concat(day,\", \").concat(year);};var RecipeWrapper=function RecipeWrapper(_ref){var recipeId=_ref.recipeId,isPublic=_ref.isPublic,children=_ref.children;return recipeId&&isPublic?/*#__PURE__*/React.createElement(\"a\",{href:\"https://www.brewersfriend.com/homebrew/recipe/view/\".concat(recipeId),target:\"_blank\"},children):children;};var BatchItem=function BatchItem(_ref2){var code=_ref2.code,name=_ref2.name,style=_ref2.style,abv=_ref2.abv,ibu=_ref2.ibu,brewed=_ref2.brewed,bottled=_ref2.bottled,recipeId=_ref2.recipeId,isPublic=_ref2.isPublic,notBottled=_ref2.notBottled;var ibuValue=+ibu;return notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,name)),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3 list-row-value\"},/*#__PURE__*/React.createElement(RecipeWrapper,{recipeId:recipeId,isPublic:isPublic},/*#__PURE__*/React.createElement(\"span\",null,name))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,(+abv).toFixed(1),\"%\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,!!ibuValue?ibuValue.toFixed(0):'-'))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(bottled)))));};export default BatchItem;"
+          "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from'react';var dateFormatter=new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});var formatDate=function formatDate(value){if(!value){return'';}var _value$split=value.split('-'),_value$split2=_slicedToArray(_value$split,3),year=_value$split2[0],month=_value$split2[1],day=_value$split2[2];var date=new Date(Date.UTC(+year,+month-1,+day));var parts=dateFormatter.formatToParts(date);year=parts.find(function(p){return p.type==='year';}).value;month=parts.find(function(p){return p.type==='month';}).value;day=parts.find(function(p){return p.type==='day';}).value;return\"\".concat(month,\" \").concat(day,\", \").concat(year);};var RecipeWrapper=function RecipeWrapper(_ref){var recipeId=_ref.recipeId,isPublic=_ref.isPublic,children=_ref.children;return recipeId&&isPublic?/*#__PURE__*/React.createElement(\"a\",{href:\"https://www.brewersfriend.com/homebrew/recipe/view/\".concat(recipeId),target:\"_blank\"},children):children;};var BatchItem=function BatchItem(_ref2){var code=_ref2.code,name=_ref2.name,style=_ref2.style,abv=_ref2.abv,ibu=_ref2.ibu,brewed=_ref2.brewed,bottled=_ref2.bottled,recipeId=_ref2.recipeId,isPublic=_ref2.isPublic,capCode=_ref2.capCode,notBottled=_ref2.notBottled;var ibuValue=+ibu;var displayName=capCode?\"\".concat(name,\" (\").concat(capCode,\")\"):name;return notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,displayName)),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3 list-row-value\"},/*#__PURE__*/React.createElement(RecipeWrapper,{recipeId:recipeId,isPublic:isPublic},/*#__PURE__*/React.createElement(\"span\",null,displayName))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,(+abv).toFixed(1),\"%\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,!!ibuValue?ibuValue.toFixed(0):'-'))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(bottled)))));};export default BatchItem;"
         }
       ],
       "filteredModules": 0
@@ -16983,9 +17019,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17045,9 +17081,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17107,9 +17143,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17169,9 +17205,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17226,9 +17262,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17288,9 +17324,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17350,9 +17386,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17412,9 +17448,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17474,9 +17510,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17541,9 +17577,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17613,9 +17649,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17685,9 +17721,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17762,9 +17798,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17834,9 +17870,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17911,9 +17947,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -17993,9 +18029,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -18070,9 +18106,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -18147,9 +18183,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -18229,9 +18265,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -18311,9 +18347,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -18388,9 +18424,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -18465,9 +18501,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -18532,9 +18568,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -18599,9 +18635,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -18666,9 +18702,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -18728,9 +18764,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,
@@ -18793,9 +18829,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 79,
-          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 50,
+          "identifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 5,

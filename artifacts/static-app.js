@@ -1034,15 +1034,17 @@ var BatchItem_BatchItem = function BatchItem(_ref2) {
       bottled = _ref2.bottled,
       recipeId = _ref2.recipeId,
       isPublic = _ref2.isPublic,
+      capCode = _ref2.capCode,
       notBottled = _ref2.notBottled;
   var ibuValue = +ibu;
+  var displayName = capCode ? "".concat(name, " (").concat(capCode, ")") : name;
   return notBottled ? /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 list-row"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-2-3"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-1-2 list-row-value"
-  }, /*#__PURE__*/external_react_default.a.createElement("span", null, name)), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, /*#__PURE__*/external_react_default.a.createElement("span", null, displayName)), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-1-2 list-row-value"
   }, /*#__PURE__*/external_react_default.a.createElement("span", null, style))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1-3"
@@ -1057,7 +1059,7 @@ var BatchItem_BatchItem = function BatchItem(_ref2) {
   }, /*#__PURE__*/external_react_default.a.createElement(BatchItem_RecipeWrapper, {
     recipeId: recipeId,
     isPublic: isPublic
-  }, /*#__PURE__*/external_react_default.a.createElement("span", null, name))), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, /*#__PURE__*/external_react_default.a.createElement("span", null, displayName))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-1-3 list-row-value"
   }, /*#__PURE__*/external_react_default.a.createElement("span", null, style))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1-6"
@@ -1093,7 +1095,7 @@ var BatchList_BatchList = function BatchList(_ref) {
     className: "pure-u-2-3"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-1-2"
-  }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Name")), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Name (Cap Code)")), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-1-2"
   }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Style"))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1-3"
@@ -1103,7 +1105,7 @@ var BatchList_BatchList = function BatchList(_ref) {
     className: "pure-u-1-2"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-2-3"
-  }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Name")), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Name (Cap Code)")), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-1-3"
   }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Style"))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1-6"
@@ -1140,18 +1142,18 @@ var Home_Home = function Home() {
       fermenting = _useRouteData.fermenting,
       archive = _useRouteData.archive;
 
-  return /*#__PURE__*/external_react_default.a.createElement(pages_PageContainer, null, /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
-    header: "Currently Enjoying",
+  return /*#__PURE__*/external_react_default.a.createElement(pages_PageContainer, null, /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement("p", null, "Did I give you a blank bottle or two? Find out what you've got by matching the bottle cap to the Cap Code in one of these lists. Brews are categorized by their current stage in the brewing process: Fermenting \u27A1 Aging \u27A1 Enjoying \u27A1 Finished. Each category is sorted by most recently brewed.")), /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
+    header: "Enjoying",
     items: drinking
   }), /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
-    header: "Currently Fermenting",
+    header: "Fermenting",
     items: fermenting,
     notBottled: true
   }), /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
-    header: "Almost Ready",
+    header: "Aging",
     items: conditioning
   }), /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
-    header: "Past Brews",
+    header: "Finished",
     items: archive,
     isCollapsed: true
   }));

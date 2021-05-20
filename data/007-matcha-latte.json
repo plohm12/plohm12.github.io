@@ -10,5 +10,6 @@
   "brewed": "2020-05-02",
   "bottled": "2020-05-16",
   "recipeId": "984168",
-  "isPublic": true
+  "isPublic": true,
+  "capCode": "ML"
 }

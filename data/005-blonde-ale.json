@@ -4,5 +4,6 @@
   "name": "Blonde Ale",
   "phase": "All Gone",
   "skip": true,
-  "style": "Blonde Ale"
+  "style": "Blonde Ale",
+  "capCode": "BL"
 }

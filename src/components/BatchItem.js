@@ -25,14 +25,14 @@ const RecipeWrapper = ({recipeId, isPublic, children}) => recipeId && isPublic
     </a>
   : children;
 
-const BatchItem = ({code, name, style, abv, ibu, brewed, bottled, recipeId, isPublic, notBottled}) => {
+const BatchItem = ({code, name, style, abv, ibu, brewed, bottled, recipeId, isPublic, capCode, notBottled}) => {
   const ibuValue = +ibu;
-  
+  let displayName = capCode ? `${name} (${capCode})` : name;
   return (
     notBottled
     ? <div className="pure-u-1 list-row">
         <div className="pure-u-2-3">
-          <div className="pure-u-1 pure-u-md-1-2 list-row-value"><span>{name}</span></div>
+          <div className="pure-u-1 pure-u-md-1-2 list-row-value"><span>{displayName}</span></div>
           <div className="pure-u-1 pure-u-md-1-2 list-row-value"><span>{style}</span></div>
         </div>
         <div className="pure-u-1-3">
@@ -43,7 +43,7 @@ const BatchItem = ({code, name, style, abv, ibu, brewed, bottled, recipeId, isPu
         <div className="pure-u-1-2">
           <div className="pure-u-1 pure-u-md-2-3 list-row-value">
             <RecipeWrapper recipeId={recipeId} isPublic={isPublic}>
-              <span>{name}</span>
+              <span>{displayName}</span>
             </RecipeWrapper>
           </div>
           <div className="pure-u-1 pure-u-md-1-3 list-row-value"><span>{style}</span></div>
