@@ -2,20 +2,20 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "7d5ed56b6ecb8eed56d4",
-  "time": 1645,
-  "builtAt": 1621483466604,
+  "hash": "d99394f6681d6aafd5bd",
+  "time": 1740,
+  "builtAt": 1621749897856,
   "publicPath": "https://whatspaulbrewing.com/",
   "outputPath": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\dist",
   "assetsByChunkName": {
     "__react_static_root__/node_modules/react-static/lib/browser/components/Default404": "templates/__react_static_root__/node_modules/react-static/lib/browser/components/Default404.84084b05.js",
-    "__react_static_root__/src/pages/Home": "templates/__react_static_root__/src/pages/Home.3da5bd0e.js",
-    "main": "main.39e0cc55.js",
+    "__react_static_root__/src/pages/Home": "templates/__react_static_root__/src/pages/Home.b09fcbc6.js",
+    "main": "main.30ee88da.js",
     "vendors~main": "templates/vendors~main.f8b3b72f.js"
   },
   "assets": [
     {
-      "name": "main.39e0cc55.js",
+      "name": "main.30ee88da.js",
       "size": 5193,
       "chunks": [
         2
@@ -43,8 +43,8 @@
       "emitted": true
     },
     {
-      "name": "templates/__react_static_root__/src/pages/Home.3da5bd0e.js",
-      "size": 7833,
+      "name": "templates/__react_static_root__/src/pages/Home.b09fcbc6.js",
+      "size": 8046,
       "chunks": [
         1
       ],
@@ -80,7 +80,7 @@
       ],
       "assets": [
         "templates/vendors~main.f8b3b72f.js",
-        "main.39e0cc55.js"
+        "main.30ee88da.js"
       ],
       "children": {},
       "childAssets": {}
@@ -94,7 +94,7 @@
       ],
       "assets": [
         "templates/vendors~main.f8b3b72f.js",
-        "main.39e0cc55.js"
+        "main.30ee88da.js"
       ],
       "children": {},
       "childAssets": {}
@@ -114,7 +114,7 @@
         1
       ],
       "assets": [
-        "templates/__react_static_root__/src/pages/Home.3da5bd0e.js"
+        "templates/__react_static_root__/src/pages/Home.b09fcbc6.js"
       ],
       "children": {},
       "childAssets": {}
@@ -227,14 +227,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 10473,
+      "size": 10768,
       "names": [
         "__react_static_root__/src/pages/Home"
       ],
       "files": [
-        "templates/__react_static_root__/src/pages/Home.3da5bd0e.js"
+        "templates/__react_static_root__/src/pages/Home.b09fcbc6.js"
       ],
-      "hash": "99d99dc6f378144dd364",
+      "hash": "fc158afc71a66e57c5bc",
       "siblings": [],
       "parents": [
         2,
@@ -249,7 +249,7 @@
           "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "index": 118,
           "index2": 121,
-          "size": 10473,
+          "size": 10768,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -303,7 +303,7 @@
               "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
               "index": 118,
               "index2": 121,
-              "size": 1178,
+              "size": 1396,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -361,7 +361,7 @@
                 "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: C:/Users/PaulLohmuller/projects/brewsite-static/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
               ],
               "depth": 3,
-              "source": "import React from'react';import{useRouteData}from'react-static';import PageContainer from'./PageContainer';import BatchList from'../components/BatchList';var Home=function Home(){var _useRouteData=useRouteData(),drinking=_useRouteData.drinking,conditioning=_useRouteData.conditioning,fermenting=_useRouteData.fermenting,archive=_useRouteData.archive;return/*#__PURE__*/React.createElement(PageContainer,null,/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"p\",null,\"Did I give you a blank bottle or two? Find out what you've got by matching the bottle cap to the Cap Code in one of these lists. Brews are categorized by their current stage in the brewing process: Fermenting \\u27A1 Aging \\u27A1 Enjoying \\u27A1 Finished. Each category is sorted by most recently brewed.\")),/*#__PURE__*/React.createElement(BatchList,{header:\"Enjoying\",items:drinking}),/*#__PURE__*/React.createElement(BatchList,{header:\"Fermenting\",items:fermenting,notBottled:true}),/*#__PURE__*/React.createElement(BatchList,{header:\"Aging\",items:conditioning}),/*#__PURE__*/React.createElement(BatchList,{header:\"Finished\",items:archive,isCollapsed:true}));};export default Home;"
+              "source": "import React from'react';import{useRouteData}from'react-static';import PageContainer from'./PageContainer';import BatchList from'../components/BatchList';var Home=function Home(){var _useRouteData=useRouteData(),drinking=_useRouteData.drinking,conditioning=_useRouteData.conditioning,fermenting=_useRouteData.fermenting,archive=_useRouteData.archive;return/*#__PURE__*/React.createElement(PageContainer,null,/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"p\",null,\"Did I give you a blank bottle or two? Find out what you've got by matching the bottle cap to the cap code in one of these lists. Brews are categorized by their current stage in the brewing process: Fermenting \\u27A1 Aging \\u27A1 Enjoying \\u27A1 Finished. Each category is sorted by most recently brewed.\"),/*#__PURE__*/React.createElement(\"p\",null,\"Brews with \\\"\\u2197\\\" can be clicked to view their recipe on \",/*#__PURE__*/React.createElement(\"a\",{href:\"https://brewersfriend.com\",target:\"_blank\"},\"Brewer's Friend\"),\".\")),/*#__PURE__*/React.createElement(BatchList,{header:\"Enjoying\",items:drinking}),/*#__PURE__*/React.createElement(BatchList,{header:\"Fermenting\",items:fermenting,notBottled:true}),/*#__PURE__*/React.createElement(BatchList,{header:\"Aging\",items:conditioning}),/*#__PURE__*/React.createElement(BatchList,{header:\"Finished\",items:archive,isCollapsed:true}));};export default Home;"
             },
             {
               "id": null,
@@ -440,7 +440,7 @@
               "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/components/BatchList.js",
               "index": 120,
               "index2": 120,
-              "size": 2277,
+              "size": 2266,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -492,7 +492,7 @@
                   "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/BatchList",
-                  "loc": "1:835-844"
+                  "loc": "1:1053-1062"
                 },
                 {
                   "moduleId": null,
@@ -501,7 +501,7 @@
                   "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/BatchList",
-                  "loc": "1:914-923"
+                  "loc": "1:1132-1141"
                 },
                 {
                   "moduleId": null,
@@ -510,7 +510,7 @@
                   "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/BatchList",
-                  "loc": "1:1013-1022"
+                  "loc": "1:1231-1240"
                 },
                 {
                   "moduleId": null,
@@ -519,7 +519,7 @@
                   "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/BatchList",
-                  "loc": "1:1093-1102"
+                  "loc": "1:1311-1320"
                 }
               ],
               "usedExports": [
@@ -530,7 +530,7 @@
               ],
               "optimizationBailout": [],
               "depth": 4,
-              "source": "import _extends from\"@babel/runtime/helpers/extends\";import React from'react';import BatchItem from'./BatchItem';var BatchList=function BatchList(_ref){var header=_ref.header,items=_ref.items,_ref$notBottled=_ref.notBottled,notBottled=_ref$notBottled===void 0?false:_ref$notBottled;return/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(\"h3\",null,header),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-g\"},notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name (Cap Code)\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name (Cap Code)\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"ABV\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"IBU\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Bottle Date\")))),items&&items.map(function(e){return/*#__PURE__*/React.createElement(BatchItem,_extends({key:e.code},e,{notBottled:notBottled}));})));};export default BatchList;"
+              "source": "import _extends from\"@babel/runtime/helpers/extends\";import React from'react';import BatchItem from'./BatchItem';var BatchList=function BatchList(_ref){var header=_ref.header,items=_ref.items,_ref$notBottled=_ref.notBottled,notBottled=_ref$notBottled===void 0?false:_ref$notBottled;return/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(\"h3\",null,header),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-g\"},notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Cap \\u2013 Name\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"ABV\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"IBU\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Bottle Date\")))),items&&items.map(function(e){return/*#__PURE__*/React.createElement(BatchItem,_extends({key:e.code},e,{notBottled:notBottled}));})));};export default BatchList;"
             },
             {
               "id": null,
@@ -538,7 +538,7 @@
               "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/components/BatchItem.js",
               "index": 121,
               "index2": 119,
-              "size": 3359,
+              "size": 3447,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -595,7 +595,7 @@
                   "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/components/BatchList.js",
                   "type": "harmony import specifier",
                   "userRequest": "./BatchItem",
-                  "loc": "1:2185-2194"
+                  "loc": "1:2174-2183"
                 }
               ],
               "usedExports": [
@@ -606,7 +606,7 @@
               ],
               "optimizationBailout": [],
               "depth": 5,
-              "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from'react';var dateFormatter=new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});var formatDate=function formatDate(value){if(!value){return'';}var _value$split=value.split('-'),_value$split2=_slicedToArray(_value$split,3),year=_value$split2[0],month=_value$split2[1],day=_value$split2[2];var date=new Date(Date.UTC(+year,+month-1,+day));var parts=dateFormatter.formatToParts(date);year=parts.find(function(p){return p.type==='year';}).value;month=parts.find(function(p){return p.type==='month';}).value;day=parts.find(function(p){return p.type==='day';}).value;return\"\".concat(month,\" \").concat(day,\", \").concat(year);};var RecipeWrapper=function RecipeWrapper(_ref){var recipeId=_ref.recipeId,isPublic=_ref.isPublic,children=_ref.children;return recipeId&&isPublic?/*#__PURE__*/React.createElement(\"a\",{href:\"https://www.brewersfriend.com/homebrew/recipe/view/\".concat(recipeId),target:\"_blank\"},children):children;};var BatchItem=function BatchItem(_ref2){var code=_ref2.code,name=_ref2.name,style=_ref2.style,abv=_ref2.abv,ibu=_ref2.ibu,brewed=_ref2.brewed,bottled=_ref2.bottled,recipeId=_ref2.recipeId,isPublic=_ref2.isPublic,capCode=_ref2.capCode,notBottled=_ref2.notBottled;var ibuValue=+ibu;var displayName=capCode?\"\".concat(name,\" (\").concat(capCode,\")\"):name;return notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,displayName)),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3 list-row-value\"},/*#__PURE__*/React.createElement(RecipeWrapper,{recipeId:recipeId,isPublic:isPublic},/*#__PURE__*/React.createElement(\"span\",null,displayName))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,(+abv).toFixed(1),\"%\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,!!ibuValue?ibuValue.toFixed(0):'-'))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(bottled)))));};export default BatchItem;"
+              "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from'react';var dateFormatter=new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});var formatDate=function formatDate(value){if(!value){return'';}var _value$split=value.split('-'),_value$split2=_slicedToArray(_value$split,3),year=_value$split2[0],month=_value$split2[1],day=_value$split2[2];var date=new Date(Date.UTC(+year,+month-1,+day));var parts=dateFormatter.formatToParts(date);year=parts.find(function(p){return p.type==='year';}).value;month=parts.find(function(p){return p.type==='month';}).value;day=parts.find(function(p){return p.type==='day';}).value;return\"\".concat(month,\" \").concat(day,\", \").concat(year);};var RecipeWrapper=function RecipeWrapper(_ref){var recipeId=_ref.recipeId,isPublic=_ref.isPublic,children=_ref.children;return recipeId&&isPublic?/*#__PURE__*/React.createElement(\"a\",{href:\"https://www.brewersfriend.com/homebrew/recipe/view/\".concat(recipeId),target:\"_blank\"},children):children;};var BatchItem=function BatchItem(_ref2){var code=_ref2.code,name=_ref2.name,style=_ref2.style,abv=_ref2.abv,ibu=_ref2.ibu,brewed=_ref2.brewed,bottled=_ref2.bottled,recipeId=_ref2.recipeId,isPublic=_ref2.isPublic,capCode=_ref2.capCode,notBottled=_ref2.notBottled;var ibuValue=+ibu;var displayName=capCode?\"\".concat(capCode,\" \\u2013 \").concat(name):name;return notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(RecipeWrapper,{recipeId:recipeId,isPublic:isPublic},/*#__PURE__*/React.createElement(\"span\",null,displayName))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3 list-row-value\"},/*#__PURE__*/React.createElement(RecipeWrapper,{recipeId:recipeId,isPublic:isPublic},/*#__PURE__*/React.createElement(\"span\",null,displayName))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,(+abv).toFixed(1),\"%\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,!!ibuValue?ibuValue.toFixed(0):'-'))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(bottled)))));};export default BatchItem;"
             }
           ],
           "filteredModules": 0
@@ -635,9 +635,9 @@
         "main"
       ],
       "files": [
-        "main.39e0cc55.js"
+        "main.30ee88da.js"
       ],
-      "hash": "b78770ab44b42cc48764",
+      "hash": "c6ecd04b84119c14e300",
       "siblings": [
         3
       ],
@@ -1325,7 +1325,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:756-761"
+              "loc": "1:745-750"
             },
             {
               "moduleId": 48,
@@ -1334,7 +1334,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:815-820"
+              "loc": "1:814-819"
             },
             {
               "moduleId": 48,
@@ -1343,7 +1343,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:832-837"
+              "loc": "1:821-826"
             },
             {
               "moduleId": 48,
@@ -1352,16 +1352,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:888-893"
-            },
-            {
-              "moduleId": 48,
-              "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
-              "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
-              "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "1:894-899"
+              "loc": "1:877-882"
             },
             {
               "moduleId": 48,
@@ -1379,7 +1370,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:952-957"
+              "loc": "1:920-925"
             },
             {
               "moduleId": 48,
@@ -1388,7 +1379,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:993-998"
+              "loc": "1:941-946"
             },
             {
               "moduleId": 48,
@@ -1397,7 +1388,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:996-1001"
+              "loc": "1:985-990"
             },
             {
               "moduleId": 48,
@@ -1406,7 +1397,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1057-1062"
+              "loc": "1:1033-1038"
             },
             {
               "moduleId": 48,
@@ -1415,7 +1406,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1073-1078"
+              "loc": "1:1046-1051"
             },
             {
               "moduleId": 48,
@@ -1424,7 +1415,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1132-1137"
+              "loc": "1:1112-1117"
             },
             {
               "moduleId": 48,
@@ -1433,7 +1424,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1196-1201"
+              "loc": "1:1121-1126"
             },
             {
               "moduleId": 48,
@@ -1442,7 +1433,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1272-1277"
+              "loc": "1:1185-1190"
             },
             {
               "moduleId": 48,
@@ -1451,7 +1442,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1337-1342"
+              "loc": "1:1211-1216"
             },
             {
               "moduleId": 48,
@@ -1460,7 +1451,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1413-1418"
+              "loc": "1:1261-1266"
             },
             {
               "moduleId": 48,
@@ -1469,7 +1460,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1420-1425"
+              "loc": "1:1291-1296"
             },
             {
               "moduleId": 48,
@@ -1478,7 +1469,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1469-1474"
+              "loc": "1:1326-1331"
             },
             {
               "moduleId": 48,
@@ -1487,7 +1478,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1491-1496"
+              "loc": "1:1402-1407"
             },
             {
               "moduleId": 48,
@@ -1496,7 +1487,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1533-1538"
+              "loc": "1:1422-1427"
             },
             {
               "moduleId": 48,
@@ -1505,7 +1496,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1555-1560"
+              "loc": "1:1458-1463"
             },
             {
               "moduleId": 48,
@@ -1514,7 +1505,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1609-1614"
+              "loc": "1:1493-1498"
             },
             {
               "moduleId": 48,
@@ -1523,7 +1514,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1646-1651"
+              "loc": "1:1522-1527"
             },
             {
               "moduleId": 48,
@@ -1532,7 +1523,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1662-1667"
+              "loc": "1:1557-1562"
             },
             {
               "moduleId": 48,
@@ -1541,7 +1532,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1705-1710"
+              "loc": "1:1598-1603"
             },
             {
               "moduleId": 48,
@@ -1550,7 +1541,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1738-1743"
+              "loc": "1:1648-1653"
             },
             {
               "moduleId": 48,
@@ -1559,7 +1550,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1792-1797"
+              "loc": "1:1651-1656"
             },
             {
               "moduleId": 48,
@@ -1568,7 +1559,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1796-1801"
+              "loc": "1:1727-1732"
             },
             {
               "moduleId": 48,
@@ -1577,7 +1568,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1850-1855"
+              "loc": "1:1733-1738"
             },
             {
               "moduleId": 48,
@@ -1586,7 +1577,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1856-1861"
+              "loc": "1:1781-1786"
             },
             {
               "moduleId": 48,
@@ -1595,7 +1586,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1914-1919"
+              "loc": "1:1793-1798"
             },
             {
               "moduleId": 48,
@@ -1604,7 +1595,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1932-1937"
+              "loc": "1:1845-1850"
             },
             {
               "moduleId": 48,
@@ -1613,7 +1604,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1982-1987"
+              "loc": "1:1884-1889"
             },
             {
               "moduleId": 48,
@@ -1622,7 +1613,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1991-1996"
+              "loc": "1:1921-1926"
             },
             {
               "moduleId": 48,
@@ -1631,7 +1622,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2050-2055"
+              "loc": "1:1938-1943"
             },
             {
               "moduleId": 48,
@@ -1640,7 +1631,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2067-2072"
+              "loc": "1:1980-1985"
             },
             {
               "moduleId": 48,
@@ -1649,7 +1640,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2121-2126"
+              "loc": "1:2002-2007"
             },
             {
               "moduleId": 48,
@@ -1658,7 +1649,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2165-2170"
+              "loc": "1:2056-2061"
             },
             {
               "moduleId": 48,
@@ -1667,7 +1658,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2185-2190"
+              "loc": "1:2070-2075"
             },
             {
               "moduleId": 48,
@@ -1676,7 +1667,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2276-2281"
+              "loc": "1:2138-2143"
             },
             {
               "moduleId": 48,
@@ -1685,7 +1676,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2361-2366"
+              "loc": "1:2154-2159"
             },
             {
               "moduleId": 48,
@@ -1694,7 +1685,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2421-2426"
+              "loc": "1:2209-2214"
             },
             {
               "moduleId": 48,
@@ -1703,7 +1694,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2512-2517"
+              "loc": "1:2273-2278"
             },
             {
               "moduleId": 48,
@@ -1712,7 +1703,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2566-2571"
+              "loc": "1:2364-2369"
             },
             {
               "moduleId": 48,
@@ -1721,7 +1712,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2630-2635"
+              "loc": "1:2449-2454"
             },
             {
               "moduleId": 48,
@@ -1730,7 +1721,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2721-2726"
+              "loc": "1:2509-2514"
             },
             {
               "moduleId": 48,
@@ -1739,7 +1730,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2790-2795"
+              "loc": "1:2600-2605"
             },
             {
               "moduleId": 48,
@@ -1748,7 +1739,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2881-2886"
+              "loc": "1:2654-2659"
             },
             {
               "moduleId": 48,
@@ -1757,7 +1748,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:2964-2969"
+              "loc": "1:2718-2723"
             },
             {
               "moduleId": 48,
@@ -1766,7 +1757,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3028-3033"
+              "loc": "1:2809-2814"
             },
             {
               "moduleId": 48,
@@ -1775,7 +1766,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3119-3124"
+              "loc": "1:2878-2883"
             },
             {
               "moduleId": 48,
@@ -1784,7 +1775,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3185-3190"
+              "loc": "1:2969-2974"
             },
             {
               "moduleId": 48,
@@ -1793,7 +1784,43 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3276-3281"
+              "loc": "1:3052-3057"
+            },
+            {
+              "moduleId": 48,
+              "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+              "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:3116-3121"
+            },
+            {
+              "moduleId": 48,
+              "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+              "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:3207-3212"
+            },
+            {
+              "moduleId": 48,
+              "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+              "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:3273-3278"
+            },
+            {
+              "moduleId": 48,
+              "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+              "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:3364-3369"
             },
             {
               "moduleId": 48,
@@ -3907,7 +3934,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/extends",
-              "loc": "1:2195-2203"
+              "loc": "1:2184-2192"
             },
             {
               "moduleId": 92,
@@ -11156,7 +11183,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:756-761"
+          "loc": "1:745-750"
         },
         {
           "moduleId": 48,
@@ -11165,7 +11192,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:815-820"
+          "loc": "1:814-819"
         },
         {
           "moduleId": 48,
@@ -11174,7 +11201,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:832-837"
+          "loc": "1:821-826"
         },
         {
           "moduleId": 48,
@@ -11183,16 +11210,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:888-893"
-        },
-        {
-          "moduleId": 48,
-          "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
-          "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
-          "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "1:894-899"
+          "loc": "1:877-882"
         },
         {
           "moduleId": 48,
@@ -11210,7 +11228,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:952-957"
+          "loc": "1:920-925"
         },
         {
           "moduleId": 48,
@@ -11219,7 +11237,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:993-998"
+          "loc": "1:941-946"
         },
         {
           "moduleId": 48,
@@ -11228,7 +11246,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:996-1001"
+          "loc": "1:985-990"
         },
         {
           "moduleId": 48,
@@ -11237,7 +11255,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1057-1062"
+          "loc": "1:1033-1038"
         },
         {
           "moduleId": 48,
@@ -11246,7 +11264,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1073-1078"
+          "loc": "1:1046-1051"
         },
         {
           "moduleId": 48,
@@ -11255,7 +11273,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1132-1137"
+          "loc": "1:1112-1117"
         },
         {
           "moduleId": 48,
@@ -11264,7 +11282,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1196-1201"
+          "loc": "1:1121-1126"
         },
         {
           "moduleId": 48,
@@ -11273,7 +11291,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1272-1277"
+          "loc": "1:1185-1190"
         },
         {
           "moduleId": 48,
@@ -11282,7 +11300,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1337-1342"
+          "loc": "1:1211-1216"
         },
         {
           "moduleId": 48,
@@ -11291,7 +11309,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1413-1418"
+          "loc": "1:1261-1266"
         },
         {
           "moduleId": 48,
@@ -11300,7 +11318,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1420-1425"
+          "loc": "1:1291-1296"
         },
         {
           "moduleId": 48,
@@ -11309,7 +11327,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1469-1474"
+          "loc": "1:1326-1331"
         },
         {
           "moduleId": 48,
@@ -11318,7 +11336,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1491-1496"
+          "loc": "1:1402-1407"
         },
         {
           "moduleId": 48,
@@ -11327,7 +11345,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1533-1538"
+          "loc": "1:1422-1427"
         },
         {
           "moduleId": 48,
@@ -11336,7 +11354,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1555-1560"
+          "loc": "1:1458-1463"
         },
         {
           "moduleId": 48,
@@ -11345,7 +11363,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1609-1614"
+          "loc": "1:1493-1498"
         },
         {
           "moduleId": 48,
@@ -11354,7 +11372,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1646-1651"
+          "loc": "1:1522-1527"
         },
         {
           "moduleId": 48,
@@ -11363,7 +11381,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1662-1667"
+          "loc": "1:1557-1562"
         },
         {
           "moduleId": 48,
@@ -11372,7 +11390,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1705-1710"
+          "loc": "1:1598-1603"
         },
         {
           "moduleId": 48,
@@ -11381,7 +11399,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1738-1743"
+          "loc": "1:1648-1653"
         },
         {
           "moduleId": 48,
@@ -11390,7 +11408,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1792-1797"
+          "loc": "1:1651-1656"
         },
         {
           "moduleId": 48,
@@ -11399,7 +11417,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1796-1801"
+          "loc": "1:1727-1732"
         },
         {
           "moduleId": 48,
@@ -11408,7 +11426,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1850-1855"
+          "loc": "1:1733-1738"
         },
         {
           "moduleId": 48,
@@ -11417,7 +11435,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1856-1861"
+          "loc": "1:1781-1786"
         },
         {
           "moduleId": 48,
@@ -11426,7 +11444,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1914-1919"
+          "loc": "1:1793-1798"
         },
         {
           "moduleId": 48,
@@ -11435,7 +11453,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1932-1937"
+          "loc": "1:1845-1850"
         },
         {
           "moduleId": 48,
@@ -11444,7 +11462,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1982-1987"
+          "loc": "1:1884-1889"
         },
         {
           "moduleId": 48,
@@ -11453,7 +11471,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1991-1996"
+          "loc": "1:1921-1926"
         },
         {
           "moduleId": 48,
@@ -11462,7 +11480,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2050-2055"
+          "loc": "1:1938-1943"
         },
         {
           "moduleId": 48,
@@ -11471,7 +11489,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2067-2072"
+          "loc": "1:1980-1985"
         },
         {
           "moduleId": 48,
@@ -11480,7 +11498,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2121-2126"
+          "loc": "1:2002-2007"
         },
         {
           "moduleId": 48,
@@ -11489,7 +11507,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2165-2170"
+          "loc": "1:2056-2061"
         },
         {
           "moduleId": 48,
@@ -11498,7 +11516,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2185-2190"
+          "loc": "1:2070-2075"
         },
         {
           "moduleId": 48,
@@ -11507,7 +11525,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2276-2281"
+          "loc": "1:2138-2143"
         },
         {
           "moduleId": 48,
@@ -11516,7 +11534,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2361-2366"
+          "loc": "1:2154-2159"
         },
         {
           "moduleId": 48,
@@ -11525,7 +11543,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2421-2426"
+          "loc": "1:2209-2214"
         },
         {
           "moduleId": 48,
@@ -11534,7 +11552,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2512-2517"
+          "loc": "1:2273-2278"
         },
         {
           "moduleId": 48,
@@ -11543,7 +11561,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2566-2571"
+          "loc": "1:2364-2369"
         },
         {
           "moduleId": 48,
@@ -11552,7 +11570,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2630-2635"
+          "loc": "1:2449-2454"
         },
         {
           "moduleId": 48,
@@ -11561,7 +11579,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2721-2726"
+          "loc": "1:2509-2514"
         },
         {
           "moduleId": 48,
@@ -11570,7 +11588,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2790-2795"
+          "loc": "1:2600-2605"
         },
         {
           "moduleId": 48,
@@ -11579,7 +11597,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2881-2886"
+          "loc": "1:2654-2659"
         },
         {
           "moduleId": 48,
@@ -11588,7 +11606,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:2964-2969"
+          "loc": "1:2718-2723"
         },
         {
           "moduleId": 48,
@@ -11597,7 +11615,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3028-3033"
+          "loc": "1:2809-2814"
         },
         {
           "moduleId": 48,
@@ -11606,7 +11624,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3119-3124"
+          "loc": "1:2878-2883"
         },
         {
           "moduleId": 48,
@@ -11615,7 +11633,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3185-3190"
+          "loc": "1:2969-2974"
         },
         {
           "moduleId": 48,
@@ -11624,7 +11642,43 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3276-3281"
+          "loc": "1:3052-3057"
+        },
+        {
+          "moduleId": 48,
+          "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+          "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:3116-3121"
+        },
+        {
+          "moduleId": 48,
+          "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+          "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:3207-3212"
+        },
+        {
+          "moduleId": 48,
+          "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+          "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:3273-3278"
+        },
+        {
+          "moduleId": 48,
+          "moduleIdentifier": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules\\react-hot-loader\\webpack.js!C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src\\pages\\Home.js 573920e357b26a56e4d0a439b5c0181f",
+          "module": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:3364-3369"
         },
         {
           "moduleId": 48,
@@ -13738,7 +13792,7 @@
           "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/extends",
-          "loc": "1:2195-2203"
+          "loc": "1:2184-2192"
         },
         {
           "moduleId": 92,
@@ -16495,7 +16549,7 @@
       "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js + 3 modules",
       "index": 118,
       "index2": 121,
-      "size": 10473,
+      "size": 10768,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -16549,7 +16603,7 @@
           "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
           "index": 118,
           "index2": 121,
-          "size": 1178,
+          "size": 1396,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -16607,7 +16661,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: C:/Users/PaulLohmuller/projects/brewsite-static/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import React from'react';import{useRouteData}from'react-static';import PageContainer from'./PageContainer';import BatchList from'../components/BatchList';var Home=function Home(){var _useRouteData=useRouteData(),drinking=_useRouteData.drinking,conditioning=_useRouteData.conditioning,fermenting=_useRouteData.fermenting,archive=_useRouteData.archive;return/*#__PURE__*/React.createElement(PageContainer,null,/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"p\",null,\"Did I give you a blank bottle or two? Find out what you've got by matching the bottle cap to the Cap Code in one of these lists. Brews are categorized by their current stage in the brewing process: Fermenting \\u27A1 Aging \\u27A1 Enjoying \\u27A1 Finished. Each category is sorted by most recently brewed.\")),/*#__PURE__*/React.createElement(BatchList,{header:\"Enjoying\",items:drinking}),/*#__PURE__*/React.createElement(BatchList,{header:\"Fermenting\",items:fermenting,notBottled:true}),/*#__PURE__*/React.createElement(BatchList,{header:\"Aging\",items:conditioning}),/*#__PURE__*/React.createElement(BatchList,{header:\"Finished\",items:archive,isCollapsed:true}));};export default Home;"
+          "source": "import React from'react';import{useRouteData}from'react-static';import PageContainer from'./PageContainer';import BatchList from'../components/BatchList';var Home=function Home(){var _useRouteData=useRouteData(),drinking=_useRouteData.drinking,conditioning=_useRouteData.conditioning,fermenting=_useRouteData.fermenting,archive=_useRouteData.archive;return/*#__PURE__*/React.createElement(PageContainer,null,/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"p\",null,\"Did I give you a blank bottle or two? Find out what you've got by matching the bottle cap to the cap code in one of these lists. Brews are categorized by their current stage in the brewing process: Fermenting \\u27A1 Aging \\u27A1 Enjoying \\u27A1 Finished. Each category is sorted by most recently brewed.\"),/*#__PURE__*/React.createElement(\"p\",null,\"Brews with \\\"\\u2197\\\" can be clicked to view their recipe on \",/*#__PURE__*/React.createElement(\"a\",{href:\"https://brewersfriend.com\",target:\"_blank\"},\"Brewer's Friend\"),\".\")),/*#__PURE__*/React.createElement(BatchList,{header:\"Enjoying\",items:drinking}),/*#__PURE__*/React.createElement(BatchList,{header:\"Fermenting\",items:fermenting,notBottled:true}),/*#__PURE__*/React.createElement(BatchList,{header:\"Aging\",items:conditioning}),/*#__PURE__*/React.createElement(BatchList,{header:\"Finished\",items:archive,isCollapsed:true}));};export default Home;"
         },
         {
           "id": null,
@@ -16686,7 +16740,7 @@
           "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/components/BatchList.js",
           "index": 120,
           "index2": 120,
-          "size": 2277,
+          "size": 2266,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -16738,7 +16792,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
               "type": "harmony import specifier",
               "userRequest": "../components/BatchList",
-              "loc": "1:835-844"
+              "loc": "1:1053-1062"
             },
             {
               "moduleId": null,
@@ -16747,7 +16801,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
               "type": "harmony import specifier",
               "userRequest": "../components/BatchList",
-              "loc": "1:914-923"
+              "loc": "1:1132-1141"
             },
             {
               "moduleId": null,
@@ -16756,7 +16810,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
               "type": "harmony import specifier",
               "userRequest": "../components/BatchList",
-              "loc": "1:1013-1022"
+              "loc": "1:1231-1240"
             },
             {
               "moduleId": null,
@@ -16765,7 +16819,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/Home.js",
               "type": "harmony import specifier",
               "userRequest": "../components/BatchList",
-              "loc": "1:1093-1102"
+              "loc": "1:1311-1320"
             }
           ],
           "usedExports": [
@@ -16776,7 +16830,7 @@
           ],
           "optimizationBailout": [],
           "depth": 4,
-          "source": "import _extends from\"@babel/runtime/helpers/extends\";import React from'react';import BatchItem from'./BatchItem';var BatchList=function BatchList(_ref){var header=_ref.header,items=_ref.items,_ref$notBottled=_ref.notBottled,notBottled=_ref$notBottled===void 0?false:_ref$notBottled;return/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(\"h3\",null,header),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-g\"},notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name (Cap Code)\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name (Cap Code)\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"ABV\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"IBU\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Bottle Date\")))),items&&items.map(function(e){return/*#__PURE__*/React.createElement(BatchItem,_extends({key:e.code},e,{notBottled:notBottled}));})));};export default BatchList;"
+          "source": "import _extends from\"@babel/runtime/helpers/extends\";import React from'react';import BatchItem from'./BatchItem';var BatchList=function BatchList(_ref){var header=_ref.header,items=_ref.items,_ref$notBottled=_ref.notBottled,notBottled=_ref$notBottled===void 0?false:_ref$notBottled;return/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(\"h3\",null,header),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-g\"},notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Name\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-heading\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Cap \\u2013 Name\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3\"},/*#__PURE__*/React.createElement(\"span\",null,\"Style\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"ABV\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"IBU\"))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Brew Date\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2\"},/*#__PURE__*/React.createElement(\"span\",null,\"Bottle Date\")))),items&&items.map(function(e){return/*#__PURE__*/React.createElement(BatchItem,_extends({key:e.code},e,{notBottled:notBottled}));})));};export default BatchList;"
         },
         {
           "id": null,
@@ -16784,7 +16838,7 @@
           "name": "C:/Users/PaulLohmuller/projects/brewsite-static/src/components/BatchItem.js",
           "index": 121,
           "index2": 119,
-          "size": 3359,
+          "size": 3447,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -16841,7 +16895,7 @@
               "moduleName": "C:/Users/PaulLohmuller/projects/brewsite-static/src/components/BatchList.js",
               "type": "harmony import specifier",
               "userRequest": "./BatchItem",
-              "loc": "1:2185-2194"
+              "loc": "1:2174-2183"
             }
           ],
           "usedExports": [
@@ -16852,7 +16906,7 @@
           ],
           "optimizationBailout": [],
           "depth": 5,
-          "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from'react';var dateFormatter=new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});var formatDate=function formatDate(value){if(!value){return'';}var _value$split=value.split('-'),_value$split2=_slicedToArray(_value$split,3),year=_value$split2[0],month=_value$split2[1],day=_value$split2[2];var date=new Date(Date.UTC(+year,+month-1,+day));var parts=dateFormatter.formatToParts(date);year=parts.find(function(p){return p.type==='year';}).value;month=parts.find(function(p){return p.type==='month';}).value;day=parts.find(function(p){return p.type==='day';}).value;return\"\".concat(month,\" \").concat(day,\", \").concat(year);};var RecipeWrapper=function RecipeWrapper(_ref){var recipeId=_ref.recipeId,isPublic=_ref.isPublic,children=_ref.children;return recipeId&&isPublic?/*#__PURE__*/React.createElement(\"a\",{href:\"https://www.brewersfriend.com/homebrew/recipe/view/\".concat(recipeId),target:\"_blank\"},children):children;};var BatchItem=function BatchItem(_ref2){var code=_ref2.code,name=_ref2.name,style=_ref2.style,abv=_ref2.abv,ibu=_ref2.ibu,brewed=_ref2.brewed,bottled=_ref2.bottled,recipeId=_ref2.recipeId,isPublic=_ref2.isPublic,capCode=_ref2.capCode,notBottled=_ref2.notBottled;var ibuValue=+ibu;var displayName=capCode?\"\".concat(name,\" (\").concat(capCode,\")\"):name;return notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,displayName)),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3 list-row-value\"},/*#__PURE__*/React.createElement(RecipeWrapper,{recipeId:recipeId,isPublic:isPublic},/*#__PURE__*/React.createElement(\"span\",null,displayName))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,(+abv).toFixed(1),\"%\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,!!ibuValue?ibuValue.toFixed(0):'-'))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(bottled)))));};export default BatchItem;"
+          "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from'react';var dateFormatter=new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});var formatDate=function formatDate(value){if(!value){return'';}var _value$split=value.split('-'),_value$split2=_slicedToArray(_value$split,3),year=_value$split2[0],month=_value$split2[1],day=_value$split2[2];var date=new Date(Date.UTC(+year,+month-1,+day));var parts=dateFormatter.formatToParts(date);year=parts.find(function(p){return p.type==='year';}).value;month=parts.find(function(p){return p.type==='month';}).value;day=parts.find(function(p){return p.type==='day';}).value;return\"\".concat(month,\" \").concat(day,\", \").concat(year);};var RecipeWrapper=function RecipeWrapper(_ref){var recipeId=_ref.recipeId,isPublic=_ref.isPublic,children=_ref.children;return recipeId&&isPublic?/*#__PURE__*/React.createElement(\"a\",{href:\"https://www.brewersfriend.com/homebrew/recipe/view/\".concat(recipeId),target:\"_blank\"},children):children;};var BatchItem=function BatchItem(_ref2){var code=_ref2.code,name=_ref2.name,style=_ref2.style,abv=_ref2.abv,ibu=_ref2.ibu,brewed=_ref2.brewed,bottled=_ref2.bottled,recipeId=_ref2.recipeId,isPublic=_ref2.isPublic,capCode=_ref2.capCode,notBottled=_ref2.notBottled;var ibuValue=+ibu;var displayName=capCode?\"\".concat(capCode,\" \\u2013 \").concat(name):name;return notBottled?/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-2-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(RecipeWrapper,{recipeId:recipeId,isPublic:isPublic},/*#__PURE__*/React.createElement(\"span\",null,displayName))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))))):/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 list-row\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-2\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-2-3 list-row-value\"},/*#__PURE__*/React.createElement(RecipeWrapper,{recipeId:recipeId,isPublic:isPublic},/*#__PURE__*/React.createElement(\"span\",null,displayName))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-3 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,style))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,(+abv).toFixed(1),\"%\")),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,!!ibuValue?ibuValue.toFixed(0):'-'))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1-3\"},/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(brewed))),/*#__PURE__*/React.createElement(\"div\",{className:\"pure-u-1 pure-u-md-1-2 list-row-value\"},/*#__PURE__*/React.createElement(\"span\",null,formatDate(bottled)))));};export default BatchItem;"
         }
       ],
       "filteredModules": 0

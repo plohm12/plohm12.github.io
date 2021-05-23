@@ -1,0 +1,14 @@
+{
+  "id": "390469",
+  "code": "32",
+  "name": "MANGOver Cure",
+  "phase": "Primary Fermentation",
+  "skip": false,
+  "recipeId": "1155230",
+  "isPublic": true,
+  "style": "Specialty IPA: New England IPA",
+  "brewed": "2021-05-23",
+  "overrides": {
+    "style": "Double Dry Hopped IPA"
+  }
+}

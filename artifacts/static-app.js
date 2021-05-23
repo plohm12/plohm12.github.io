@@ -1037,14 +1037,17 @@ var BatchItem_BatchItem = function BatchItem(_ref2) {
       capCode = _ref2.capCode,
       notBottled = _ref2.notBottled;
   var ibuValue = +ibu;
-  var displayName = capCode ? "".concat(name, " (").concat(capCode, ")") : name;
+  var displayName = capCode ? "".concat(capCode, " \u2013 ").concat(name) : name;
   return notBottled ? /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 list-row"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-2-3"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-1-2 list-row-value"
-  }, /*#__PURE__*/external_react_default.a.createElement("span", null, displayName)), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, /*#__PURE__*/external_react_default.a.createElement(BatchItem_RecipeWrapper, {
+    recipeId: recipeId,
+    isPublic: isPublic
+  }, /*#__PURE__*/external_react_default.a.createElement("span", null, displayName))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-1-2 list-row-value"
   }, /*#__PURE__*/external_react_default.a.createElement("span", null, style))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1-3"
@@ -1095,7 +1098,7 @@ var BatchList_BatchList = function BatchList(_ref) {
     className: "pure-u-2-3"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-1-2"
-  }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Name (Cap Code)")), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Name")), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-1-2"
   }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Style"))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1-3"
@@ -1105,7 +1108,7 @@ var BatchList_BatchList = function BatchList(_ref) {
     className: "pure-u-1-2"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-2-3"
-  }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Name (Cap Code)")), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Cap \u2013 Name")), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1 pure-u-md-1-3"
   }, /*#__PURE__*/external_react_default.a.createElement("span", null, "Style"))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "pure-u-1-6"
@@ -1142,7 +1145,10 @@ var Home_Home = function Home() {
       fermenting = _useRouteData.fermenting,
       archive = _useRouteData.archive;
 
-  return /*#__PURE__*/external_react_default.a.createElement(pages_PageContainer, null, /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement("p", null, "Did I give you a blank bottle or two? Find out what you've got by matching the bottle cap to the Cap Code in one of these lists. Brews are categorized by their current stage in the brewing process: Fermenting \u27A1 Aging \u27A1 Enjoying \u27A1 Finished. Each category is sorted by most recently brewed.")), /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
+  return /*#__PURE__*/external_react_default.a.createElement(pages_PageContainer, null, /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement("p", null, "Did I give you a blank bottle or two? Find out what you've got by matching the bottle cap to the cap code in one of these lists. Brews are categorized by their current stage in the brewing process: Fermenting \u27A1 Aging \u27A1 Enjoying \u27A1 Finished. Each category is sorted by most recently brewed."), /*#__PURE__*/external_react_default.a.createElement("p", null, "Brews with \"\u2197\" can be clicked to view their recipe on ", /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://brewersfriend.com",
+    target: "_blank"
+  }, "Brewer's Friend"), ".")), /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {
     header: "Enjoying",
     items: drinking
   }), /*#__PURE__*/external_react_default.a.createElement(components_BatchList, {

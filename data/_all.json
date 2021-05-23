@@ -1,5 +1,19 @@
 [
   {
+    "id": "390469",
+    "code": "32",
+    "name": "MANGOver Cure",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "recipeId": "1155230",
+    "isPublic": true,
+    "style": "Specialty IPA: New England IPA",
+    "brewed": "2021-05-23",
+    "overrides": {
+      "style": "Double Dry Hopped IPA"
+    }
+  },
+  {
     "id": "388464",
     "code": "031",
     "name": "Skate Socks",
@@ -63,7 +77,8 @@
     "brewed": "2021-02-20",
     "bottled": "2021-04-19",
     "recipeId": "1118982",
-    "isPublic": true
+    "isPublic": true,
+    "capCode": "MB"
   },
   {
     "id": "375605",
