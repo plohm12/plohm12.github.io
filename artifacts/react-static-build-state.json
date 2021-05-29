@@ -16,22 +16,22 @@
   "entry": "index.js",
   "siteRoot": "https://whatspaulbrewing.com",
   "paths": {
-    "ROOT": "/home/runner/work/whatspaulbrewing/whatspaulbrewing",
-    "SRC": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/src",
-    "DIST": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/dist",
-    "ASSETS": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/dist",
-    "PLUGINS": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/plugins",
-    "TEMP": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/tmp",
-    "ARTIFACTS": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/artifacts",
-    "PUBLIC": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/public",
-    "NODE_MODULES": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/node_modules",
-    "EXCLUDE_MODULES": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/node_modules",
-    "PACKAGE": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/package.json",
-    "HTML_TEMPLATE": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/dist/index.html",
-    "STATIC_DATA": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/dist/staticData"
+    "ROOT": "/home/runner/work/plohm12.github.io/plohm12.github.io",
+    "SRC": "/home/runner/work/plohm12.github.io/plohm12.github.io/src",
+    "DIST": "/home/runner/work/plohm12.github.io/plohm12.github.io/dist",
+    "ASSETS": "/home/runner/work/plohm12.github.io/plohm12.github.io/dist",
+    "PLUGINS": "/home/runner/work/plohm12.github.io/plohm12.github.io/plugins",
+    "TEMP": "/home/runner/work/plohm12.github.io/plohm12.github.io/tmp",
+    "ARTIFACTS": "/home/runner/work/plohm12.github.io/plohm12.github.io/artifacts",
+    "PUBLIC": "/home/runner/work/plohm12.github.io/plohm12.github.io/public",
+    "NODE_MODULES": "/home/runner/work/plohm12.github.io/plohm12.github.io/node_modules",
+    "EXCLUDE_MODULES": "/home/runner/work/plohm12.github.io/plohm12.github.io/node_modules",
+    "PACKAGE": "/home/runner/work/plohm12.github.io/plohm12.github.io/package.json",
+    "HTML_TEMPLATE": "/home/runner/work/plohm12.github.io/plohm12.github.io/dist/index.html",
+    "STATIC_DATA": "/home/runner/work/plohm12.github.io/plohm12.github.io/dist/staticData"
   },
   "plugins": [
-    "/home/runner/work/whatspaulbrewing/whatspaulbrewing"
+    "/home/runner/work/plohm12.github.io/plohm12.github.io"
   ],
   "basePath": "",
   "publicPath": "https://whatspaulbrewing.com/",
