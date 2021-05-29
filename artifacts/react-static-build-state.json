@@ -16,22 +16,22 @@
   "entry": "index.js",
   "siteRoot": "https://whatspaulbrewing.com",
   "paths": {
-    "ROOT": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static",
-    "SRC": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src",
-    "DIST": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\dist",
-    "ASSETS": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\dist",
-    "PLUGINS": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\plugins",
-    "TEMP": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\tmp",
-    "ARTIFACTS": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\artifacts",
-    "PUBLIC": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\public",
-    "NODE_MODULES": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules",
-    "EXCLUDE_MODULES": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules",
-    "PACKAGE": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\package.json",
-    "HTML_TEMPLATE": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\dist\\index.html",
-    "STATIC_DATA": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\dist\\staticData"
+    "ROOT": "/home/runner/work/whatspaulbrewing/whatspaulbrewing",
+    "SRC": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/src",
+    "DIST": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/dist",
+    "ASSETS": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/dist",
+    "PLUGINS": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/plugins",
+    "TEMP": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/tmp",
+    "ARTIFACTS": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/artifacts",
+    "PUBLIC": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/public",
+    "NODE_MODULES": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/node_modules",
+    "EXCLUDE_MODULES": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/node_modules",
+    "PACKAGE": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/package.json",
+    "HTML_TEMPLATE": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/dist/index.html",
+    "STATIC_DATA": "/home/runner/work/whatspaulbrewing/whatspaulbrewing/dist/staticData"
   },
   "plugins": [
-    "C:\\Users\\PaulLohmuller\\projects\\brewsite-static"
+    "/home/runner/work/whatspaulbrewing/whatspaulbrewing"
   ],
   "basePath": "",
   "publicPath": "https://whatspaulbrewing.com/",
