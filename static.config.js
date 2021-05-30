@@ -73,7 +73,7 @@ export default {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" />
         <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css" />
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="/styles.css" />
       </Head>
       <Body>{children}</Body>
     </Html>

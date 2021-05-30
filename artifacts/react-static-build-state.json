@@ -16,22 +16,22 @@
   "entry": "index.js",
   "siteRoot": "https://whatspaulbrewing.com",
   "paths": {
-    "ROOT": "/home/runner/work/plohm12.github.io/plohm12.github.io",
-    "SRC": "/home/runner/work/plohm12.github.io/plohm12.github.io/src",
-    "DIST": "/home/runner/work/plohm12.github.io/plohm12.github.io/dist",
-    "ASSETS": "/home/runner/work/plohm12.github.io/plohm12.github.io/dist",
-    "PLUGINS": "/home/runner/work/plohm12.github.io/plohm12.github.io/plugins",
-    "TEMP": "/home/runner/work/plohm12.github.io/plohm12.github.io/tmp",
-    "ARTIFACTS": "/home/runner/work/plohm12.github.io/plohm12.github.io/artifacts",
-    "PUBLIC": "/home/runner/work/plohm12.github.io/plohm12.github.io/public",
-    "NODE_MODULES": "/home/runner/work/plohm12.github.io/plohm12.github.io/node_modules",
-    "EXCLUDE_MODULES": "/home/runner/work/plohm12.github.io/plohm12.github.io/node_modules",
-    "PACKAGE": "/home/runner/work/plohm12.github.io/plohm12.github.io/package.json",
-    "HTML_TEMPLATE": "/home/runner/work/plohm12.github.io/plohm12.github.io/dist/index.html",
-    "STATIC_DATA": "/home/runner/work/plohm12.github.io/plohm12.github.io/dist/staticData"
+    "ROOT": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static",
+    "SRC": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\src",
+    "DIST": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\dist",
+    "ASSETS": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\dist",
+    "PLUGINS": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\plugins",
+    "TEMP": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\tmp",
+    "ARTIFACTS": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\artifacts",
+    "PUBLIC": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\public",
+    "NODE_MODULES": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\node_modules",
+    "PACKAGE": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\package.json",
+    "HTML_TEMPLATE": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\dist\\index.html",
+    "STATIC_DATA": "C:\\Users\\PaulLohmuller\\projects\\brewsite-static\\dist\\staticData"
   },
   "plugins": [
-    "/home/runner/work/plohm12.github.io/plohm12.github.io"
+    "C:\\Users\\PaulLohmuller\\projects\\brewsite-static"
   ],
   "basePath": "",
   "publicPath": "https://whatspaulbrewing.com/",
