@@ -1,5 +1,9 @@
-h1, h2, h3, h4, h5, h6, p, .list-heading, .list-row {
+h1, h2, h3, h4, h5, h6, p, form, .list-heading, .list-row {
   padding: 0 .5rem;
+}
+
+h4 {
+  margin: inherit;
 }
 
 a {
@@ -13,6 +17,14 @@ a:hover {
 
 a[target="_blank"]::after {
   content: ' ↗';
+}
+
+.pull-right {
+  text-align: right;
+}
+
+.pull-right > * {
+  padding-right: .5rem;
 }
 
 .list-heading {
@@ -60,4 +72,29 @@ a[target="_blank"]::after {
   height: 1.5rem;
   width: 1.5rem;
   padding-top: .5rem;
+}
+
+.decoction-calc input,
+.decoction-calc label,
+.decoction-calc span {
+  margin-bottom: .3rem;
+  display: block;
+}
+
+.decoction-calc input {
+  width: 5rem;
+}
+
+.decoction-calc label {
+  margin-top: .5rem;
+}
+
+.decoction-calc .result label,
+.decoction-calc .result span {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.decoction-calc .result span {
+  padding: .5em .6em;
 }
