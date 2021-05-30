@@ -57,6 +57,9 @@ export default {
         path: '/',
         template: 'src/pages/Home',
         getData: async () => ({...batchCategories})
+      }, {
+        path: '/decoction-calc',
+        template: 'src/pages/DecoctionCalc',
       // }, {
       //   path: '/about',
       //   template: 'src/pages/About'
@@ -68,10 +71,8 @@ export default {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/base-min.css" />
-        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-min.css" />
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" />
         <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css" />
-
         <link rel="stylesheet" href="styles.css" />
       </Head>
       <Body>{children}</Body>
