@@ -37,7 +37,10 @@
     "ibu": 21.65,
     "brewed": "2021-05-06",
     "bottled": "2021-05-18",
-    "capCode": "VCBA"
+    "capCode": "VCBA",
+    "overrides": {
+      "style": "Vanilla Coffee Blonde Ale"
+    }
   },
   {
     "id": "385263",
