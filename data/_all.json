@@ -137,7 +137,10 @@
     "bottled": "2021-01-10",
     "recipeId": "1082452",
     "isPublic": true,
-    "capCode": "(BA)VCS"
+    "capCode": "(BA)VCS",
+    "overrides": {
+      "style": "Vanilla Coffee Stout"
+    }
   },
   {
     "id": "365207",
