@@ -1124,7 +1124,11 @@ var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_)
 // EXTERNAL MODULE: external "react-static"
 var external_react_static_ = __webpack_require__(6);
 
+<<<<<<< HEAD
 // EXTERNAL MODULE: C:/Users/PaulLohmuller/projects/brewsite-static/src/pages/PageContainer.js
+=======
+// EXTERNAL MODULE: /home/runner/work/plohm12.github.io/plohm12.github.io/src/pages/PageContainer.js
+>>>>>>> 195936cbd8077ebf00d95b5c7111c931daf07ebb
 var PageContainer = __webpack_require__(7);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/extends"
