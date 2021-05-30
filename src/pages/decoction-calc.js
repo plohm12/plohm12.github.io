@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import PageContainer from './PageContainer';
+import PageContainer from '../components/PageContainer';
 
 const handleFocus = (e) => e.target.select();
 
