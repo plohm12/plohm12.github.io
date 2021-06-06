@@ -33,6 +33,10 @@ const DecoctionCalc = () => {
         Decoctions are easy!
       </p>
 
+      <noscript>
+        <p><em>You must enable JavaScript to use this tool.</em></p>
+      </noscript>
+
       <form className="pure-form pure-g decoction-calc">
         <fieldset>
           <div className="pure-u-1">
@@ -105,7 +109,7 @@ const DecoctionCalc = () => {
       <p>
         Source:
         </p><p>
-        "The Methods of Mashing - Decoction Calculations." <cite>How to Brew</cite>, by John J. Palmer, Fourth ed., Brewers Publications, 2017, p. 274. 
+        <cite>How to Brew</cite>, by John J. Palmer, Fourth ed., Brewers Publications, 2017, p. 274-275. 
       </p>
     </PageContainer>
   );
