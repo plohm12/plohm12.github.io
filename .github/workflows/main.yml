@@ -50,11 +50,10 @@ jobs:
       - name: Test Stuff
         shell: bash
         run: |
-          if [ -n `git diff --name-only` ]
-          then
-            echo "neat!"
+          if [[ `git status --porcelain` ]]; then
+            echo "choonges!"
           else
-            echo "not neat!"
+            echo "nor chornjors"
           fi
         
 #       - name: Commit to main
