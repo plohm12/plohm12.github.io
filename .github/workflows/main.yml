@@ -50,8 +50,12 @@ jobs:
       - name: Test Stuff
         shell: bash
         run: |
-          ls -al
-          git diff --name-only
+          if [ -n `git diff --name-only` ]
+          then
+            echo "neat!"
+          else
+            echo "not neat!"
+          fi
         
 #       - name: Commit to main
 #         shell: bash
