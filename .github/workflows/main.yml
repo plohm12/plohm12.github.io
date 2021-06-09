@@ -47,15 +47,6 @@ jobs:
       - name: Build Static Website
         run: npm run build
         
-      - name: Test Stuff
-        shell: bash
-        run: |
-          if [[ `git status --porcelain` ]]; then
-            echo "choonges!"
-          else
-            echo "nor chornjors"
-          fi
-        
       - name: Commit to main
         shell: bash
         run: |
