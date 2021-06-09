@@ -50,8 +50,7 @@ jobs:
       - name: Commit to main
         shell: bash
         run: |
-          if [ -n `git diff --name-only` ]
-          then
+          if [[ `git status --porcelain` ]]; then
             git config user.email "plohm12@gmail.com"
             git config user.name "Paul Lohmuller"
             git add --all
