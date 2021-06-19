@@ -1,20 +1,33 @@
 [
   {
+    "id": "393449",
+    "code": "34",
+    "name": "Skate Socks",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "recipeId": "1150116",
+    "isPublic": true,
+    "style": "Blonde Ale",
+    "brewed": "2021-06-17"
+  },
+  {
     "id": "391145",
     "code": "33",
     "name": "Gotta Have My Breakfast of Champions",
-    "phase": "Primary Fermentation",
+    "phase": "Secondary Fermentation",
     "skip": false,
     "recipeId": "1158259",
     "isPublic": true,
     "style": "American Wheat Beer",
-    "brewed": "2021-05-29"
+    "brewed": "2021-05-29",
+    "abv": 4.435543959002885,
+    "ibu": 29.61
   },
   {
     "id": "390469",
     "code": "32",
     "name": "MANGOver Cure",
-    "phase": "Secondary Fermentation",
+    "phase": "Conditioning",
     "skip": false,
     "recipeId": "1155230",
     "isPublic": true,
@@ -23,8 +36,9 @@
     "overrides": {
       "style": "Double Dry Hopped IPA"
     },
-    "abv": 9.226714604135342,
-    "ibu": 26.5
+    "abv": 9.487561894061587,
+    "ibu": 26.5,
+    "bottled": "2021-06-12"
   },
   {
     "id": "388464",
@@ -66,7 +80,7 @@
     "id": "380082",
     "code": "028",
     "name": "Tony in the Jungle",
-    "phase": "Ready To Drink",
+    "phase": "All Gone",
     "skip": false,
     "style": "American IPA",
     "abv": 6.929179364165343,
@@ -100,7 +114,7 @@
     "id": "375605",
     "code": "026",
     "name": "Your Father's Mustache",
-    "phase": "Ready To Drink",
+    "phase": "All Gone",
     "skip": false,
     "style": "Pre-Prohibition Lager",
     "abv": 7.238490935537651,

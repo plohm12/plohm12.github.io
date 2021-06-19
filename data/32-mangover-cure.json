@@ -2,7 +2,7 @@
   "id": "390469",
   "code": "32",
   "name": "MANGOver Cure",
-  "phase": "Secondary Fermentation",
+  "phase": "Conditioning",
   "skip": false,
   "recipeId": "1155230",
   "isPublic": true,
@@ -11,6 +11,7 @@
   "overrides": {
     "style": "Double Dry Hopped IPA"
   },
-  "abv": 9.226714604135342,
-  "ibu": 26.5
+  "abv": 9.487561894061587,
+  "ibu": 26.5,
+  "bottled": "2021-06-12"
 }
