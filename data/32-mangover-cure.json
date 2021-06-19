@@ -9,9 +9,10 @@
   "style": "Specialty IPA: New England IPA",
   "brewed": "2021-05-22",
   "overrides": {
-    "style": "Double Dry Hopped IPA"
+    "style": "Double Dry Hopped IPA with Mango"
   },
   "abv": 9.487561894061587,
   "ibu": 26.5,
-  "bottled": "2021-06-12"
+  "bottled": "2021-06-12",
+  "capCode": "MC"
 }

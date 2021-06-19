@@ -9,5 +9,8 @@
   "style": "American Wheat Beer",
   "brewed": "2021-05-29",
   "abv": 4.435543959002885,
-  "ibu": 29.61
+  "ibu": 29.61,
+  "overrides": {
+    "style": "American Wheat Corn Ale"
+  }
 }

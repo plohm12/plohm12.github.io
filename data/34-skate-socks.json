@@ -7,5 +7,8 @@
   "recipeId": "1150116",
   "isPublic": true,
   "style": "Blonde Ale",
-  "brewed": "2021-06-17"
+  "brewed": "2021-06-17",
+  "overrides": {
+    "style": "Vanilla Coffee Blonde Ale"
+  }
 }
