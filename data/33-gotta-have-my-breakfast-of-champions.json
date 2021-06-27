@@ -2,15 +2,17 @@
   "id": "391145",
   "code": "33",
   "name": "Gotta Have My Breakfast of Champions",
-  "phase": "Secondary Fermentation",
+  "phase": "Conditioning",
   "skip": false,
   "recipeId": "1158259",
   "isPublic": true,
   "style": "American Wheat Beer",
   "brewed": "2021-05-29",
-  "abv": 4.435543959002885,
+  "abv": 4.8245015547641845,
   "ibu": 29.61,
   "overrides": {
     "style": "American Wheat Corn Ale"
-  }
+  },
+  "bottled": "2021-06-24",
+  "capCode": "WC"
 }
