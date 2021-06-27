@@ -14,7 +14,8 @@
     },
     "abv": 5.137635549797232,
     "ibu": 21.65,
-    "bottled": "2021-06-27"
+    "bottled": "2021-06-27",
+    "capCode": "VCBA"
   },
   {
     "id": "391145",
@@ -31,7 +32,8 @@
     "overrides": {
       "style": "American Wheat Corn Ale"
     },
-    "bottled": "2021-06-24"
+    "bottled": "2021-06-24",
+    "capCode": "WC"
   },
   {
     "id": "390469",
