@@ -1,12 +1,12 @@
 {
   "id": "365207",
   "code": "021",
-  "name": "Southern Tier Pumking clone",
+  "name": "Pumking Clone - Southern Tier Brewing",
   "phase": "All Gone",
   "skip": false,
   "style": "Holiday/Winter Special Spiced Beer",
   "abv": 7.334456342222342,
-  "ibu": 52.76,
+  "ibu": 52.78,
   "brewed": "2020-11-15",
   "bottled": "2020-12-13",
   "overrides": {

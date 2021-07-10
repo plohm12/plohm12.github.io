@@ -1,0 +1,14 @@
+{
+  "id": "395094",
+  "code": "35",
+  "name": "Pumking Clone - Southern Tier Brewing",
+  "phase": "Primary Fermentation",
+  "skip": false,
+  "recipeId": "1065085",
+  "isPublic": false,
+  "style": "Holiday/Winter Special Spiced Beer",
+  "brewed": "2021-07-02",
+  "overrides": {
+    "style": "Pumpkin Ale"
+  }
+}

@@ -1,5 +1,29 @@
 [
   {
+    "id": "396024",
+    "code": "36",
+    "name": "Lasers in the Jungle Clone - Hop River Brewing",
+    "phase": "Brewing",
+    "skip": false,
+    "recipeId": "1172510",
+    "isPublic": true,
+    "style": "American IPA"
+  },
+  {
+    "id": "395094",
+    "code": "35",
+    "name": "Pumking Clone - Southern Tier Brewing",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "recipeId": "1065085",
+    "isPublic": false,
+    "style": "Holiday/Winter Special Spiced Beer",
+    "brewed": "2021-07-02",
+    "overrides": {
+      "style": "Pumpkin Ale"
+    }
+  },
+  {
     "id": "393449",
     "code": "34",
     "name": "Skate Socks",
@@ -174,12 +198,12 @@
   {
     "id": "365207",
     "code": "021",
-    "name": "Southern Tier Pumking clone",
+    "name": "Pumking Clone - Southern Tier Brewing",
     "phase": "All Gone",
     "skip": false,
     "style": "Holiday/Winter Special Spiced Beer",
     "abv": 7.334456342222342,
-    "ibu": 52.76,
+    "ibu": 52.78,
     "brewed": "2020-11-15",
     "bottled": "2020-12-13",
     "overrides": {
@@ -308,36 +332,6 @@
     "recipeId": "1016996",
     "isPublic": true,
     "capCode": "BiB"
-  },
-  {
-    "id": "343730",
-    "code": "010",
-    "name": "Blonde Ale",
-    "phase": "All Gone",
-    "skip": false,
-    "style": "Blonde Ale",
-    "abv": 5.722817823330168,
-    "ibu": 18.89,
-    "brewed": "2020-06-18",
-    "bottled": "2020-07-03",
-    "recipeId": "950155",
-    "isPublic": true,
-    "capCode": "BL"
-  },
-  {
-    "id": "340558",
-    "code": "009",
-    "name": "Check out the Big Booze on Brett!",
-    "phase": "All Gone",
-    "skip": false,
-    "style": "Saison",
-    "abv": 8.878514389838708,
-    "ibu": 34.65,
-    "brewed": "2020-05-30",
-    "bottled": "2020-06-15",
-    "recipeId": "1002720",
-    "isPublic": true,
-    "capCode": "BBOB(+)"
   },
   {
     "code": "018",

@@ -23,6 +23,8 @@ batchCategories = allBatches.filter(batch => !batch.skip)
 
     let bucket;
     switch (batch.phase) {
+      case 'Planning':
+      case 'Brewing':
       case 'Primary Fermentation':
       case 'Secondary Fermentation':
         bucket = 'fermenting';
