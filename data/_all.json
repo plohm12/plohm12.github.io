@@ -27,12 +27,12 @@
   {
     "id": "393449",
     "code": "34",
-    "name": "Skate Socks",
+    "name": "Bernie Bott's Bean Blonde",
     "phase": "Ready To Drink",
     "skip": false,
     "recipeId": "1150116",
     "isPublic": true,
-    "style": "Blonde Ale",
+    "style": "No Profile Selected",
     "brewed": "2021-06-17",
     "overrides": {
       "style": "Vanilla Coffee Blonde Ale"
@@ -81,12 +81,12 @@
   {
     "id": "388464",
     "code": "031",
-    "name": "Skate Socks",
+    "name": "Bernie Bott's Bean Blonde",
     "phase": "All Gone",
     "skip": false,
     "recipeId": "1150116",
     "isPublic": true,
-    "style": "Blonde Ale",
+    "style": "No Profile Selected",
     "abv": 5.695739365738241,
     "ibu": 21.65,
     "brewed": "2021-05-06",
