@@ -2,10 +2,12 @@
   "id": "396024",
   "code": "36",
   "name": "Lasers in the Jungle Clone - Hop River Brewing",
-  "phase": "Primary Fermentation",
+  "phase": "Conditioning",
   "skip": false,
   "recipeId": "1172510",
   "isPublic": true,
   "style": "American IPA",
-  "brewed": "2021-07-10"
+  "brewed": "2021-07-10",
+  "abv": 7.425273585504722,
+  "ibu": 46.02
 }
