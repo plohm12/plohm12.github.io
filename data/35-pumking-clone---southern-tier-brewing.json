@@ -2,7 +2,7 @@
   "id": "395094",
   "code": "35",
   "name": "Pumking Clone - Southern Tier Brewing",
-  "phase": "Primary Fermentation",
+  "phase": "Conditioning",
   "skip": false,
   "recipeId": "1065085",
   "isPublic": false,
@@ -10,5 +10,8 @@
   "brewed": "2021-07-02",
   "overrides": {
     "style": "Pumpkin Ale"
-  }
+  },
+  "abv": 10.188898399890302,
+  "ibu": 52.78,
+  "bottled": "2021-08-15"
 }

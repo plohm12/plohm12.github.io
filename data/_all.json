@@ -3,18 +3,20 @@
     "id": "398829",
     "code": "37",
     "name": "MANGOver Cure",
-    "phase": "Primary Fermentation",
+    "phase": "Secondary Fermentation",
     "skip": false,
     "recipeId": "1155230",
     "isPublic": true,
     "style": "No Profile Selected",
-    "brewed": "2021-08-06"
+    "brewed": "2021-08-06",
+    "abv": 6.556578835649398,
+    "ibu": 17.99
   },
   {
     "id": "396024",
     "code": "36",
     "name": "Lasers in the Jungle Clone - Hop River Brewing",
-    "phase": "Conditioning",
+    "phase": "Ready To Drink",
     "skip": false,
     "recipeId": "1172510",
     "isPublic": true,
@@ -28,7 +30,7 @@
     "id": "395094",
     "code": "35",
     "name": "Pumking Clone - Southern Tier Brewing",
-    "phase": "Primary Fermentation",
+    "phase": "Conditioning",
     "skip": false,
     "recipeId": "1065085",
     "isPublic": false,
@@ -36,7 +38,10 @@
     "brewed": "2021-07-02",
     "overrides": {
       "style": "Pumpkin Ale"
-    }
+    },
+    "abv": 10.188898399890302,
+    "ibu": 52.78,
+    "bottled": "2021-08-15"
   },
   {
     "id": "393449",
@@ -181,7 +186,7 @@
     "id": "373612",
     "code": "025",
     "name": "Bad Habit",
-    "phase": "Ready To Drink",
+    "phase": "All Gone",
     "skip": false,
     "style": "Belgian Tripel",
     "abv": 9.244582367758179,
@@ -250,7 +255,7 @@
     "id": "355932",
     "code": "015",
     "name": "Wildflower Mead #1",
-    "phase": "Ready To Drink",
+    "phase": "All Gone",
     "skip": false,
     "style": "Dry Mead",
     "abv": 12.116601253587952,
@@ -347,7 +352,7 @@
   {
     "code": "019",
     "name": "Ginger Cider",
-    "phase": "Ready To Drink",
+    "phase": "All Gone",
     "skip": false,
     "style": "Cider",
     "abv": 7.2,
@@ -381,7 +386,7 @@
   {
     "code": "024",
     "name": "Orange Blossom Mead",
-    "phase": "Conditioning",
+    "phase": "Ready To Drink",
     "skip": false,
     "style": "Dry Mead",
     "abv": 11.9,
@@ -392,10 +397,21 @@
   {
     "code": "030",
     "name": "Clover Mead",
-    "phase": "Primary Fermentation",
+    "phase": "Conditioning",
     "skip": false,
     "style": "Sweet Mead",
     "brewed": "2021-04-11",
+    "bottled": "2021-08-15",
+    "abv": 14,
     "file": "030-clover-mead.json"
+  },
+  {
+    "code": "38",
+    "name": "Tippecanoe Co Wildflower Mead",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "style": "Dry Mead",
+    "brewed": "2021-08-14",
+    "file": "38-Tippecanoe-Co-Wildflower-Mead.json"
   }
 ]
