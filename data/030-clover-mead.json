@@ -1,8 +1,10 @@
 {
   "code": "030",
   "name": "Clover Mead",
-  "phase": "Primary Fermentation",
+  "phase": "Conditioning",
   "skip": false,
   "style": "Sweet Mead",
-  "brewed": "2021-04-11"
+  "brewed": "2021-04-11",
+  "bottled": "2021-08-15",
+  "abv": 14
 }
