@@ -10,7 +10,10 @@
     "style": "No Profile Selected",
     "brewed": "2021-08-06",
     "abv": 6.556578835649398,
-    "ibu": 17.99
+    "ibu": 17.99,
+    "overrides": {
+      "style": "Double Dry Hopped Mango Pale Ale"
+    }
   },
   {
     "id": "396024",
@@ -24,7 +27,8 @@
     "brewed": "2021-07-10",
     "abv": 7.425273585504722,
     "ibu": 46.02,
-    "bottled": "2021-07-23"
+    "bottled": "2021-07-23",
+    "capCode": "LJ"
   },
   {
     "id": "395094",
