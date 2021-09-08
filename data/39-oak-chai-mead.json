@@ -1,11 +1,11 @@
 {
-  "code": "38",
-  "name": "Tippecanoe Co Wildflower Mead",
+  "code": "39",
+  "name": "Oak & Chai Mead",
   "phase": "Ready To Drink",
   "skip": false,
-  "style": "Hydromel",
+  "style": "Hydrometheglin",
   "brewed": "2021-08-14",
   "abv": 6.5,
   "bottled": "2021-09-07",
-  "capCode": "TCM"
+  "capCode": "OCM"
 }
