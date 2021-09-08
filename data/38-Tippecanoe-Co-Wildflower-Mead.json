@@ -1,8 +1,11 @@
 {
   "code": "38",
   "name": "Tippecanoe Co Wildflower Mead",
-  "phase": "Primary Fermentation",
+  "phase": "Ready To Drink",
   "skip": false,
-  "style": "Dry Mead",
-  "brewed": "2021-08-14"
+  "style": "Hydromel",
+  "brewed": "2021-08-14",
+  "abv": 6.5,
+  "bottled": "2021-09-07",
+  "capCode": "TCM"
 }
