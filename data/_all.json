@@ -14,7 +14,8 @@
     "overrides": {
       "style": "Double Dry Hopped Mango Pale Ale"
     },
-    "bottled": "2021-08-29"
+    "bottled": "2021-08-29",
+    "capCode": "MC"
   },
   {
     "id": "396024",
@@ -46,7 +47,8 @@
     },
     "abv": 10.188898399890302,
     "ibu": 52.78,
-    "bottled": "2021-08-15"
+    "bottled": "2021-08-15",
+    "capCode": "P"
   },
   {
     "id": "393449",
@@ -161,7 +163,7 @@
     "id": "378245",
     "code": "027",
     "name": "Michigana Braggot",
-    "phase": "Conditioning",
+    "phase": "Ready To Drink",
     "skip": false,
     "style": "Braggot",
     "abv": 11.716703274559222,
@@ -413,10 +415,25 @@
   {
     "code": "38",
     "name": "Tippecanoe Co Wildflower Mead",
-    "phase": "Primary Fermentation",
+    "phase": "Ready To Drink",
     "skip": false,
-    "style": "Dry Mead",
+    "style": "Hydromel",
     "brewed": "2021-08-14",
+    "abv": 6.5,
+    "bottled": "2021-09-07",
+    "capCode": "TCM",
     "file": "38-Tippecanoe-Co-Wildflower-Mead.json"
+  },
+  {
+    "code": "39",
+    "name": "Oak & Chai Mead",
+    "phase": "Ready To Drink",
+    "skip": false,
+    "style": "Hydrometheglin",
+    "brewed": "2021-08-14",
+    "abv": 6.5,
+    "bottled": "2021-09-07",
+    "capCode": "OCM",
+    "file": "39-oak-chai-mead.json"
   }
 ]
