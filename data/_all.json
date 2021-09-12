@@ -1,5 +1,16 @@
 [
   {
+    "id": "402993",
+    "code": "40",
+    "name": "Tire-Biter Bitter",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "recipeId": "1191366",
+    "isPublic": true,
+    "style": "Ordinary Bitter",
+    "brewed": "2021-09-12"
+  },
+  {
     "id": "398829",
     "code": "37",
     "name": "MANGOver Cure",
@@ -325,25 +336,6 @@
     "recipeId": "1025907",
     "isPublic": true,
     "capCode": "H"
-  },
-  {
-    "id": "345984",
-    "code": "012",
-    "name": "NEIPA #1",
-    "phase": "All Gone",
-    "skip": false,
-    "style": "Specialty IPA: New England IPA",
-    "abv": 5.777425420193776,
-    "ibu": 28.82,
-    "brewed": "2020-07-03",
-    "bottled": "2020-07-18",
-    "overrides": {
-      "name": "NEIPA",
-      "style": "New England IPA"
-    },
-    "recipeId": "1018223",
-    "isPublic": true,
-    "capCode": "N"
   },
   {
     "code": "018",
