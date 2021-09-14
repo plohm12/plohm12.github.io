@@ -427,5 +427,14 @@
     "bottled": "2021-09-07",
     "capCode": "OCM",
     "file": "39-oak-chai-mead.json"
+  },
+  {
+    "code": "41",
+    "name": "Blackberry Blossom Mead",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "style": "Dry Mead",
+    "brewed": "2021-09-12",
+    "file": "41-blackberry-blossom-mead.json"
   }
 ]
