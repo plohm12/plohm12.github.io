@@ -3,12 +3,15 @@
     "id": "402993",
     "code": "40",
     "name": "Tire-Biter Bitter",
-    "phase": "Primary Fermentation",
+    "phase": "Conditioning",
     "skip": false,
     "recipeId": "1191366",
     "isPublic": true,
     "style": "Ordinary Bitter",
-    "brewed": "2021-09-12"
+    "brewed": "2021-09-12",
+    "capCode": "TB",
+    "abv": 4.6399848176391325,
+    "ibu": 37.56
   },
   {
     "id": "398829",
@@ -436,5 +439,14 @@
     "style": "Dry Mead",
     "brewed": "2021-09-12",
     "file": "41-blackberry-blossom-mead.json"
+  },
+  {
+    "code": "42",
+    "name": "Blackberry Melomel",
+    "phase": "Secondary Fermentation",
+    "skip": false,
+    "style": "Fruit Mead",
+    "brewed": "2021-09-12",
+    "file": "42-blackberry-melomel.json"
   }
 ]
