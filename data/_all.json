@@ -1,9 +1,20 @@
 [
   {
+    "id": "407058",
+    "code": "43",
+    "name": "Sweet Potato Ale",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "recipeId": "1207527",
+    "isPublic": true,
+    "style": "British Strong Ale",
+    "brewed": "2021-10-16"
+  },
+  {
     "id": "402993",
     "code": "40",
     "name": "Tire-Biter Bitter",
-    "phase": "Conditioning",
+    "phase": "Ready To Drink",
     "skip": false,
     "recipeId": "1191366",
     "isPublic": true,
@@ -11,7 +22,8 @@
     "brewed": "2021-09-12",
     "capCode": "TB",
     "abv": 4.6399848176391325,
-    "ibu": 37.56
+    "ibu": 37.56,
+    "bottled": "2021-10-10"
   },
   {
     "id": "398829",
@@ -50,7 +62,7 @@
     "id": "395094",
     "code": "35",
     "name": "Pumking Clone - Southern Tier Brewing",
-    "phase": "Conditioning",
+    "phase": "Ready To Drink",
     "skip": false,
     "recipeId": "1065085",
     "isPublic": false,
@@ -321,24 +333,6 @@
     "bottled": "2021-02-18",
     "recipeId": "1031656",
     "isPublic": false
-  },
-  {
-    "id": "348323",
-    "code": "013",
-    "name": "Helles or Kveik Water",
-    "phase": "All Gone",
-    "skip": false,
-    "style": "Munich Helles",
-    "abv": 4.77910252822092,
-    "ibu": 15.34,
-    "brewed": "2020-07-19",
-    "bottled": "2020-07-30",
-    "overrides": {
-      "style": "Munich Helles-Style Pseudo-Lager"
-    },
-    "recipeId": "1025907",
-    "isPublic": true,
-    "capCode": "H"
   },
   {
     "code": "018",

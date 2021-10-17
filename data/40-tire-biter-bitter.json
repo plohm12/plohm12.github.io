@@ -2,7 +2,7 @@
   "id": "402993",
   "code": "40",
   "name": "Tire-Biter Bitter",
-  "phase": "Conditioning",
+  "phase": "Ready To Drink",
   "skip": false,
   "recipeId": "1191366",
   "isPublic": true,
@@ -10,5 +10,6 @@
   "brewed": "2021-09-12",
   "capCode": "TB",
   "abv": 4.6399848176391325,
-  "ibu": 37.56
+  "ibu": 37.56,
+  "bottled": "2021-10-10"
 }

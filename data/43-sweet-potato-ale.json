@@ -1,0 +1,11 @@
+{
+  "id": "407058",
+  "code": "43",
+  "name": "Sweet Potato Ale",
+  "phase": "Primary Fermentation",
+  "skip": false,
+  "recipeId": "1207527",
+  "isPublic": true,
+  "style": "British Strong Ale",
+  "brewed": "2021-10-16"
+}
