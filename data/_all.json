@@ -3,12 +3,14 @@
     "id": "407058",
     "code": "43",
     "name": "Sweet Potato Ale",
-    "phase": "Primary Fermentation",
+    "phase": "Secondary Fermentation",
     "skip": false,
     "recipeId": "1207527",
     "isPublic": true,
     "style": "British Strong Ale",
-    "brewed": "2021-10-16"
+    "brewed": "2021-10-16",
+    "abv": 6.800032501828235,
+    "ibu": 35.2
   },
   {
     "id": "402993",
@@ -442,5 +444,41 @@
     "style": "Fruit Mead",
     "brewed": "2021-09-12",
     "file": "42-blackberry-melomel.json"
+  },
+  {
+    "code": "44",
+    "name": "Fall's Bounty",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "style": "Cyser",
+    "brewed": "2021-10-23",
+    "file": "44-falls-bounty.json"
+  },
+  {
+    "code": "45",
+    "name": "Hydrocyser",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "style": "Hydrocyser",
+    "brewed": "2021-10-23",
+    "file": "45-hydrocyser.json"
+  },
+  {
+    "code": "46",
+    "name": "Jack App",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "style": "Cider",
+    "brewed": "2021-10-23",
+    "file": "46-jack-app.json"
+  },
+  {
+    "code": "47",
+    "name": "Base Cider",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "style": "Cider",
+    "brewed": "2021-10-23",
+    "file": "47-cider.json"
   }
 ]
