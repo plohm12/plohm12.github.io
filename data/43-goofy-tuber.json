@@ -1,13 +1,14 @@
 {
   "id": "407058",
   "code": "43",
-  "name": "Sweet Potato Ale",
-  "phase": "Secondary Fermentation",
+  "name": "Goofy Tuber",
+  "phase": "Ready To Drink",
   "skip": false,
   "recipeId": "1207527",
   "isPublic": true,
   "style": "British Strong Ale",
   "brewed": "2021-10-16",
-  "abv": 6.800032501828235,
-  "ibu": 35.2
+  "abv": 7.058057450514207,
+  "ibu": 35.2,
+  "bottled": "2021-11-08"
 }
