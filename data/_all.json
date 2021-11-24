@@ -457,12 +457,14 @@
   },
   {
     "code": "45",
-    "name": "Hydrocyser",
-    "phase": "Primary Fermentation",
+    "name": "Apples & Bees",
+    "phase": "Ready To Drink",
     "skip": false,
-    "style": "Hydrocyser",
+    "style": "Cyser",
     "brewed": "2021-10-23",
-    "file": "45-hydrocyser.json"
+    "bottled": "2021-11-19",
+    "abv": 6.75,
+    "file": "45-apples-and-bees.json"
   },
   {
     "code": "46",
@@ -481,5 +483,15 @@
     "style": "Cider",
     "brewed": "2021-10-23",
     "file": "47-cider.json"
+  },
+  {
+    "code": "48",
+    "name": "Ginger Cider",
+    "phase": "Secondary Fermentation",
+    "skip": false,
+    "style": "Cider",
+    "brewed": "2021-10-23",
+    "abv": 7.2,
+    "file": "48-ginger-cider.json"
   }
 ]
