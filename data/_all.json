@@ -1,5 +1,16 @@
 [
   {
+    "id": "412434",
+    "code": "49",
+    "name": "The Duke of Nuts",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "recipeId": "1223266",
+    "isPublic": true,
+    "style": "American Stout",
+    "brewed": "2021-11-29"
+  },
+  {
     "id": "407058",
     "code": "43",
     "name": "Goofy Tuber",
@@ -319,23 +330,6 @@
     "recipeId": "950155",
     "isPublic": true,
     "capCode": "BL"
-  },
-  {
-    "id": "351171",
-    "code": "014",
-    "name": "BA Hygge",
-    "phase": "Ready To Drink",
-    "skip": false,
-    "style": "Russian Imperial Stout",
-    "abv": 10.795181936815277,
-    "ibu": 83.19,
-    "brewed": "2020-08-08",
-    "overrides": {
-      "abv": 11
-    },
-    "bottled": "2021-02-18",
-    "recipeId": "1031656",
-    "isPublic": false
   },
   {
     "code": "018",
