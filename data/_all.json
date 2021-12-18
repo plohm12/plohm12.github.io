@@ -1,20 +1,48 @@
 [
   {
+    "id": "414310",
+    "code": "51",
+    "name": "Blonde Ale",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "recipeId": "950155",
+    "isPublic": true,
+    "style": "Blonde Ale",
+    "brewed": "2021-12-18"
+  },
+  {
+    "id": "413154",
+    "code": "50",
+    "name": "Old Ale Barrel Project",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "recipeId": "1225358",
+    "isPublic": true,
+    "style": "Old Ale",
+    "brewed": "2021-12-06"
+  },
+  {
     "id": "412434",
     "code": "49",
     "name": "The Duke of Nuts",
-    "phase": "Primary Fermentation",
+    "phase": "Ready To Drink",
     "skip": false,
     "recipeId": "1223266",
     "isPublic": true,
     "style": "American Stout",
-    "brewed": "2021-11-29"
+    "brewed": "2021-11-29",
+    "overrides": {
+      "style": "Peanut Butter Stout"
+    },
+    "abv": 7.046334477419163,
+    "ibu": 41.15,
+    "bottled": "2021-12-17"
   },
   {
     "id": "407058",
     "code": "43",
     "name": "Goofy Tuber",
-    "phase": "Ready To Drink",
+    "phase": "All Gone",
     "skip": false,
     "recipeId": "1207527",
     "isPublic": true,
@@ -61,7 +89,7 @@
     "id": "396024",
     "code": "36",
     "name": "Lasers in the Jungle Clone - Hop River Brewing",
-    "phase": "Ready To Drink",
+    "phase": "All Gone",
     "skip": false,
     "recipeId": "1172510",
     "isPublic": true,
@@ -73,28 +101,10 @@
     "capCode": "LJ"
   },
   {
-    "id": "395094",
-    "code": "35",
-    "name": "Pumking Clone - Southern Tier Brewing",
-    "phase": "All Gone",
-    "skip": false,
-    "recipeId": "1065085",
-    "isPublic": false,
-    "style": "Holiday/Winter Special Spiced Beer",
-    "brewed": "2021-07-02",
-    "overrides": {
-      "style": "Pumpkin Ale"
-    },
-    "abv": 10.188898399890302,
-    "ibu": 52.78,
-    "bottled": "2021-08-15",
-    "capCode": "P"
-  },
-  {
     "id": "393449",
     "code": "34",
     "name": "Bernie Bott's Bean Blonde",
-    "phase": "Ready To Drink",
+    "phase": "All Gone",
     "skip": false,
     "recipeId": "1150116",
     "isPublic": true,
@@ -299,39 +309,6 @@
     "capCode": "O"
   },
   {
-    "id": "355932",
-    "code": "015",
-    "name": "Wildflower Mead #1",
-    "phase": "All Gone",
-    "skip": false,
-    "style": "Dry Mead",
-    "abv": 12.116601253587952,
-    "ibu": 0,
-    "brewed": "2020-08-29",
-    "bottled": "2020-10-12",
-    "overrides": {
-      "name": "Wildflower Mead",
-      "ibu": null
-    },
-    "recipeId": "1043519",
-    "isPublic": true
-  },
-  {
-    "id": "355300",
-    "code": "016",
-    "name": "Blonde Ale",
-    "phase": "All Gone",
-    "skip": false,
-    "style": "Blonde Ale",
-    "abv": 5.415921883260274,
-    "ibu": 18.89,
-    "brewed": "2020-09-06",
-    "bottled": "2020-09-25",
-    "recipeId": "950155",
-    "isPublic": true,
-    "capCode": "BL"
-  },
-  {
     "code": "018",
     "name": "Jack App",
     "phase": "Conditioning",
@@ -462,21 +439,25 @@
   },
   {
     "code": "46",
-    "name": "Jack App",
-    "phase": "Primary Fermentation",
+    "name": "Dry Cider",
+    "phase": "Ready To Drink",
     "skip": false,
     "style": "Cider",
     "brewed": "2021-10-23",
-    "file": "46-jack-app.json"
+    "bottled": "2021-12-16",
+    "abv": 7.2,
+    "file": "46-dry-cider.json"
   },
   {
     "code": "47",
-    "name": "Base Cider",
-    "phase": "Primary Fermentation",
+    "name": "Semi-Sweet Cider",
+    "phase": "Ready To Drink",
     "skip": false,
     "style": "Cider",
     "brewed": "2021-10-23",
-    "file": "47-cider.json"
+    "bottled": "2021-12-06",
+    "abv": 7.2,
+    "file": "47-semi-sweet-cider.json"
   },
   {
     "code": "48",

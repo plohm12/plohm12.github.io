@@ -2,7 +2,7 @@
   "id": "412434",
   "code": "49",
   "name": "The Duke of Nuts",
-  "phase": "Primary Fermentation",
+  "phase": "Ready To Drink",
   "skip": false,
   "recipeId": "1223266",
   "isPublic": true,
@@ -10,5 +10,8 @@
   "brewed": "2021-11-29",
   "overrides": {
     "style": "Peanut Butter Stout"
-  }
+  },
+  "abv": 7.046334477419163,
+  "ibu": 41.15,
+  "bottled": "2021-12-17"
 }
