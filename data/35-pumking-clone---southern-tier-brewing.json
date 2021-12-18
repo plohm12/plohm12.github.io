@@ -3,7 +3,7 @@
   "code": "35",
   "name": "Pumking Clone - Southern Tier Brewing",
   "phase": "All Gone",
-  "skip": false,
+  "skip": true,
   "recipeId": "1065085",
   "isPublic": false,
   "style": "Holiday/Winter Special Spiced Beer",
