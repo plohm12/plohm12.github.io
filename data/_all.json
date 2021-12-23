@@ -1,5 +1,16 @@
 [
   {
+    "id": "414757",
+    "code": "52",
+    "name": "Tom's Hazy",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "recipeId": "1231167",
+    "isPublic": true,
+    "style": "Specialty IPA: New England IPA",
+    "brewed": "2021-12-23"
+  },
+  {
     "id": "414310",
     "code": "51",
     "name": "Blonde Ale",
@@ -289,24 +300,6 @@
     "recipeId": "1065085",
     "isPublic": false,
     "capCode": "P"
-  },
-  {
-    "id": "358399",
-    "code": "017",
-    "name": "Oktoberfest",
-    "phase": "All Gone",
-    "skip": false,
-    "style": "Märzen",
-    "abv": 6.44168096164272,
-    "ibu": 27.74,
-    "brewed": "2020-09-27",
-    "bottled": "2020-10-07",
-    "overrides": {
-      "style": "Märzen Pseudo-Lager"
-    },
-    "recipeId": "1055839",
-    "isPublic": true,
-    "capCode": "O"
   },
   {
     "code": "018",
