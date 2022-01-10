@@ -3,23 +3,29 @@
     "id": "414757",
     "code": "52",
     "name": "Tom's Hazy",
-    "phase": "Primary Fermentation",
+    "phase": "Ready To Drink",
     "skip": false,
     "recipeId": "1231167",
     "isPublic": true,
     "style": "Specialty IPA: New England IPA",
-    "brewed": "2021-12-23"
+    "brewed": "2021-12-23",
+    "abv": 6.783798658002249,
+    "ibu": 51.61,
+    "bottled": "2022-01-10"
   },
   {
     "id": "414310",
     "code": "51",
     "name": "Blonde Ale",
-    "phase": "Primary Fermentation",
+    "phase": "Ready To Drink",
     "skip": false,
     "recipeId": "950155",
     "isPublic": true,
     "style": "Blonde Ale",
-    "brewed": "2021-12-18"
+    "brewed": "2021-12-18",
+    "abv": 4.650950026432833,
+    "ibu": 16.81,
+    "bottled": "2022-01-01"
   },
   {
     "id": "413154",
@@ -46,7 +52,7 @@
       "style": "Peanut Butter Stout"
     },
     "abv": 7.046334477419163,
-    "ibu": 41.15,
+    "ibu": 41.71,
     "bottled": "2021-12-17"
   },
   {
@@ -133,7 +139,7 @@
     "id": "391145",
     "code": "33",
     "name": "Gotta Have My Breakfast of Champions",
-    "phase": "Ready To Drink",
+    "phase": "All Gone",
     "skip": false,
     "recipeId": "1158259",
     "isPublic": true,

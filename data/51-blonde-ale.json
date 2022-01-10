@@ -2,10 +2,13 @@
   "id": "414310",
   "code": "51",
   "name": "Blonde Ale",
-  "phase": "Primary Fermentation",
+  "phase": "Ready To Drink",
   "skip": false,
   "recipeId": "950155",
   "isPublic": true,
   "style": "Blonde Ale",
-  "brewed": "2021-12-18"
+  "brewed": "2021-12-18",
+  "abv": 4.650950026432833,
+  "ibu": 16.81,
+  "bottled": "2022-01-01"
 }
