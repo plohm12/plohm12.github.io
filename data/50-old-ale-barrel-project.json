@@ -2,10 +2,12 @@
   "id": "413154",
   "code": "50",
   "name": "Old Ale Barrel Project",
-  "phase": "Primary Fermentation",
+  "phase": "Conditioning",
   "skip": false,
   "recipeId": "1225358",
   "isPublic": true,
   "style": "Old Ale",
-  "brewed": "2021-12-06"
+  "brewed": "2021-12-06",
+  "abv": 7.605604534005027,
+  "ibu": 57.78
 }
