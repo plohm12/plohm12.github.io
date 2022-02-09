@@ -471,7 +471,7 @@
   {
     "code": "53",
     "name": "Sake",
-    "phase": "Fermenting",
+    "phase": "Primary Fermentation",
     "skip": false,
     "isPublic": true,
     "style": "Sake",
