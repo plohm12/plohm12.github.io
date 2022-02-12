@@ -1,5 +1,16 @@
 [
   {
+    "id": "419863",
+    "code": "55",
+    "name": "Cones of Duns(CHI)re",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "recipeId": "1248397",
+    "isPublic": true,
+    "style": "American IPA",
+    "brewed": "2022-02-12"
+  },
+  {
     "id": "418441",
     "code": "54",
     "name": "Brave Noise",
@@ -287,24 +298,6 @@
     "recipeId": "1103101",
     "isPublic": true,
     "capCode": "BT"
-  },
-  {
-    "id": "367377",
-    "code": "023",
-    "name": "Ski Socks",
-    "phase": "All Gone",
-    "skip": false,
-    "style": "American Stout",
-    "abv": 7.403207957990015,
-    "ibu": 45.8,
-    "brewed": "2020-11-29",
-    "bottled": "2021-01-10",
-    "recipeId": "1082452",
-    "isPublic": true,
-    "capCode": "(BA)VCS",
-    "overrides": {
-      "style": "Vanilla Coffee Stout"
-    }
   },
   {
     "code": "018",
