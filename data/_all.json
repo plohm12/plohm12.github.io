@@ -14,12 +14,15 @@
     "id": "418441",
     "code": "54",
     "name": "Brave Noise",
-    "phase": "Primary Fermentation",
+    "phase": "Ready To Drink",
     "skip": false,
     "recipeId": "1243175",
     "isPublic": true,
     "style": "Specialty IPA: New England IPA",
-    "brewed": "2022-01-29"
+    "brewed": "2022-01-29",
+    "abv": 4.906992153082292,
+    "ibu": 25,
+    "bottled": "2022-02-14"
   },
   {
     "id": "414757",
