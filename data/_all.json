@@ -476,5 +476,15 @@
     "style": "Sake",
     "brewed": "2022-01-09",
     "file": "53-sake.json"
+  },
+  {
+    "code": "56",
+    "name": "Royale with Bees",
+    "phase": "Primary Fermentation",
+    "skip": false,
+    "isPublic": true,
+    "style": "Vanilla Coffee Mead",
+    "brewed": "2022-02-20",
+    "file": "56-royale-with-bees.json"
   }
 ]
