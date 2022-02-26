@@ -1,12 +1,20 @@
-const fetch = require('node-fetch');
-const settings = require('../settings.json');
+import fetch from 'node-fetch';
 
 const BASE = 'https://api.brewersfriend.com/v1';
 
+let _apiKey = null;
+const setApiKey = (apiKey) => {
+  _apiKey = apiKey;
+}
+
 const bfFetch = async (endpoint, errorHandler) => {
+  if (_apiKey == null) {
+    throw 'You must call setApiKey before using this API';
+  }
+
   const response = await fetch(`${BASE}/${endpoint}`, {
     headers: {
-      'X-API-KEY': settings.BrewersFriendApiKey
+      'X-API-KEY': _apiKey
     }
   });
 
@@ -25,7 +33,19 @@ const bfFetch = async (endpoint, errorHandler) => {
   return await response.json();
 };
 
-const getBrewSessions = async () => bfFetch('brewsessions');
+const getBrewSessions = async () => {
+  let limit = 20;
+  let offset = 0;
+  let results = [];
+  let total = 0;
+  do {
+    let response = await bfFetch(`brewsessions?offset=${offset}&limit=${limit}`);
+    total = +response.count;
+    results = [...results, ...response.brewsessions];
+    offset += limit;
+  } while (results.length < total);
+  return results;
+};
 
 const getBrewSessionDetails = async (sessionId) => bfFetch(`brewsessions/${sessionId}`);
 
@@ -33,8 +53,9 @@ const logsErrorHandler = () => Promise.resolve({logs: []});
 
 const getBrewSessionLogs = async (sessionId) => bfFetch(`brewsessions/${sessionId}/logs`, logsErrorHandler);
 
-module.exports = {
+export {
   getBrewSessions,
   getBrewSessionDetails,
-  getBrewSessionLogs
+  getBrewSessionLogs,
+  setApiKey
 };
