@@ -5,14 +5,24 @@
   "version": "0.2.0",
   "configurations": [
 
+  {
+    "name": "JSON to YAML",
+    "program": "${workspaceFolder}\\scripts\\json-to-yaml.js",
+    "request": "launch",
+    "skipFiles": [
+      "<node_internals>/**"
+    ],
+    "type": "pwa-node"
+  },
+
     {
-      "type": "pwa-node",
+      "name": "Import Batches",
+      "program": "${workspaceFolder}\\scripts\\import.js",
       "request": "launch",
-      "name": "npm run import",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}\\scripts\\import.js"
+      "type": "pwa-node"
     }
   ]
 }

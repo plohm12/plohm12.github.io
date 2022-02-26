@@ -1,0 +1,41 @@
+<div>
+  <p>
+    Did I give you a blank bottle or two?
+    Find out what you've got by matching the bottle cap
+    to the cap code in one of these lists.
+    Brews are categorized by their current stage in the brewing process:
+    Fermenting ➡ Aging ➡ Enjoying ➡ Finished.
+    Each category is sorted by most recently brewed.
+  </p>
+  <p>
+    Brews with "↗" can be clicked to view their recipe on <a href="https://brewersfriend.com" target="_blank">Brewer's Friend</a>.
+  </p>
+</div>
+
+{{ partial "batch-grid" (dict "header" "Enjoying" "status" "ready" "batches" $.Site.Data.batches )}}
+{{ partial "batch-grid" (dict "header" "Fermenting" "status" "ferment" "batches" $.Site.Data.batches )}}
+{{ partial "batch-grid" (dict "header" "Aging" "status" "conditioning" "batches" $.Site.Data.batches )}}
+{{ partial "batch-grid" (dict "header" "Finished" "status" "archive" "batches" $.Site.Data.batches )}}
+
+{{/*
+<h1>Current Lineup</h1>
+
+{{ range sort $.Site.Data.batches "id" "desc" }}
+  {{ if ne .status "archive" }}
+    <div>
+      <h3>{{ .id }} {{.name}}{{ if ne .style .name }} - {{.style}}{{end}}</h3>
+      <span>{{ with .abv }}ABV: {{.}}%{{end}} / {{with .ibu}}IBU: {{.}}{{end}} / Brew Date: {{.brewed}}</span>
+    </div>
+  {{ end }}
+{{ end }}
+
+<h1>Archive</h1>
+{{ range sort $.Site.Data.batches "id" "desc" }}
+  {{ if eq .status "archive"}}
+    <div>
+      <h3>{{ .id }} {{.name}}{{ if ne .style .name }} - {{.style}}{{end}}</h3>
+      <span>ABV: {{.abv}}% / IBU: {{.ibu}} / Brew Date: {{.brewed}}</span>
+    </div>
+  {{ end }}
+{{ end }}
+*/}}
