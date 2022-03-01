@@ -1,3 +1,31 @@
 baseURL: https://whatspaulbrewing.com/
 languageCode: en-us
 title: What's Paul Brewing?
+theme: ink-free
+
+# Theme settings
+copyright: © What's Paul Brewing?
+
+params:
+  avatar: https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg
+  featherIconsCDN: false
+  # Enable a table of contents
+  toc: false
+  wpm: 250
+  social:
+    - name: Instagram
+      icon: instagram
+      url: https://instagram.com/plohm12
+    # - name: Untappd
+    #   icon: coffee
+    #   url: https://untappd.com/plohm12
+    - name: Github
+      icon: github
+      url: https://github.com/plohm12
+
+menu:
+  main:
+  - name: Home
+    url: /
+    weight: 0
+

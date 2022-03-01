@@ -1,0 +1,14 @@
+---
+batch:
+  id: 26
+  externalId: 375605
+  draft: false
+  name: Your Father's Mustache
+  style: Pre-Prohibition Lager
+  status: archive
+  brewed: '2021-01-30'
+  bottled: '2021-03-12'
+  abv: 7.2
+  ibu: 40
+  capCode: L
+---
