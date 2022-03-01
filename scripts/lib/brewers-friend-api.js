@@ -1,5 +1,3 @@
-import fetch from 'node-fetch';
-
 const BASE = 'https://api.brewersfriend.com/v1';
 
 let _apiKey = null;
@@ -34,12 +32,12 @@ const bfFetch = async (endpoint, errorHandler) => {
 };
 
 const getBrewSessions = async () => {
-  let limit = 20;
+  const limit = 20;
   let offset = 0;
   let results = [];
   let total = 0;
   do {
-    let response = await bfFetch(`brewsessions?offset=${offset}&limit=${limit}`);
+    const response = await bfFetch(`brewsessions?offset=${offset}&limit=${limit}`);
     total = +response.count;
     results = [...results, ...response.brewsessions];
     offset += limit;
@@ -47,11 +45,11 @@ const getBrewSessions = async () => {
   return results;
 };
 
-const getBrewSessionDetails = async (sessionId) => bfFetch(`brewsessions/${sessionId}`);
+const getBrewSessionDetails = (sessionId) => bfFetch(`brewsessions/${sessionId}`);
 
 const logsErrorHandler = () => Promise.resolve({logs: []});
 
-const getBrewSessionLogs = async (sessionId) => bfFetch(`brewsessions/${sessionId}/logs`, logsErrorHandler);
+const getBrewSessionLogs = (sessionId) => bfFetch(`brewsessions/${sessionId}/logs`, logsErrorHandler);
 
 export {
   getBrewSessions,

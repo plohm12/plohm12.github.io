@@ -1,11 +1,10 @@
 ---
-batch:
-  id: 18
-  draft: false
-  name: Jack App
-  style: Cider
-  status: conditioning
-  brewed: '2020-10-17'
-  bottled: '2020-11-13'
-  abv: 20
+title: Jack App
+date: '2020-10-17'
+draft: false
+id: 18
+style: Cider
+status: conditioning
+bottled: '2020-11-13'
+abv: 20
 ---

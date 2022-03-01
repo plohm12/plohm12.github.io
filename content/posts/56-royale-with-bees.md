@@ -1,12 +1,8 @@
 ---
-batch:
-  id: 56
-  name: Royale with Bees
-  status: ferment
-  draft: false
-  style: Coffee Mead
-  brewed: '2022-02-20'
-  # bottled: 
-  # abv: 
-  # ibu: 
+title: Royale with Bees
+date: '2022-02-20'
+draft: false
+id: 56
+style: Coffee Mead
+status: ferment
 ---
