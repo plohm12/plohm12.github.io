@@ -1,78 +1,82 @@
-import { readdir, readFile, rm, writeFile } from 'fs/promises';
-import yaml from 'js-yaml';
+import { parse, stringify } from './deps.ts';
 import { getBrewSessions, getBrewSessionDetails, getBrewSessionLogs, setApiKey } from './lib/brewers-friend-api.js';
 import { phaseToStatus } from './lib/phase-status.js';
-import Batch from './lib/batch.js';
-import writePost from './lib/write-post.js';
+import { getName, simplify } from './lib/batch.ts';
+import writePost from './lib/write-post.ts';
+
+const processAllFiles = Deno.args.length > 0 && Deno.args[0] === '--all';
+if (processAllFiles) {
+  // DOES NOT WORK, currently hits API throttling limit.
+  // TODO: assume throttle is something like 50 req/min, test & work around.
+  console.log('`--all` flag detected, processing all local files.');
+}
+else {
+  console.log('Use option `--all` to process all local files.');
+}
 
 const stageDir = './data/external/';
 const contentDir = './content/posts/';
 
-let settings = await readFile('./settings.json');
-let { BrewersFriendApiKey } = JSON.parse(settings);
-
-function keyBy(arr, key) {
-  return arr.reduce((o, v) => ({ ...o, [v[key]]: v }), {});
-}
+const settings = await Deno.readTextFile('./settings.json');
+const { BrewersFriendApiKey } = JSON.parse(settings);
 
 // Load brew sessions from Brewer's Friend
 setApiKey(BrewersFriendApiKey);
-let extSessions = await getBrewSessions();
+const extSessions = await getBrewSessions();
 console.log(`${extSessions.length} brew sessions queried from Brewer's Friend API.`);
 
 // Load local data files
-let fileNames = await readdir(stageDir);
-let fileContents = await Promise.all(fileNames.map(fileName => readFile(stageDir + fileName)));
-let localBatches = fileContents.map((content, i) => {
-  let parsed = yaml.load(content);
-  parsed._file_ = fileNames[i];
-  return parsed;
-});
-console.log(`${localBatches.length} batches read from data files.`);
-let batchMap = keyBy(localBatches, 'externalId');
+const batchMap = {};
+for await (const file of Deno.readDir(stageDir)) {
+  const yamlContent = await Deno.readTextFile(stageDir + file.name);
+  const batch = parse(yamlContent);
+  batch._file_ = file.name;
+  batchMap[batch.externalId] = batch;
+}
+console.log(`${Object.keys(batchMap).length} batches read from data files.`);
 
 // Load additional brew session info from Brewer's Friend
-let sessions = extSessions
-  .filter(session => !batchMap[session.id] || batchMap[session.id].status !== 'archive');
+const sessions = extSessions
+  .filter(session => processAllFiles || !batchMap[session.id] || batchMap[session.id].status !== 'archive');
 console.log(`${sessions.length} new & current batches to be processed from Brewer's Friend.`);
 
-let detailRequests = sessions.flatMap(session => {
+const detailRequests = sessions.flatMap(session => {
   const detailRequest = getBrewSessionDetails(session.id);
   const logRequest = getBrewSessionLogs(session.id);
   return [detailRequest, logRequest];
 });
-let detailResponses = await Promise.all(detailRequests);
+const detailResponses = await Promise.all(detailRequests);
 
 // Map Brewer's Friend data to local batch format
-let batches = sessions.map((session, i) => {
-  let batch = new Batch({
+const batches = sessions.map((session, i) => {
+  const batch = {
     ...(batchMap[session.id] || {}),
     id: +(/\d+/.exec(session.batchcode)[0]), // strip alphas, no leading 0s
     externalId: +session.id,
     status: phaseToStatus(session.phase),
-  });
+  };
 
   const detail = detailResponses[i * 2].brewsessions[0];
-  batch.assign('recipeId', +detail.recipeid);
+  batch.recipeId = +detail.recipeid;
   
-  batch.assign('draft', !(+detail.recipe.public)); // '1' or '0'
-  batch.assign('name', session.recipe_title);
-  batch.assign('style', detail.recipe.stylename);
+  //batch.draft = !(+detail.recipe.public)); // '1' or '0'
+  batch.name = session.recipe_title;
+  batch.style = detail.recipe.stylename;
 
   if (detail.current_stats && detail.current_stats.abv_alt) {
-    batch.assign('abv', Math.round(+detail.current_stats.abv_alt * 10) / 10);
-    batch.assign('ibu', Math.round(+detail.recipe.ibutinseth));
+    batch.abv = Math.round(+detail.current_stats.abv_alt * 10) / 10;
+    batch.ibu = Math.round(+detail.recipe.ibutinseth);
   }
 
   const logs = detailResponses[i * 2 + 1].logs;
   const brewDayLog = logs.find(log => log.eventtype === 'Brew Day Complete');
   if (brewDayLog) {
-    batch.assign('brewed', brewDayLog.userdate);
+    batch.brewed = brewDayLog.userdate;
   }
 
   const packageDayLog = logs.find(log => log.eventtype === 'Packaged');
   if (packageDayLog) {
-    batch.assign('bottled', packageDayLog.userdate);
+    batch.bottled = packageDayLog.userdate;
   }
 
   return batch;
@@ -96,23 +100,24 @@ const sortOrder = [
 
 const sortKeys = (a, b) => sortOrder[a] - sortOrder[b];
 
-let writeProcesses = batches.flatMap(async batch => {
-  let fileName = `${batch.read('id')}-${batch.read('name')}`
+const writeProcesses = batches.flatMap(batch => {
+  const fileName = `${batch.id}-${getName(batch)}`
     .replace(/\s+/g, '-') // replace whitespace with dashes
     .replace(/[^a-z0-9-]/gi, '') // remove non-alphanumerics
     .split('-').filter(e => e.length).join('-') // remove multiple dashes e.g. '---'
     .toLowerCase();
-  let operations = [
-    writePost(contentDir, fileName + '.md', batch.simplify())
+  const operations = [
+    writePost(contentDir, fileName + '.md', simplify(batch))
   ];
   if (batch._file_ && batch._file_ !== `${fileName}.yml`) {
-    operations.push(rm(stageDir + batch._file_));
+    operations.push(Deno.remove(stageDir + batch._file_));
   }
   delete batch._file_;
-  let stageContent = yaml.dump(batch, { sortKeys });
-  operations.push(writeFile(`${stageDir}${fileName}.yml`, stageContent));
+  const stageContent = stringify(batch, { sortKeys });
+  operations.push(Deno.writeTextFile(`${stageDir}${fileName}.yml`, stageContent));
   return operations;
 });
 
 await Promise.all(writeProcesses);
 console.log('success!');
+Deno.exit();

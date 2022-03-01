@@ -5,16 +5,45 @@
   "version": "0.2.0",
   "configurations": [
 
-  {
-    "name": "JSON to YAML",
-    "program": "${workspaceFolder}\\scripts\\json-to-yaml.js",
-    "request": "launch",
-    "skipFiles": [
-      "<node_internals>/**"
-    ],
-    "type": "pwa-node"
-  },
-
+    {
+      "name": "import.js (Deno)",
+      "type": "pwa-node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "deno",
+      "program": "",
+      "runtimeArgs": [
+        "run",
+        "--inspect-brk",
+        "--allow-all",
+        "scripts/import.js",
+      ],
+      "attachSimplePort": 9229
+    },
+    {
+      "name": "sync-data-to-posts.js (Deno)",
+      "type": "pwa-node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "deno",
+      "program": "",
+      "runtimeArgs": [
+        "run",
+        "--inspect-brk",
+        "--allow-all",
+        "scripts/sync-data-to-posts.js",
+      ],
+      "attachSimplePort": 9229
+    }, 
+    {
+      "name": "JSON to YAML",
+      "program": "${workspaceFolder}\\scripts\\json-to-yaml.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "pwa-node"
+    },
     {
       "name": "Import Batches",
       "program": "${workspaceFolder}\\scripts\\import.js",
