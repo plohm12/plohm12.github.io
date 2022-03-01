@@ -3,9 +3,10 @@ import yaml from 'js-yaml';
 import { getBrewSessions, getBrewSessionDetails, getBrewSessionLogs, setApiKey } from './lib/brewers-friend-api.js';
 import { phaseToStatus } from './lib/phase-status.js';
 import Batch from './lib/batch.js';
+import writePost from './lib/write-post.js';
 
-const stageDir = './data/stage/';
-const outDir = './data/batches/';
+const stageDir = './data/external/';
+const contentDir = './content/posts/';
 
 let settings = await readFile('./settings.json');
 let { BrewersFriendApiKey } = JSON.parse(settings);
@@ -101,20 +102,15 @@ let writeProcesses = batches.flatMap(async batch => {
     .replace(/[^a-z0-9-]/gi, '') // remove non-alphanumerics
     .split('-').filter(e => e.length).join('-') // remove multiple dashes e.g. '---'
     .toLowerCase();
-  let operations = [];
+  let operations = [
+    writePost(contentDir, fileName + '.md', batch.simplify())
+  ];
   if (batch._file_ && batch._file_ !== `${fileName}.yml`) {
-    operations = [
-      rm(stageDir + batch._file_),
-      rm(outDir + batch._file_)
-    ];
+    operations.push(rm(stageDir + batch._file_));
   }
   delete batch._file_;
   let stageContent = yaml.dump(batch, { sortKeys });
-  let outContent = yaml.dump(batch.simplify(), { sortKeys });
-  operations = [ ...operations,
-    writeFile(`${stageDir}${fileName}.yml`, stageContent),
-    writeFile(`${outDir}${fileName}.yml`, outContent)
-  ];
+  operations.push(writeFile(`${stageDir}${fileName}.yml`, stageContent));
   return operations;
 });
 

@@ -1,0 +1,14 @@
+---
+batch:
+  id: 40
+  externalId: 402993
+  draft: false
+  name: Tire-Biter Bitter
+  style: Ordinary Bitter
+  status: archive
+  brewed: '2021-09-12'
+  bottled: '2021-10-10'
+  abv: 4.6
+  ibu: 38
+  capCode: TB
+---

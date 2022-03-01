@@ -1,0 +1,14 @@
+---
+batch:
+  id: 25
+  externalId: 373612
+  draft: false
+  name: Bad Habit
+  style: Belgian Tripel
+  status: archive
+  brewed: '2021-01-16'
+  bottled: '2021-02-28'
+  abv: 9.2
+  ibu: 40
+  capCode: BT
+---
