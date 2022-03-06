@@ -1,9 +1,11 @@
 {
   "code": "53",
   "name": "Sake",
-  "phase": "Primary Fermentation",
+  "phase": "All Gone",
   "skip": false,
   "isPublic": true,
   "style": "Sake",
-  "brewed": "2022-01-09"
+  "brewed": "2022-01-09",
+  "bottled": "2022-02-06",
+  "abv": 18
 }
