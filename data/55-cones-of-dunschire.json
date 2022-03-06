@@ -2,10 +2,13 @@
   "id": "419863",
   "code": "55",
   "name": "Cones of Duns(CHI)re",
-  "phase": "Primary Fermentation",
+  "phase": "Ready To Drink",
   "skip": false,
   "recipeId": "1248397",
   "isPublic": true,
   "style": "American IPA",
-  "brewed": "2022-02-12"
+  "brewed": "2022-02-12",
+  "abv": 6.221128758576358,
+  "ibu": 82.53,
+  "bottled": "2022-03-06"
 }
