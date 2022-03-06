@@ -1,8 +1,10 @@
 {
   "code": "42",
-  "name": "Blackberry Melomel",
-  "phase": "Secondary Fermentation",
+  "name": "Blackberry",
+  "phase": "Ready To Drink",
   "skip": false,
-  "style": "Fruit Mead",
-  "brewed": "2021-09-12"
+  "style": "Melomel",
+  "brewed": "2021-09-12",
+  "bottled": "2022-03-04",
+  "abv": 15
 }
