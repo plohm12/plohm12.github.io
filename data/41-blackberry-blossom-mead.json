@@ -1,8 +1,10 @@
 {
   "code": "41",
-  "name": "Blackberry Blossom Mead",
+  "name": "Blackberry Blossom",
   "phase": "Primary Fermentation",
   "skip": false,
-  "style": "Dry Mead",
-  "brewed": "2021-09-12"
+  "style": "Mead",
+  "brewed": "2021-09-12",
+  "bottled": "2022-03-04",
+  "abv": 15
 }
