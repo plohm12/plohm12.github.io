@@ -2,12 +2,13 @@
   "id": "422254",
   "code": "57",
   "name": "Langstrom's Pony",
-  "phase": "Conditioning",
+  "phase": "Ready To Drink",
   "skip": false,
   "recipeId": "1255746",
   "isPublic": true,
   "style": "Irish Stout",
   "brewed": "2022-03-06",
   "abv": 3.968695640221171,
-  "ibu": 36.22
+  "ibu": 36.22,
+  "bottled": "2022-03-23"
 }
