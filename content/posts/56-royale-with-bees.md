@@ -4,5 +4,6 @@ date: '2022-02-20'
 draft: false
 id: 56
 style: Coffee Mead
-status: ferment
+status: conditioning
+description: A traditional sweet mead aged with coffee beans, vanilla, and French oak. Named for my favorite concoction at Hansa Coffee.
 ---
