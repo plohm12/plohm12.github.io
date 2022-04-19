@@ -7,7 +7,8 @@ theme: ink-free
 copyright: © What's Paul Brewing?
 
 params:
-  avatar: https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg
+  # subtitle: Subtitle here
+  # avatar: https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg
   featherIconsCDN: false
   # Enable a table of contents
   toc: false
@@ -25,7 +26,19 @@ params:
 
 menu:
   main:
-  - name: Home
+  - name: Current
     url: /
     weight: 0
+  - name: Current
+    url: /
+    weight: 1
+  - name: Current
+    url: /
+    weight: 2
+  - name: Archive
+    url: /archive
+    weight: 3
+  - name: All
+    url: /all
+    weight: 4
 
