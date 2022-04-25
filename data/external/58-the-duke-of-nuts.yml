@@ -3,7 +3,9 @@ externalId: 425783
 name: The Duke of Nuts
 style: American Stout
 style!: Peanut Butter Stout
-status: ferment
+status: conditioning
 brewed: '2022-04-09'
 brewed!: '2022-04-08'
+abv: 8.3
+ibu: 42
 recipeId: 1223266
