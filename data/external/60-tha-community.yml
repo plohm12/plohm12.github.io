@@ -2,6 +2,9 @@ id: 60
 externalId: 428609
 name: Tha CommUNITY
 style: American Lager
-status: ferment
+status: ready
 brewed: '2022-05-07'
+bottled: '2022-06-29'
+abv: 5.3
+ibu: 25
 recipeId: 1275508

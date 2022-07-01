@@ -3,8 +3,9 @@ externalId: 425878
 name: Lavender Kölsch
 style: Classic Style Smoked Beer
 style!: Smoked Kölsch
-status: conditioning
+status: ready
 brewed: '2022-04-09'
+bottled: '2022-05-12'
 abv: 4.3
 ibu: 28
 recipeId: 1266984
