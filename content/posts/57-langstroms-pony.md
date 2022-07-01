@@ -2,7 +2,7 @@
 title: Langstrom's Pony
 id: 57
 externalId: 422254
-status: ready
+status: archive
 recipeId: 1255746
 date: '2022-03-06'
 style: Irish Dry Stout

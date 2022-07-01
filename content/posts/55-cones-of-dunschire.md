@@ -5,7 +5,7 @@ draft: false
 id: 55
 externalId: 419863
 style: Chicago Pale Ale
-status: ready
+status: archive
 recipeId: 1248397
 bottled: '2022-03-06'
 abv: 6.2

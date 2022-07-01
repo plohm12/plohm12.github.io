@@ -5,7 +5,7 @@ draft: false
 id: 27
 externalId: 378245
 style: Braggot
-status: ready
+status: archive
 bottled: '2021-04-19'
 abv: 11.7
 ibu: 65
