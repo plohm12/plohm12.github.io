@@ -2,6 +2,8 @@ id: 62
 externalId: 434009
 name: Raspberry Wheat
 style: Gose
-status: ferment
+status: conditioning
 brewed: '2022-07-01'
+abv: 3.4
+ibu: 8
 recipeId: 1291228
