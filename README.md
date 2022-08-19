@@ -1,3 +1,3 @@
 # What's Paul Brewing?
 
-A static website built using Gatsby.
+A static website built using Hugo.
