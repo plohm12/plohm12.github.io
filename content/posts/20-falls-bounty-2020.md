@@ -4,7 +4,7 @@ date: '2020-10-17'
 draft: false
 id: 20
 style: Cyser
-status: conditioning
+status: archive
 bottled: '2020-11-15'
 abv: 12
 ---
