@@ -3,6 +3,7 @@ externalId: 434009
 name: Raspberry Wheat
 style: Gose
 status: ready
+status!: archive
 brewed: '2022-07-01'
 abv: 3.4
 ibu: 8
