@@ -4,6 +4,9 @@ name: Pumking Clone - Southern Tier Brewing
 name!: Pumking
 style: Holiday/Winter Special Spiced Beer
 style!: Pumpkin Ale
-status: ferment
+status: ready
 brewed: '2022-10-01'
+bottled: '2022-11-09'
+abv: 9.2
+ibu: 53
 recipeId: 1065085
