@@ -540,3 +540,25 @@ figcaption {
     text-align: center;
     color: gray;
 }
+
+.recent-posts-heading {
+    font-family: 'Crimson Pro';
+}
+
+/* Expand/Collapse functionality */
+
+input.expander {
+    display: none;
+}
+
+.expandable {
+    display: none;
+}
+
+label.expander {
+    cursor: pointer;
+}
+
+input.expander:checked ~ .expandable {
+    display: initial;
+}
