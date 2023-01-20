@@ -2,8 +2,9 @@ id: 71
 externalId: 447403
 name: Rauch Bock
 style: Dunkles Bock
-status: conditioning
+status: ready
 brewed: '2022-11-19'
+bottled: '2023-01-18'
 abv: 6.4
 ibu: 28
 recipeId: 1332632
