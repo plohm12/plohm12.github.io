@@ -10,6 +10,7 @@ abv: 7.6
 ibu: 58
 recipeId: 1225358
 description: >-
-  A collaboration to fill up a FEW rye barrel, this <a href="https://www.bjcp.org/beer-styles/19a-old-ale/">old ale</a>
-  features a pleasantly tart grape-like flavor.
+  A collaboration to fill up a FEW rye barrel, this <a
+  href="https://www.bjcp.org/beer-styles/19a-old-ale/">old ale</a> features a
+  pleasantly tart grape-like flavor.
 ---
