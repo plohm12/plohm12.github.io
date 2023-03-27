@@ -1,7 +1,7 @@
 ---
 id: 71
 externalId: 447403
-status: ready
+status: archive
 recipeId: 1332632
 title: Rauch Bock
 date: '2022-11-19'

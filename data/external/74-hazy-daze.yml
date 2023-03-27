@@ -1,7 +1,9 @@
 id: 74
 externalId: 456174
 name: Bergamot SMASH
+name!: Hazy Daze
 style: 'Specialty IPA: New England IPA'
-status: ferment
+style!: Double Dry-Hopped IPA
+status: conditioning
 brewed: '2023-02-26'
 recipeId: 1112619
