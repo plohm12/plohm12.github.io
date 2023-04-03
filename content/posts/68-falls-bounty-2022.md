@@ -5,5 +5,6 @@ draft: false
 id: 68
 style: Cyser
 status: conditioning
+abv: 11
 description: Half cider, half mead! In this year's batch, I subbed dark, robust WF honey for the usual brown sugar.
 ---
