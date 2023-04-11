@@ -4,7 +4,10 @@ name: Bergamot SMASH
 name!: Hazy Dayze
 style: 'Specialty IPA: New England IPA'
 style!: Double Dry-Hopped IPA
-status: conditioning
+status: ready
 brewed: '2023-02-26'
-recipeId: 1112619
+bottled: '2023-04-10'
+abv: 3.6
 abv!: 4.2
+ibu: 40
+recipeId: 1112619
