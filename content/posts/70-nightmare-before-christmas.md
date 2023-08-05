@@ -2,7 +2,7 @@
 id: 70
 externalId: 446728
 style: Coffee Pumpkin Ale
-status: ready
+status: archive
 bottled: '2023-01-02'
 abv: 8
 ibu: 53

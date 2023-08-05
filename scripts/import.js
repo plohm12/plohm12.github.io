@@ -70,9 +70,7 @@ const batches = sessions.map((session, i) => {
 
   const logs = detailResponses[i * 2 + 1].logs;
   const brewDayLog = logs.find(log => log.eventtype === 'Brew Day Complete');
-  if (brewDayLog) {
-    batch.brewed = brewDayLog.userdate;
-  }
+  batch.brewed = brewDayLog ? brewDayLog.userdate : session.created_at.substring(0, 10);
 
   const packageDayLog = logs.find(log => log.eventtype === 'Packaged');
   if (packageDayLog) {

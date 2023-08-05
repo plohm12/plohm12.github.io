@@ -2,7 +2,7 @@
 title: Rude Not Ruby
 id: 72
 externalId: 449926
-status: ready
+status: archive
 recipeId: 1340369
 date: '2022-12-17'
 style: Irish Ale

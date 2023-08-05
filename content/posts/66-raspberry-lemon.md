@@ -2,7 +2,7 @@
 title: Raspberry Lemon
 id: 66
 externalId: 440224
-status: ready
+status: archive
 recipeId: 1291228
 date: '2022-09-04'
 style: Gose
