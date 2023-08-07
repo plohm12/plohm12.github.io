@@ -4,4 +4,6 @@ name: 1-gal Blonde Ale
 style: Blonde Ale
 status: ferment
 brewed: '2023-07-28'
+abv: 2.7
+ibu: 24
 recipeId: 1401693
