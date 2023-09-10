@@ -2,7 +2,7 @@
 id: 74
 externalId: 456174
 style: Double Dry-Hopped IPA
-status: ready
+status: archive
 recipeId: 1112619
 title: Hazy Dayze
 date: '2023-02-26'

@@ -3,7 +3,7 @@ title: Schwarzbier
 date: '2023-01-30'
 id: 73
 externalId: 453536
-status: ready
+status: archive
 recipeId: 1352100
 style: Black Lager
 abv: 4.5
