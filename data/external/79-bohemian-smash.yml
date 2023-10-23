@@ -2,6 +2,8 @@ id: 79
 externalId: 474310
 name: Bohemian SMASH
 style: Czech Amber Lager
-status: ferment
+status: conditioning
 brewed: '2023-09-24'
+abv: 2.5
+ibu: 24
 recipeId: 1417387
