@@ -2,6 +2,9 @@ id: 81
 externalId: 487745
 name: Tor
 style: Doppelbock
-status: ferment
+status: ready
 brewed: '2024-03-12'
+bottled: '2024-04-21'
+abv: 7.7
+ibu: 24
 recipeId: 1461522

@@ -6,4 +6,6 @@ externalId: 476599
 status: ready
 recipeId: 1065085
 style: Coffee Pumpkin Ale
+abv: 7
+ibu: 53
 ---
