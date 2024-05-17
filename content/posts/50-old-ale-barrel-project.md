@@ -5,7 +5,7 @@ draft: false
 id: 50
 externalId: 413154
 style: Old Ale
-status: ready
+status: archive
 abv: 7.6
 ibu: 58
 recipeId: 1225358

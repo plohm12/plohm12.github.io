@@ -3,7 +3,7 @@ title: Tor
 date: '2024-03-12'
 id: 81
 externalId: 487745
-status: ready
+status: archive
 recipeId: 1461522
 style: Doppelbock
 bottled: '2024-04-21'
