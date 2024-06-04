@@ -2,6 +2,9 @@ id: 82
 externalId: 492904
 name: The Closer
 style: Saison
-status: ferment
+status: ready
 brewed: '2024-05-11'
+bottled: '2024-05-29'
+abv: 5.3
+ibu: 34
 recipeId: 1477761
