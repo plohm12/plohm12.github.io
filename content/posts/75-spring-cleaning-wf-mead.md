@@ -2,7 +2,7 @@
 id: 75
 externalId: 463789
 style: Sweet Mead
-status: ready
+status: archive
 recipeId: 1384567
 title: Spring Cleaning WF Mead
 date: '2023-05-22'

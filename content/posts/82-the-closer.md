@@ -3,7 +3,7 @@ title: The Closer
 date: '2024-05-11'
 id: 82
 externalId: 492904
-status: ready
+status: archive
 recipeId: 1477761
 style: Saison
 description: >-
