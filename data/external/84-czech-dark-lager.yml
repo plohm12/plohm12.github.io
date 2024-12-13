@@ -2,6 +2,9 @@ id: 84
 externalId: 506164
 name: Czech Dark Lager
 style: Czech Dark Lager
-status: conditioning
+status: ready
 brewed: '2024-11-03'
+bottled: '2024-12-13'
+abv: 5.6
+ibu: 21
 recipeId: 1519298
