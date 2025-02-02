@@ -2,6 +2,9 @@ id: 86
 externalId: 510178
 name: Goldfinger Original Lager Clone
 style: Munich Helles
-status: ferment
+status: ready
 brewed: '2025-01-02'
+bottled: '2025-02-02'
+abv: 5.4
+ibu: 20
 recipeId: 1531839
