@@ -1,7 +1,10 @@
 id: 87
 externalId: 517990
-name: Cascade Pale Ale
+name: The Standard
 style: American Pale Ale
-status: ferment
+status: ready
 brewed: '2025-04-27'
+bottled: '2025-05-10'
+abv: 5.8
+ibu: 34
 recipeId: 1558512
