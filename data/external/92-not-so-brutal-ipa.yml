@@ -2,6 +2,7 @@ id: 92
 externalId: 538872
 name: Not-So-Brutal IPA
 style: 'Specialty IPA: New England IPA'
+style!: IPA
 status: conditioning
 brewed: '2026-04-25'
 bottled: '2026-05-07'
