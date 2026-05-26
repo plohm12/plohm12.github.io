@@ -6,6 +6,7 @@ status: conditioning
 recipeId: 1632349
 date: '2026-04-25'
 style: 'Specialty IPA: New England IPA'
+description: Dryhopped with Motueka and Superdelic hops for a citrus-y aroma.
 bottled: '2026-05-07'
 abv: 6.4
 ibu: 53
