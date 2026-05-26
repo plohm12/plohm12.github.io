@@ -2,7 +2,7 @@
 id: 85
 title: 2024 Heritage Cider
 style: Hard cider
-status: ready
+status: archive
 date: '2024-11-24'
 abv: 6.4
 description: >-
